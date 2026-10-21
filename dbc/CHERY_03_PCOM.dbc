@@ -1,0 +1,2116 @@
+VERSION "created by canmatrix"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Sensor3 Gateway Sensor1 Sensor0 Sensor2
+
+
+BO_ 1301 ADCC_TimeSync: 8 Gateway
+ SG_ TimeSync_Type M : 7|8@0+ (1,0) [0|255] ""  Sensor0,Sensor2
+ SG_ TimeSync_CRC : 15|8@0+ (1,0) [0|255] ""  Sensor0,Sensor2
+ SG_ TimeSync_SequenceCounter : 19|4@0+ (1,0) [0|15] ""  Sensor0,Sensor2
+ SG_ TimeSync_TimeDomain : 23|4@0+ (1,0) [0|15] ""  Sensor0,Sensor2
+ SG_ TimeSync_UserByte0 m32 : 31|8@0+ (1,0) [0|255] ""  Sensor0,Sensor2
+ SG_ TimeSync_SyncTimeSec m32 : 39|32@0+ (1,0) [0|4294967295] ""  Sensor0,Sensor2
+ SG_ TimeSync_OverflowOfSeconds m40 : 25|2@0+ (1,0) [0|3] ""  Sensor0,Sensor2
+ SG_ TimeSync_SGW m40 : 26|1@0+ (1,0) [0|1] ""  Sensor0,Sensor2
+ SG_ TimeSync_Reserved0 m40 : 31|5@0+ (1,0) [0|31] ""  Sensor0,Sensor2
+ SG_ TimeSync_SyncTimeNSec m40 : 39|32@0+ (1,0) [0|4294967295] ""  Sensor0,Sensor2
+
+BO_ 1440 LCR_Header: 64 Sensor2
+ SG_ S3_Header_dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1441 LCR_Object_01: 64 Sensor2
+ SG_ S3_Dummy_01 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1442 LCR_Object_02: 64 Sensor2
+ SG_ S3_Dummy_02 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1443 LCR_Object_03: 64 Sensor2
+ SG_ S3_Dummy_03 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1444 LCR_Object_04: 64 Sensor2
+ SG_ S3_Dummy_04 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1445 LCR_Object_05: 64 Sensor2
+ SG_ S3_Dummy_05 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1446 LCR_Object_06: 64 Sensor2
+ SG_ S3_Dummy_06 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1447 LCR_Object_07: 64 Sensor2
+ SG_ S3_Dummy_07 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1448 LCR_Object_08: 64 Sensor2
+ SG_ S3_Dummy_08 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1449 LCR_Object_09: 64 Sensor2
+ SG_ S3_Dummy_09 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1450 LCR_Object_10: 64 Sensor2
+ SG_ S3_Dummy_10 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1451 LCR_Object_11: 64 Sensor2
+ SG_ S3_Dummy_11 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1452 LCR_Object_12: 64 Sensor2
+ SG_ S3_Dummy_12 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1453 LCR_Object_13: 64 Sensor2
+ SG_ S3_Dummy_13 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1454 LCR_Object_14: 64 Sensor2
+ SG_ S3_Dummy_14 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1455 LCR_Object_15: 64 Sensor2
+ SG_ S3_Dummy_15 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1456 LCR_Object_16: 64 Sensor2
+ SG_ S3_Dummy_16 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1457 LCR_Object_17: 64 Sensor2
+ SG_ S3_Dummy_17 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1458 LCR_Object_18: 64 Sensor2
+ SG_ S3_Dummy_18 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1459 LCR_Object_19: 64 Sensor2
+ SG_ S3_Dummy_19 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1460 LCR_Object_20: 64 Sensor2
+ SG_ S3_Dummy_20 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1461 LCR_Object_21: 64 Sensor2
+ SG_ S3_Dummy_21 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1462 LCR_Object_22: 64 Sensor2
+ SG_ S3_Dummy_22 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1463 LCR_Object_23: 64 Sensor2
+ SG_ S3_Dummy_23 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1464 LCR_Object_24: 64 Sensor2
+ SG_ S3_Dummy_24 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1465 LCR_Object_25: 64 Sensor2
+ SG_ S3_Dummy_25 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1466 LCR_Object_26: 64 Sensor2
+ SG_ S3_Dummy_26 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1467 LCR_Object_27: 64 Sensor2
+ SG_ S3_Dummy_27 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1468 LCR_Object_28: 64 Sensor2
+ SG_ S3_Dummy_28 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1469 LCR_Object_29: 64 Sensor2
+ SG_ S3_Dummy_29 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1470 LCR_Object_30: 64 Sensor2
+ SG_ S3_Dummy_30 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1471 LCR_Object_31: 64 Sensor2
+ SG_ S3_Dummy_31 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1472 LCR_Object_32: 64 Sensor2
+ SG_ S3_Dummy_32 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1473 RCR_Header: 64 Sensor0
+ SG_ S1_Header_dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1474 RCR_Object_01: 64 Sensor0
+ SG_ S1_Dummy_01 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1475 RCR_Object_02: 64 Sensor0
+ SG_ S1_Dummy_02 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1476 RCR_Object_03: 64 Sensor0
+ SG_ S1_Dummy_03 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1477 RCR_Object_04: 64 Sensor0
+ SG_ S1_Dummy_04 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1478 RCR_Object_05: 64 Sensor0
+ SG_ S1_Dummy_05 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1479 RCR_Object_06: 64 Sensor0
+ SG_ S1_Dummy_06 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1480 RCR_Object_07: 64 Sensor0
+ SG_ S1_Dummy_07 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1481 RCR_Object_08: 64 Sensor0
+ SG_ S1_Dummy_08 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1482 RCR_Object_09: 64 Sensor0
+ SG_ S1_Dummy_09 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1483 RCR_Object_10: 64 Sensor0
+ SG_ S1_Dummy_10 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1484 RCR_Object_11: 64 Sensor0
+ SG_ S1_Dummy_11 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1485 RCR_Object_12: 64 Sensor0
+ SG_ S1_Dummy_12 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1486 RCR_Object_13: 64 Sensor0
+ SG_ S1_Dummy_13 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1487 RCR_Object_14: 64 Sensor0
+ SG_ S1_Dummy_14 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1488 RCR_Object_15: 64 Sensor0
+ SG_ S1_Dummy_15 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1489 RCR_Object_16: 64 Sensor0
+ SG_ S1_Dummy_16 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1490 RCR_Object_17: 64 Sensor0
+ SG_ S1_Dummy_17 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1491 RCR_Object_18: 64 Sensor0
+ SG_ S1_Dummy_18 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1492 RCR_Object_19: 64 Sensor0
+ SG_ S1_Dummy_19 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1493 RCR_Object_20: 64 Sensor0
+ SG_ S1_Dummy_20 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1494 RCR_Object_21: 64 Sensor0
+ SG_ S1_Dummy_21 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1495 RCR_Object_22: 64 Sensor0
+ SG_ S1_Dummy_22 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1496 RCR_Object_23: 64 Sensor0
+ SG_ S1_Dummy_23 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1497 RCR_Object_24: 64 Sensor0
+ SG_ S1_Dummy_24 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1498 RCR_Object_25: 64 Sensor0
+ SG_ S1_Dummy_25 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1499 RCR_Object_26: 64 Sensor0
+ SG_ S1_Dummy_26 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1500 RCR_Object_27: 64 Sensor0
+ SG_ S1_Dummy_27 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1501 RCR_Object_28: 64 Sensor0
+ SG_ S1_Dummy_28 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1502 RCR_Object_29: 64 Sensor0
+ SG_ S1_Dummy_29 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1503 RCR_Object_30: 64 Sensor0
+ SG_ S1_Dummy_30 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1504 RCR_Object_31: 64 Sensor0
+ SG_ S1_Dummy_31 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1505 RCR_Object_32: 64 Sensor0
+ SG_ S1_Dummy_32 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 447 Rda_AnalysisData_Sensor0: 8 Sensor0
+ SG_ S0_Dummy_33 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 446 Rda_AnalysisData_Sensor2: 8 Sensor2
+ SG_ S2_Dummy_34 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 901 RDI_Data_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_35 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 918 RDI_Data_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_36 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 900 RDI_Header_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_37 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 916 RDI_Header_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_38 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 789 RDI_SIL_Data_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_39 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 773 RDI_SIL_Data_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_40 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 772 RDI_SIL_Header_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_41 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 788 RDI_SIL_Header_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_42 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 787 RDI_SIL_Trailer_Sensor0: 20 Sensor0
+ SG_ S0_Dummy_43 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 771 RDI_SIL_Trailer_Sensor2: 20 Sensor2
+ SG_ S2_Dummy_44 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 915 RDI_Trailer_Sensor0: 20 Sensor0
+ SG_ S0_Dummy_45 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 899 RDI_Trailer_Sensor2: 20 Sensor2
+ SG_ S2_Dummy_46 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 578 RTA_Output_Sensor2: 8 Sensor2
+ SG_ S2_Dummy_47 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 576 RTA_Output_Sensor0: 8 Sensor0
+ SG_ S0_Dummy_48 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 519 RstM_DebugData_2_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_49 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 259 VehicleData_Sensor0: 20 Sensor0
+ SG_ S0_Dummy_50 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 258 VehicleData_Sensor2: 20 Sensor2
+ SG_ S2_Dummy_51 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1109 PMOI_Trailer_Sensor0: 3 Sensor0
+ SG_ S0_Dummy_52 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1094 PMOI_Trailer_Sensor2: 3 Sensor2
+ SG_ S2_Dummy_53 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1108 PMOI_Header_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_54 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1092 PMOI_Header_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_55 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1107 PMOI_Data_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_56 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1091 PMOI_Data_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_57 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 544 EAF_Output_Sensor0: 8 Sensor0
+ SG_ S0_Dummy_58 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 546 EAF_Output_Sensor2: 8 Sensor2
+ SG_ S2_Dummy_59 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 428 CarData_Information_Sensor0: 48 Sensor0
+ SG_ S0_Dummy_60 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 427 CarData_Information_Sensor2: 48 Sensor2
+ SG_ S2_Dummy_61 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1088 PMOI_Header_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_62 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1089 PMOI_Data_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_63 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1090 PMOI_Trailer_Sensor3: 3 Sensor3
+ SG_ S3_Dummy_64 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1104 PMOI_Header_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_65 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1105 PMOI_Data_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_66 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1106 PMOI_Trailer_Sensor1: 3 Sensor1
+ SG_ S1_Dummy_67 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 768 RDI_SIL_Header_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_68 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 769 RDI_SIL_Data_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_69 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 770 RDI_SIL_Trailer_Sensor3: 20 Sensor3
+ SG_ S3_Dummy_70 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 784 RDI_SIL_Header_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_71 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 785 RDI_SIL_Data_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_72 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 786 RDI_SIL_Trailer_Sensor1: 20 Sensor1
+ SG_ S1_Dummy_73 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 896 RDI_Header_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_74 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 897 RDI_Data_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_75 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 898 RDI_Trailer_Sensor3: 20 Sensor3
+ SG_ S3_Dummy_76 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 912 RDI_Header_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_77 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 913 RDI_Data_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_78 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 914 RDI_Trailer_Sensor1: 20 Sensor1
+ SG_ S1_Dummy_79 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 512 RstM_DebugData_1_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_80 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 518 RstM_DebugData_1_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_81 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 513 RstM_DebugData_2_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_82 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 514 RstM_DebugData_1_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_83 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 515 RstM_DebugData_2_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_84 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 516 RstM_DebugData_1_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_85 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 517 RstM_DebugData_2_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_86 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 257 VehicleData_Sensor1: 20 Sensor1
+ SG_ S1_Dummy_87 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 445 Rda_AnalysisData_Sensor1: 8 Sensor1
+ SG_ S1_Dummy_88 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 444 Rda_AnalysisData_Sensor3: 8 Sensor3
+ SG_ S3_Dummy_89 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 256 VehicleData_Sensor3: 20 Sensor3
+ SG_ S3_Dummy_90 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 545 EAF_Output_Sensor1: 8 Sensor1
+ SG_ S1_Dummy_91 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 547 EAF_Output_Sensor3: 8 Sensor3
+ SG_ S3_Dummy_92 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 577 RTA_Output_Sensor1: 8 Sensor1
+ SG_ S1_Dummy_93 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 579 RTA_Output_Sensor3: 8 Sensor3
+ SG_ S3_Dummy_94 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 561 LCW_Output_Sensor1: 8 Sensor1
+ SG_ S1_Dummy_95 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 560 LCW_Output_Sensor3: 8 Sensor3
+ SG_ S3_Dummy_96 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 563 LCW_Output_Sensor0: 8 Sensor0
+ SG_ S0_Dummy_97 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 562 LCW_Output_Sensor2: 8 Sensor2
+ SG_ S2_Dummy_98 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 417 EvHnd_EventStatus_Sensor3: 64 Sensor3
+ SG_ S3_Dummy_99 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 419 EvHnd_EventStatus_Sensor2: 64 Sensor2
+ SG_ S2_Dummy_100 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 800 SystemInfo_Sensor3: 24 Sensor3
+ SG_ S3_Dummy_101 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 801 SystemInfo_Sensor1: 24 Sensor1
+ SG_ S1_Dummy_102 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 802 SystemInfo_Sensor2: 24 Sensor2
+ SG_ S2_Dummy_103 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 803 SystemInfo_Sensor0: 24 Sensor0
+ SG_ S0_Dummy_104 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 418 EvHnd_EventStatus_Sensor1: 64 Sensor1
+ SG_ S1_Dummy_105 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 420 EvHnd_EventStatus_Sensor0: 64 Sensor0
+ SG_ S0_Dummy_106 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 425 CarData_Information_Sensor3: 48 Sensor3
+ SG_ S3_Dummy_107 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 426 CarData_Information_Sensor1: 48 Sensor1
+ SG_ S1_Dummy_108 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 469 Hardware_DeBugData_Sensor3: 48 Sensor3
+ SG_ S3_Dummy_109 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 470 Hardware_DeBugData_Sensor1: 48 Sensor1
+ SG_ S1_Dummy_110 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 471 Hardware_DeBugData_Sensor2: 48 Sensor2
+ SG_ S2_Dummy_111 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 472 Hardware_DeBugData_Sensor0: 48 Sensor0
+ SG_ S0_Dummy_112 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 288 EAF_Sensor0: 48 Sensor0
+ SG_ S0_Dummy_113 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 289 EAF_Sensor1: 48 Sensor1
+ SG_ S1_Dummy_114 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 290 EAF_Sensor2: 48 Sensor2
+ SG_ S2_Dummy_115 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 291 EAF_Sensor3: 48 Sensor3
+ SG_ S3_Dummy_116 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 304 LCW_Sensor0: 48 Sensor0
+ SG_ S0_Dummy_117 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 305 LCW_Sensor1: 48 Sensor1
+ SG_ S1_Dummy_118 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 306 LCW_Sensor2: 48 Sensor2
+ SG_ S2_Dummy_119 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 307 LCW_Sensor3: 48 Sensor3
+ SG_ S3_Dummy_120 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 320 RTA_Sensor0: 48 Sensor0
+ SG_ S0_Dummy_121 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 321 RTA_Sensor1: 48 Sensor1
+ SG_ S1_Dummy_122 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 322 RTA_Sensor2: 48 Sensor2
+ SG_ S2_Dummy_123 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 323 RTA_Sensor3: 48 Sensor3
+ SG_ S3_Dummy_124 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 336 PCR_Sensor0: 24 Sensor0
+ SG_ S0_Dummy_125 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 337 PCR_Sensor1: 24 Sensor1
+ SG_ S1_Dummy_126 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 338 PCR_Sensor2: 24 Sensor2
+ SG_ S2_Dummy_127 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 339 PCR_Sensor3: 24 Sensor3
+ SG_ S3_Dummy_128 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 824 WaLcw_AnalysisData_Sensor0: 32 Sensor0
+ SG_ S0_Dummy_129 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 825 WaLcw_AnalysisData_Sensor1: 32 Sensor1
+ SG_ S1_Dummy_130 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 832 WaLcw_AnalysisData_Sensor2: 32 Sensor2
+ SG_ S2_Dummy_131 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 833 WaLcw_AnalysisData_Sensor3: 32 Sensor3
+ SG_ S3_Dummy_132 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 819 WaEaf_AnalysisData_Sensor3: 20 Sensor3
+ SG_ S3_Dummy_133 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 818 WaEaf_AnalysisData_Sensor2: 20 Sensor2
+ SG_ S2_Dummy_134 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 816 WaEaf_AnalysisData_Sensor0: 20 Sensor0
+ SG_ S0_Dummy_135 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 817 WaEaf_AnalysisData_Sensor1: 20 Sensor1
+ SG_ S1_Dummy_136 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 838 WaRta_AnalysisData_Sensor0: 48 Sensor0
+ SG_ S0_Dummy_137 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 839 WaRta_AnalysisData_Sensor1: 48 Sensor1
+ SG_ S1_Dummy_138 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 840 WaRta_AnalysisData_Sensor2: 48 Sensor2
+ SG_ S2_Dummy_139 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 841 WaRta_AnalysisData_Sensor3: 48 Sensor3
+ SG_ S3_Dummy_140 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 836 WaPcr_AnalysisData_Sensor2: 20 Sensor2
+ SG_ S2_Dummy_141 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 835 WaPcr_AnalysisData_Sensor1: 20 Sensor1
+ SG_ S1_Dummy_142 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 834 WaPcr_AnalysisData_Sensor0: 20 Sensor0
+ SG_ S0_Dummy_143 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 837 WaPcr_AnalysisData_Sensor3: 20 Sensor3
+ SG_ S3_Dummy_144 : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1792 XcpResponse_Sensor0: 8 Sensor0
+ SG_ XcpResp_Sensor0 : 0|64@1+ (1,0) [0|0] ""  Gateway
+
+BO_ 1536 XcpRequest_Sensor0: 8 Gateway
+ SG_ XcpReq_Sensor0 : 0|64@1+ (1,0) [0|0] ""  Sensor0
+
+BO_ 1793 XcpResponse_Sensor1: 8 Sensor1
+ SG_ XcpResp_Sensor1 : 0|64@1+ (1,0) [0|0] ""  Gateway
+
+BO_ 1537 XcpRequest_Sensor1: 8 Gateway
+ SG_ XcpReq_Sensor1 : 0|64@1+ (1,0) [0|0] ""  Sensor1
+
+BO_ 1794 XcpResponse_Sensor2: 8 Sensor2
+ SG_ XcpResp_Sensor2 : 0|64@1+ (1,0) [0|0] ""  Gateway
+
+BO_ 1538 XcpRequest_Sensor2: 8 Gateway
+ SG_ XcpReq_Sensor2 : 0|64@1+ (1,0) [0|0] ""  Sensor2
+
+BO_ 1795 XcpResponse_Sensor3: 8 Sensor3
+ SG_ XcpResp_Sensor3 : 0|64@1+ (1,0) [0|0] ""  Gateway
+
+BO_ 1539 XcpRequest_Sensor3: 8 Gateway
+ SG_ XcpReq_Sensor3 : 0|64@1+ (1,0) [0|0] ""  Sensor3
+
+BO_ 473 CPU_TimeloggerData_Sensor0: 64 Sensor0
+ SG_ S0_CPU_TimeloggerData_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 474 CPU_TimeloggerData_Sensor1: 64 Sensor1
+ SG_ S1_CPU_TimeloggerData_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 475 CPU_TimeloggerData_Sensor2: 64 Sensor2
+ SG_ S2_CPU_TimeloggerData_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 476 CPU_TimeloggerData_Sensor3: 64 Sensor3
+ SG_ S3_CPU_TimeloggerData_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1344 CR_Mount: 64 Sensor0
+ SG_ S0_CR_Mount_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1345 CR_RawData01: 64 Sensor0
+ SG_ S0_CR_RawData01_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1346 CR_RawData02: 64 Sensor0
+ SG_ S0_CR_RawData02_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1347 CR_RawData03: 64 Sensor0
+ SG_ S0_CR_RawData03_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1348 CR_RawData04: 64 Sensor0
+ SG_ S0_CR_RawData04_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1349 CR_RawData05: 64 Sensor0
+ SG_ S0_CR_RawData05_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1350 CR_RawData06: 64 Sensor0
+ SG_ S0_CR_RawData06_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1351 CR_RawData07: 64 Sensor0
+ SG_ S0_CR_RawData07_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1352 CR_RawData08: 64 Sensor0
+ SG_ S0_CR_RawData08_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1353 CR_RawData09: 64 Sensor0
+ SG_ S0_CR_RawData09_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1354 CR_RawData10: 64 Sensor0
+ SG_ S0_CR_RawData10_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1355 CR_RawData11: 64 Sensor0
+ SG_ S0_CR_RawData11_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1356 CR_RawData12: 64 Sensor0
+ SG_ S0_CR_RawData12_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1357 CR_RawData13: 64 Sensor0
+ SG_ S0_CR_RawData13_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1358 CR_RawData14: 64 Sensor0
+ SG_ S0_CR_RawData14_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1359 CR_RawData15: 64 Sensor0
+ SG_ S0_CR_RawData15_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1360 CR_RawData16: 64 Sensor0
+ SG_ S0_CR_RawData16_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1361 CR_RawData17: 64 Sensor0
+ SG_ S0_CR_RawData17_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1362 CR_RawData18: 64 Sensor0
+ SG_ S0_CR_RawData18_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1363 CR_RawData19: 64 Sensor0
+ SG_ S0_CR_RawData19_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1364 CR_RawData20: 64 Sensor0
+ SG_ S0_CR_RawData20_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1365 CR_RawData21: 64 Sensor0
+ SG_ S0_CR_RawData21_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1366 CR_RawData22: 64 Sensor0
+ SG_ S0_CR_RawData22_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1367 CR_RawData23: 64 Sensor0
+ SG_ S0_CR_RawData23_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1368 CR_RawData24: 64 Sensor0
+ SG_ S0_CR_RawData24_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1369 CR_RawData25: 64 Sensor0
+ SG_ S0_CR_RawData25_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1370 CR_RawData26: 64 Sensor0
+ SG_ S0_CR_RawData26_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1371 CR_RawData27: 64 Sensor0
+ SG_ S0_CR_RawData27_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1372 CR_RawData28: 64 Sensor0
+ SG_ S0_CR_RawData28_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1373 CR_RawData29: 64 Sensor0
+ SG_ S0_CR_RawData29_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1374 CR_RawData30: 64 Sensor0
+ SG_ S0_CR_RawData30_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1375 CR_RawData31: 64 Sensor0
+ SG_ S0_CR_RawData31_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1376 CR_RawData32: 64 Sensor0
+ SG_ S0_CR_RawData32_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1377 CR_RawData33: 64 Sensor0
+ SG_ S0_CR_RawData33_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1378 CR_RawData34: 64 Sensor0
+ SG_ S0_CR_RawData34_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1379 CR_RawData35: 64 Sensor0
+ SG_ S0_CR_RawData35_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1380 CR_RawData36: 64 Sensor0
+ SG_ S0_CR_RawData36_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1381 CR_RawData37: 64 Sensor0
+ SG_ S0_CR_RawData37_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1382 CR_RawData38: 64 Sensor0
+ SG_ S0_CR_RawData38_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1383 CR_RawData39: 64 Sensor0
+ SG_ S0_CR_RawData39_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1384 CR_RawData40: 64 Sensor0
+ SG_ S0_CR_RawData40_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+
+BO_ 1385 RLCR_ELK: 8 Sensor2
+ SG_ S0_RLCR_ELK_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1386 RRCR_ELK: 8 Sensor0
+ SG_ S0_RRCR_ELK_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 823 ADCC_RCR_1: 8 Sensor0
+ SG_ S0_ADCC_RCR_1_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+ 
+BO_ 1156 Em_MotionData_S3: 64 Sensor3
+ SG_ Em_MotionData_S3_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1155 Em_MotionData_S2: 64 Sensor2
+ SG_ Em_MotionData_S2_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1154 Em_MotionData_S1: 64 Sensor1
+ SG_ Em_MotionData_S1_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+
+BO_ 1153 Em_MotionData_S0: 64 Sensor0
+ SG_ Em_MotionData_S0_Dummy : 7|8@0+ (1,0) [0|255] ""  Gateway
+ 
+ 
+BO_TX_BU_ 823 : Sensor2,Sensor0;
+BO_TX_BU_ 1344: Sensor2,Sensor0;
+BO_TX_BU_ 1345: Sensor2,Sensor0;
+BO_TX_BU_ 1346: Sensor2,Sensor0;
+BO_TX_BU_ 1347: Sensor2,Sensor0;
+BO_TX_BU_ 1348: Sensor2,Sensor0;
+BO_TX_BU_ 1349: Sensor2,Sensor0;
+BO_TX_BU_ 1350: Sensor2,Sensor0;
+BO_TX_BU_ 1351: Sensor2,Sensor0;
+BO_TX_BU_ 1352: Sensor2,Sensor0;
+BO_TX_BU_ 1353: Sensor2,Sensor0;
+BO_TX_BU_ 1354: Sensor2,Sensor0;
+BO_TX_BU_ 1355: Sensor2,Sensor0;
+BO_TX_BU_ 1356: Sensor2,Sensor0;
+BO_TX_BU_ 1357: Sensor2,Sensor0;
+BO_TX_BU_ 1358: Sensor2,Sensor0;
+BO_TX_BU_ 1359: Sensor2,Sensor0;
+BO_TX_BU_ 1360: Sensor2,Sensor0;
+BO_TX_BU_ 1361: Sensor2,Sensor0;
+BO_TX_BU_ 1362: Sensor2,Sensor0;
+BO_TX_BU_ 1363: Sensor2,Sensor0;
+BO_TX_BU_ 1364: Sensor2,Sensor0;
+BO_TX_BU_ 1365: Sensor2,Sensor0;
+BO_TX_BU_ 1366: Sensor2,Sensor0;
+BO_TX_BU_ 1367: Sensor2,Sensor0;
+BO_TX_BU_ 1368: Sensor2,Sensor0;
+BO_TX_BU_ 1369: Sensor2,Sensor0;
+BO_TX_BU_ 1370: Sensor2,Sensor0;
+BO_TX_BU_ 1371: Sensor2,Sensor0;
+BO_TX_BU_ 1372: Sensor2,Sensor0;
+BO_TX_BU_ 1373: Sensor2,Sensor0;
+BO_TX_BU_ 1374: Sensor2,Sensor0;
+BO_TX_BU_ 1375: Sensor2,Sensor0;
+BO_TX_BU_ 1376: Sensor2,Sensor0;
+BO_TX_BU_ 1377: Sensor2,Sensor0;
+BO_TX_BU_ 1378: Sensor2,Sensor0;
+BO_TX_BU_ 1379: Sensor2,Sensor0;
+BO_TX_BU_ 1380: Sensor2,Sensor0;
+BO_TX_BU_ 1381: Sensor2,Sensor0;
+BO_TX_BU_ 1382: Sensor2,Sensor0;
+BO_TX_BU_ 1383: Sensor2,Sensor0;
+BO_TX_BU_ 1384: Sensor2,Sensor0;
+
+
+BA_DEF_ BO_  "CANFD_BRS" ENUM  "0","1";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 65535;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","IfActive","CE","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_ BO_  "MsgType" ENUM  "CDD","COM","PduExt","COM_LONG","COM_LONG_FC","CANNM","XCP_REQ","XCP_RESP","UDS_PHY_REQ","UDS_PHY_RESP","UDS_FUN_REQ","CANTSYN";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "Receivers" STRING ;
+BA_DEF_ BO_  "Transmitters" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ SG_  "GenSigASIL" ENUM  "QM","A","B","C","D";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 65535;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnChange","OnWrite","IfActive","OnChangeWithRepetition","OnWriteWithRepetition","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition","CA","CE","Event";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 65535;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmStationAddress" INT 0 63;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "NmBaseAddress" HEX 2304 2431;
+BA_DEF_  "NmMessageCount" INT 0 255;
+BA_DEF_DEF_  "CANFD_BRS" "1";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "MsgType" "PduExt";
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "Receivers" "Default";
+BA_DEF_DEF_  "Transmitters" "Default";
+BA_DEF_DEF_  "VFrameFormat" "";
+BA_DEF_DEF_  "GenSigASIL" "QM";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "DBName" "CAN";
+BA_DEF_DEF_  "BusType" "CAN FD";
+BA_DEF_DEF_  "NmBaseAddress" 2304;
+BA_DEF_DEF_  "NmMessageCount" 128;
+BA_ "BusType" "CAN FD";
+BA_ "DBName" "CHERY_03_PCOM";
+BA_ "MsgType" BO_ 1301 2;
+BA_ "GenMsgILSupport" BO_ 1301 1;
+BA_ "GenMsgCycleTime" BO_ 1301 500;
+BA_ "GenMsgCycleTimeFast" BO_ 1301 20;
+BA_ "GenMsgNrOfRepetition" BO_ 1301 1;
+BA_ "GenMsgDelayTime" BO_ 1301 5;
+BA_ "VFrameFormat" BO_ 1301 14;
+BA_ "GenMsgILSupport" BO_ 1440 1;
+BA_ "GenMsgCycleTime" BO_ 1440 66;
+BA_ "VFrameFormat" BO_ 1440 14;
+BA_ "GenMsgILSupport" BO_ 1441 1;
+BA_ "GenMsgCycleTime" BO_ 1441 66;
+BA_ "VFrameFormat" BO_ 1441 14;
+BA_ "GenMsgILSupport" BO_ 1442 1;
+BA_ "GenMsgCycleTime" BO_ 1442 66;
+BA_ "VFrameFormat" BO_ 1442 14;
+BA_ "GenMsgILSupport" BO_ 1443 1;
+BA_ "GenMsgCycleTime" BO_ 1443 66;
+BA_ "VFrameFormat" BO_ 1443 14;
+BA_ "GenMsgILSupport" BO_ 1444 1;
+BA_ "GenMsgCycleTime" BO_ 1444 66;
+BA_ "VFrameFormat" BO_ 1444 14;
+BA_ "GenMsgILSupport" BO_ 1445 1;
+BA_ "GenMsgCycleTime" BO_ 1445 66;
+BA_ "VFrameFormat" BO_ 1445 14;
+BA_ "GenMsgILSupport" BO_ 1446 1;
+BA_ "GenMsgCycleTime" BO_ 1446 66;
+BA_ "VFrameFormat" BO_ 1446 14;
+BA_ "GenMsgILSupport" BO_ 1447 1;
+BA_ "GenMsgCycleTime" BO_ 1447 66;
+BA_ "VFrameFormat" BO_ 1447 14;
+BA_ "GenMsgILSupport" BO_ 1448 1;
+BA_ "GenMsgCycleTime" BO_ 1448 66;
+BA_ "VFrameFormat" BO_ 1448 14;
+BA_ "GenMsgILSupport" BO_ 1449 1;
+BA_ "GenMsgCycleTime" BO_ 1449 66;
+BA_ "VFrameFormat" BO_ 1449 14;
+BA_ "GenMsgILSupport" BO_ 1450 1;
+BA_ "GenMsgCycleTime" BO_ 1450 66;
+BA_ "VFrameFormat" BO_ 1450 14;
+BA_ "GenMsgILSupport" BO_ 1451 1;
+BA_ "GenMsgCycleTime" BO_ 1451 66;
+BA_ "VFrameFormat" BO_ 1451 14;
+BA_ "GenMsgILSupport" BO_ 1452 1;
+BA_ "GenMsgCycleTime" BO_ 1452 66;
+BA_ "VFrameFormat" BO_ 1452 14;
+BA_ "GenMsgILSupport" BO_ 1453 1;
+BA_ "GenMsgCycleTime" BO_ 1453 66;
+BA_ "VFrameFormat" BO_ 1453 14;
+BA_ "GenMsgILSupport" BO_ 1454 1;
+BA_ "GenMsgCycleTime" BO_ 1454 66;
+BA_ "VFrameFormat" BO_ 1454 14;
+BA_ "GenMsgILSupport" BO_ 1455 1;
+BA_ "GenMsgCycleTime" BO_ 1455 66;
+BA_ "VFrameFormat" BO_ 1455 14;
+BA_ "GenMsgILSupport" BO_ 1456 1;
+BA_ "GenMsgCycleTime" BO_ 1456 66;
+BA_ "VFrameFormat" BO_ 1456 14;
+BA_ "GenMsgILSupport" BO_ 1457 1;
+BA_ "GenMsgCycleTime" BO_ 1457 66;
+BA_ "VFrameFormat" BO_ 1457 14;
+BA_ "GenMsgILSupport" BO_ 1458 1;
+BA_ "GenMsgCycleTime" BO_ 1458 66;
+BA_ "VFrameFormat" BO_ 1458 14;
+BA_ "GenMsgILSupport" BO_ 1459 1;
+BA_ "GenMsgCycleTime" BO_ 1459 66;
+BA_ "VFrameFormat" BO_ 1459 14;
+BA_ "GenMsgILSupport" BO_ 1460 1;
+BA_ "GenMsgCycleTime" BO_ 1460 66;
+BA_ "VFrameFormat" BO_ 1460 14;
+BA_ "GenMsgILSupport" BO_ 1461 1;
+BA_ "GenMsgCycleTime" BO_ 1461 66;
+BA_ "VFrameFormat" BO_ 1461 14;
+BA_ "GenMsgILSupport" BO_ 1462 1;
+BA_ "GenMsgCycleTime" BO_ 1462 66;
+BA_ "VFrameFormat" BO_ 1462 14;
+BA_ "GenMsgILSupport" BO_ 1463 1;
+BA_ "GenMsgCycleTime" BO_ 1463 66;
+BA_ "VFrameFormat" BO_ 1463 14;
+BA_ "GenMsgILSupport" BO_ 1464 1;
+BA_ "GenMsgCycleTime" BO_ 1464 66;
+BA_ "VFrameFormat" BO_ 1464 14;
+BA_ "GenMsgILSupport" BO_ 1465 1;
+BA_ "GenMsgCycleTime" BO_ 1465 66;
+BA_ "VFrameFormat" BO_ 1465 14;
+BA_ "GenMsgILSupport" BO_ 1466 1;
+BA_ "GenMsgCycleTime" BO_ 1466 66;
+BA_ "VFrameFormat" BO_ 1466 14;
+BA_ "GenMsgILSupport" BO_ 1467 1;
+BA_ "GenMsgCycleTime" BO_ 1467 66;
+BA_ "VFrameFormat" BO_ 1467 14;
+BA_ "GenMsgILSupport" BO_ 1468 1;
+BA_ "GenMsgCycleTime" BO_ 1468 66;
+BA_ "VFrameFormat" BO_ 1468 14;
+BA_ "GenMsgILSupport" BO_ 1469 1;
+BA_ "GenMsgCycleTime" BO_ 1469 66;
+BA_ "VFrameFormat" BO_ 1469 14;
+BA_ "GenMsgILSupport" BO_ 1470 1;
+BA_ "GenMsgCycleTime" BO_ 1470 66;
+BA_ "VFrameFormat" BO_ 1470 14;
+BA_ "GenMsgILSupport" BO_ 1471 1;
+BA_ "GenMsgCycleTime" BO_ 1471 66;
+BA_ "VFrameFormat" BO_ 1471 14;
+BA_ "GenMsgILSupport" BO_ 1472 1;
+BA_ "GenMsgCycleTime" BO_ 1472 66;
+BA_ "VFrameFormat" BO_ 1472 14;
+BA_ "GenMsgILSupport" BO_ 1473 1;
+BA_ "GenMsgCycleTime" BO_ 1473 66;
+BA_ "VFrameFormat" BO_ 1473 14;
+BA_ "GenMsgILSupport" BO_ 1474 1;
+BA_ "GenMsgCycleTime" BO_ 1474 66;
+BA_ "VFrameFormat" BO_ 1474 14;
+BA_ "GenMsgILSupport" BO_ 1475 1;
+BA_ "GenMsgCycleTime" BO_ 1475 66;
+BA_ "VFrameFormat" BO_ 1475 14;
+BA_ "GenMsgILSupport" BO_ 1476 1;
+BA_ "GenMsgCycleTime" BO_ 1476 66;
+BA_ "VFrameFormat" BO_ 1476 14;
+BA_ "GenMsgILSupport" BO_ 1477 1;
+BA_ "GenMsgCycleTime" BO_ 1477 66;
+BA_ "VFrameFormat" BO_ 1477 14;
+BA_ "GenMsgILSupport" BO_ 1478 1;
+BA_ "GenMsgCycleTime" BO_ 1478 66;
+BA_ "VFrameFormat" BO_ 1478 14;
+BA_ "GenMsgILSupport" BO_ 1479 1;
+BA_ "GenMsgCycleTime" BO_ 1479 66;
+BA_ "VFrameFormat" BO_ 1479 14;
+BA_ "GenMsgILSupport" BO_ 1480 1;
+BA_ "GenMsgCycleTime" BO_ 1480 66;
+BA_ "VFrameFormat" BO_ 1480 14;
+BA_ "GenMsgILSupport" BO_ 1481 1;
+BA_ "GenMsgCycleTime" BO_ 1481 66;
+BA_ "VFrameFormat" BO_ 1481 14;
+BA_ "GenMsgILSupport" BO_ 1482 1;
+BA_ "GenMsgCycleTime" BO_ 1482 66;
+BA_ "VFrameFormat" BO_ 1482 14;
+BA_ "GenMsgILSupport" BO_ 1483 1;
+BA_ "GenMsgCycleTime" BO_ 1483 66;
+BA_ "VFrameFormat" BO_ 1483 14;
+BA_ "GenMsgILSupport" BO_ 1484 1;
+BA_ "GenMsgCycleTime" BO_ 1484 66;
+BA_ "VFrameFormat" BO_ 1484 14;
+BA_ "GenMsgILSupport" BO_ 1485 1;
+BA_ "GenMsgCycleTime" BO_ 1485 66;
+BA_ "VFrameFormat" BO_ 1485 14;
+BA_ "GenMsgILSupport" BO_ 1486 1;
+BA_ "GenMsgCycleTime" BO_ 1486 66;
+BA_ "VFrameFormat" BO_ 1486 14;
+BA_ "GenMsgILSupport" BO_ 1487 1;
+BA_ "GenMsgCycleTime" BO_ 1487 66;
+BA_ "VFrameFormat" BO_ 1487 14;
+BA_ "GenMsgILSupport" BO_ 1488 1;
+BA_ "GenMsgCycleTime" BO_ 1488 66;
+BA_ "VFrameFormat" BO_ 1488 14;
+BA_ "GenMsgILSupport" BO_ 1489 1;
+BA_ "GenMsgCycleTime" BO_ 1489 66;
+BA_ "VFrameFormat" BO_ 1489 14;
+BA_ "GenMsgILSupport" BO_ 1490 1;
+BA_ "GenMsgCycleTime" BO_ 1490 66;
+BA_ "VFrameFormat" BO_ 1490 14;
+BA_ "GenMsgILSupport" BO_ 1491 1;
+BA_ "GenMsgCycleTime" BO_ 1491 66;
+BA_ "VFrameFormat" BO_ 1491 14;
+BA_ "GenMsgILSupport" BO_ 1492 1;
+BA_ "GenMsgCycleTime" BO_ 1492 66;
+BA_ "VFrameFormat" BO_ 1492 14;
+BA_ "GenMsgILSupport" BO_ 1493 1;
+BA_ "GenMsgCycleTime" BO_ 1493 66;
+BA_ "VFrameFormat" BO_ 1493 14;
+BA_ "GenMsgILSupport" BO_ 1494 1;
+BA_ "GenMsgCycleTime" BO_ 1494 66;
+BA_ "VFrameFormat" BO_ 1494 14;
+BA_ "GenMsgILSupport" BO_ 1495 1;
+BA_ "GenMsgCycleTime" BO_ 1495 66;
+BA_ "VFrameFormat" BO_ 1495 14;
+BA_ "GenMsgILSupport" BO_ 1496 1;
+BA_ "GenMsgCycleTime" BO_ 1496 66;
+BA_ "VFrameFormat" BO_ 1496 14;
+BA_ "GenMsgILSupport" BO_ 1497 1;
+BA_ "GenMsgCycleTime" BO_ 1497 66;
+BA_ "VFrameFormat" BO_ 1497 14;
+BA_ "GenMsgILSupport" BO_ 1498 1;
+BA_ "GenMsgCycleTime" BO_ 1498 66;
+BA_ "VFrameFormat" BO_ 1498 14;
+BA_ "GenMsgILSupport" BO_ 1499 1;
+BA_ "GenMsgCycleTime" BO_ 1499 66;
+BA_ "VFrameFormat" BO_ 1499 14;
+BA_ "GenMsgILSupport" BO_ 1500 1;
+BA_ "GenMsgCycleTime" BO_ 1500 66;
+BA_ "VFrameFormat" BO_ 1500 14;
+BA_ "GenMsgILSupport" BO_ 1501 1;
+BA_ "GenMsgCycleTime" BO_ 1501 66;
+BA_ "VFrameFormat" BO_ 1501 14;
+BA_ "GenMsgILSupport" BO_ 1502 1;
+BA_ "GenMsgCycleTime" BO_ 1502 66;
+BA_ "VFrameFormat" BO_ 1502 14;
+BA_ "MsgType" BO_ 1503 2;
+BA_ "GenMsgILSupport" BO_ 1503 1;
+BA_ "GenMsgCycleTime" BO_ 1503 66;
+BA_ "VFrameFormat" BO_ 1503 14;
+BA_ "MsgType" BO_ 1504 2;
+BA_ "GenMsgILSupport" BO_ 1504 1;
+BA_ "GenMsgCycleTime" BO_ 1504 66;
+BA_ "VFrameFormat" BO_ 1504 14;
+BA_ "MsgType" BO_ 1505 2;
+BA_ "GenMsgILSupport" BO_ 1505 1;
+BA_ "GenMsgCycleTime" BO_ 1505 66;
+BA_ "VFrameFormat" BO_ 1505 14;
+BA_ "GenMsgCycleTime" BO_ 447 50;
+BA_ "GenMsgSendType" BO_ 447 0;
+BA_ "MsgType" BO_ 447 2;
+BA_ "VFrameFormat" BO_ 447 14;
+BA_ "GenMsgCycleTime" BO_ 446 50;
+BA_ "GenMsgSendType" BO_ 446 0;
+BA_ "MsgType" BO_ 446 2;
+BA_ "VFrameFormat" BO_ 446 14;
+BA_ "GenMsgCycleTime" BO_ 901 50;
+BA_ "GenMsgSendType" BO_ 901 0;
+BA_ "MsgType" BO_ 901 2;
+BA_ "VFrameFormat" BO_ 901 14;
+BA_ "GenMsgCycleTime" BO_ 918 50;
+BA_ "GenMsgSendType" BO_ 918 0;
+BA_ "MsgType" BO_ 918 2;
+BA_ "VFrameFormat" BO_ 918 14;
+BA_ "GenMsgCycleTime" BO_ 900 50;
+BA_ "GenMsgSendType" BO_ 900 0;
+BA_ "MsgType" BO_ 900 2;
+BA_ "VFrameFormat" BO_ 900 14;
+BA_ "GenMsgCycleTime" BO_ 916 50;
+BA_ "GenMsgSendType" BO_ 916 0;
+BA_ "MsgType" BO_ 916 2;
+BA_ "VFrameFormat" BO_ 916 14;
+BA_ "GenMsgCycleTime" BO_ 789 50;
+BA_ "GenMsgSendType" BO_ 789 0;
+BA_ "MsgType" BO_ 789 2;
+BA_ "VFrameFormat" BO_ 789 14;
+BA_ "GenMsgCycleTime" BO_ 773 50;
+BA_ "GenMsgSendType" BO_ 773 0;
+BA_ "MsgType" BO_ 773 2;
+BA_ "VFrameFormat" BO_ 773 14;
+BA_ "GenMsgCycleTime" BO_ 772 50;
+BA_ "GenMsgSendType" BO_ 772 0;
+BA_ "MsgType" BO_ 772 2;
+BA_ "VFrameFormat" BO_ 772 14;
+BA_ "GenMsgCycleTime" BO_ 788 50;
+BA_ "GenMsgSendType" BO_ 788 0;
+BA_ "MsgType" BO_ 788 2;
+BA_ "VFrameFormat" BO_ 788 14;
+BA_ "GenMsgCycleTime" BO_ 787 50;
+BA_ "GenMsgSendType" BO_ 787 0;
+BA_ "MsgType" BO_ 787 2;
+BA_ "VFrameFormat" BO_ 787 14;
+BA_ "GenMsgCycleTime" BO_ 771 50;
+BA_ "GenMsgSendType" BO_ 771 0;
+BA_ "MsgType" BO_ 771 2;
+BA_ "VFrameFormat" BO_ 771 14;
+BA_ "GenMsgCycleTime" BO_ 915 50;
+BA_ "GenMsgSendType" BO_ 915 0;
+BA_ "MsgType" BO_ 915 2;
+BA_ "VFrameFormat" BO_ 915 14;
+BA_ "GenMsgCycleTime" BO_ 899 50;
+BA_ "GenMsgSendType" BO_ 899 0;
+BA_ "MsgType" BO_ 899 2;
+BA_ "VFrameFormat" BO_ 899 14;
+BA_ "GenMsgCycleTime" BO_ 578 50;
+BA_ "GenMsgSendType" BO_ 578 0;
+BA_ "MsgType" BO_ 578 2;
+BA_ "VFrameFormat" BO_ 578 14;
+BA_ "GenMsgCycleTime" BO_ 576 50;
+BA_ "GenMsgSendType" BO_ 576 0;
+BA_ "MsgType" BO_ 576 2;
+BA_ "VFrameFormat" BO_ 576 14;
+BA_ "GenMsgCycleTime" BO_ 519 50;
+BA_ "GenMsgSendType" BO_ 519 0;
+BA_ "MsgType" BO_ 519 2;
+BA_ "VFrameFormat" BO_ 519 14;
+BA_ "MsgType" BO_ 259 2;
+BA_ "GenMsgSendType" BO_ 259 0;
+BA_ "GenMsgCycleTime" BO_ 259 100;
+BA_ "VFrameFormat" BO_ 259 14;
+BA_ "MsgType" BO_ 258 2;
+BA_ "GenMsgSendType" BO_ 258 0;
+BA_ "GenMsgCycleTime" BO_ 258 100;
+BA_ "VFrameFormat" BO_ 258 14;
+BA_ "MsgType" BO_ 1109 2;
+BA_ "GenMsgSendType" BO_ 1109 0;
+BA_ "GenMsgCycleTime" BO_ 1109 50;
+BA_ "VFrameFormat" BO_ 1109 14;
+BA_ "MsgType" BO_ 1094 2;
+BA_ "GenMsgSendType" BO_ 1094 0;
+BA_ "GenMsgCycleTime" BO_ 1094 50;
+BA_ "VFrameFormat" BO_ 1094 14;
+BA_ "MsgType" BO_ 1108 2;
+BA_ "GenMsgSendType" BO_ 1108 0;
+BA_ "GenMsgCycleTime" BO_ 1108 50;
+BA_ "VFrameFormat" BO_ 1108 14;
+BA_ "MsgType" BO_ 1092 2;
+BA_ "GenMsgSendType" BO_ 1092 0;
+BA_ "GenMsgCycleTime" BO_ 1092 50;
+BA_ "VFrameFormat" BO_ 1092 14;
+BA_ "MsgType" BO_ 1107 2;
+BA_ "GenMsgSendType" BO_ 1107 0;
+BA_ "GenMsgCycleTime" BO_ 1107 50;
+BA_ "VFrameFormat" BO_ 1107 14;
+BA_ "MsgType" BO_ 1091 2;
+BA_ "GenMsgSendType" BO_ 1091 0;
+BA_ "GenMsgCycleTime" BO_ 1091 50;
+BA_ "VFrameFormat" BO_ 1091 14;
+BA_ "GenMsgCycleTime" BO_ 544 50;
+BA_ "GenMsgSendType" BO_ 544 0;
+BA_ "MsgType" BO_ 544 2;
+BA_ "VFrameFormat" BO_ 544 14;
+BA_ "GenMsgCycleTime" BO_ 546 50;
+BA_ "GenMsgSendType" BO_ 546 0;
+BA_ "MsgType" BO_ 546 2;
+BA_ "VFrameFormat" BO_ 546 14;
+BA_ "MsgType" BO_ 428 2;
+BA_ "GenMsgSendType" BO_ 428 0;
+BA_ "GenMsgCycleTime" BO_ 428 500;
+BA_ "VFrameFormat" BO_ 428 14;
+BA_ "MsgType" BO_ 427 2;
+BA_ "GenMsgSendType" BO_ 427 0;
+BA_ "GenMsgCycleTime" BO_ 427 500;
+BA_ "VFrameFormat" BO_ 427 14;
+BA_ "GenMsgCycleTime" BO_ 1088 50;
+BA_ "GenMsgSendType" BO_ 1088 0;
+BA_ "MsgType" BO_ 1088 2;
+BA_ "VFrameFormat" BO_ 1088 14;
+BA_ "GenMsgCycleTime" BO_ 1089 50;
+BA_ "GenMsgSendType" BO_ 1089 0;
+BA_ "MsgType" BO_ 1089 2;
+BA_ "VFrameFormat" BO_ 1089 14;
+BA_ "GenMsgSendType" BO_ 1090 0;
+BA_ "GenMsgCycleTime" BO_ 1090 50;
+BA_ "MsgType" BO_ 1090 2;
+BA_ "VFrameFormat" BO_ 1090 14;
+BA_ "GenMsgSendType" BO_ 1104 0;
+BA_ "GenMsgCycleTime" BO_ 1104 50;
+BA_ "MsgType" BO_ 1104 2;
+BA_ "VFrameFormat" BO_ 1104 14;
+BA_ "GenMsgSendType" BO_ 1105 0;
+BA_ "GenMsgCycleTime" BO_ 1105 50;
+BA_ "MsgType" BO_ 1105 2;
+BA_ "VFrameFormat" BO_ 1105 14;
+BA_ "GenMsgCycleTime" BO_ 1106 50;
+BA_ "GenMsgSendType" BO_ 1106 0;
+BA_ "MsgType" BO_ 1106 2;
+BA_ "VFrameFormat" BO_ 1106 14;
+BA_ "GenMsgCycleTime" BO_ 768 50;
+BA_ "GenMsgSendType" BO_ 768 0;
+BA_ "MsgType" BO_ 768 2;
+BA_ "VFrameFormat" BO_ 768 14;
+BA_ "GenMsgCycleTime" BO_ 769 50;
+BA_ "GenMsgSendType" BO_ 769 0;
+BA_ "MsgType" BO_ 769 2;
+BA_ "VFrameFormat" BO_ 769 14;
+BA_ "GenMsgCycleTime" BO_ 770 50;
+BA_ "GenMsgSendType" BO_ 770 0;
+BA_ "MsgType" BO_ 770 2;
+BA_ "VFrameFormat" BO_ 770 14;
+BA_ "GenMsgSendType" BO_ 784 0;
+BA_ "GenMsgCycleTime" BO_ 784 50;
+BA_ "MsgType" BO_ 784 2;
+BA_ "VFrameFormat" BO_ 784 14;
+BA_ "GenMsgSendType" BO_ 785 0;
+BA_ "GenMsgCycleTime" BO_ 785 50;
+BA_ "MsgType" BO_ 785 2;
+BA_ "VFrameFormat" BO_ 785 14;
+BA_ "GenMsgCycleTime" BO_ 786 50;
+BA_ "GenMsgSendType" BO_ 786 0;
+BA_ "MsgType" BO_ 786 2;
+BA_ "VFrameFormat" BO_ 786 14;
+BA_ "GenMsgCycleTime" BO_ 896 50;
+BA_ "GenMsgSendType" BO_ 896 0;
+BA_ "MsgType" BO_ 896 2;
+BA_ "VFrameFormat" BO_ 896 14;
+BA_ "GenMsgCycleTime" BO_ 897 50;
+BA_ "GenMsgSendType" BO_ 897 0;
+BA_ "MsgType" BO_ 897 2;
+BA_ "VFrameFormat" BO_ 897 14;
+BA_ "GenMsgCycleTime" BO_ 898 50;
+BA_ "GenMsgSendType" BO_ 898 0;
+BA_ "MsgType" BO_ 898 2;
+BA_ "VFrameFormat" BO_ 898 14;
+BA_ "GenMsgSendType" BO_ 912 0;
+BA_ "GenMsgCycleTime" BO_ 912 50;
+BA_ "MsgType" BO_ 912 2;
+BA_ "VFrameFormat" BO_ 912 14;
+BA_ "GenMsgSendType" BO_ 913 0;
+BA_ "GenMsgCycleTime" BO_ 913 50;
+BA_ "MsgType" BO_ 913 2;
+BA_ "VFrameFormat" BO_ 913 14;
+BA_ "GenMsgCycleTime" BO_ 914 50;
+BA_ "GenMsgSendType" BO_ 914 0;
+BA_ "MsgType" BO_ 914 2;
+BA_ "VFrameFormat" BO_ 914 14;
+BA_ "GenMsgCycleTime" BO_ 512 50;
+BA_ "GenMsgSendType" BO_ 512 0;
+BA_ "MsgType" BO_ 512 2;
+BA_ "VFrameFormat" BO_ 512 14;
+BA_ "GenMsgCycleTime" BO_ 518 50;
+BA_ "GenMsgSendType" BO_ 518 0;
+BA_ "MsgType" BO_ 518 2;
+BA_ "VFrameFormat" BO_ 518 14;
+BA_ "GenMsgCycleTime" BO_ 513 50;
+BA_ "GenMsgSendType" BO_ 513 0;
+BA_ "MsgType" BO_ 513 2;
+BA_ "VFrameFormat" BO_ 513 14;
+BA_ "GenMsgCycleTime" BO_ 514 50;
+BA_ "GenMsgSendType" BO_ 514 0;
+BA_ "MsgType" BO_ 514 2;
+BA_ "VFrameFormat" BO_ 514 14;
+BA_ "GenMsgCycleTime" BO_ 515 50;
+BA_ "GenMsgSendType" BO_ 515 0;
+BA_ "MsgType" BO_ 515 2;
+BA_ "VFrameFormat" BO_ 515 14;
+BA_ "GenMsgCycleTime" BO_ 516 50;
+BA_ "GenMsgSendType" BO_ 516 0;
+BA_ "MsgType" BO_ 516 2;
+BA_ "VFrameFormat" BO_ 516 14;
+BA_ "GenMsgCycleTime" BO_ 517 50;
+BA_ "GenMsgSendType" BO_ 517 0;
+BA_ "MsgType" BO_ 517 2;
+BA_ "VFrameFormat" BO_ 517 14;
+BA_ "GenMsgCycleTime" BO_ 257 100;
+BA_ "GenMsgSendType" BO_ 257 0;
+BA_ "MsgType" BO_ 257 2;
+BA_ "VFrameFormat" BO_ 257 14;
+BA_ "GenMsgSendType" BO_ 445 0;
+BA_ "GenMsgCycleTime" BO_ 445 50;
+BA_ "MsgType" BO_ 445 2;
+BA_ "VFrameFormat" BO_ 445 14;
+BA_ "GenMsgSendType" BO_ 444 0;
+BA_ "GenMsgCycleTime" BO_ 444 50;
+BA_ "MsgType" BO_ 444 2;
+BA_ "VFrameFormat" BO_ 444 14;
+BA_ "MsgType" BO_ 256 2;
+BA_ "GenMsgSendType" BO_ 256 0;
+BA_ "GenMsgCycleTime" BO_ 256 100;
+BA_ "VFrameFormat" BO_ 256 14;
+BA_ "MsgType" BO_ 545 2;
+BA_ "GenMsgSendType" BO_ 545 0;
+BA_ "GenMsgCycleTime" BO_ 545 50;
+BA_ "VFrameFormat" BO_ 545 14;
+BA_ "MsgType" BO_ 547 2;
+BA_ "GenMsgSendType" BO_ 547 0;
+BA_ "GenMsgCycleTime" BO_ 547 50;
+BA_ "VFrameFormat" BO_ 547 14;
+BA_ "MsgType" BO_ 577 2;
+BA_ "GenMsgSendType" BO_ 577 0;
+BA_ "GenMsgCycleTime" BO_ 577 50;
+BA_ "VFrameFormat" BO_ 577 14;
+BA_ "MsgType" BO_ 579 2;
+BA_ "GenMsgSendType" BO_ 579 0;
+BA_ "GenMsgCycleTime" BO_ 579 50;
+BA_ "VFrameFormat" BO_ 579 14;
+BA_ "GenMsgCycleTime" BO_ 561 50;
+BA_ "GenMsgSendType" BO_ 561 0;
+BA_ "MsgType" BO_ 561 2;
+BA_ "VFrameFormat" BO_ 561 14;
+BA_ "GenMsgCycleTime" BO_ 560 50;
+BA_ "GenMsgSendType" BO_ 560 0;
+BA_ "MsgType" BO_ 560 2;
+BA_ "VFrameFormat" BO_ 560 14;
+BA_ "GenMsgCycleTime" BO_ 563 50;
+BA_ "GenMsgSendType" BO_ 563 0;
+BA_ "MsgType" BO_ 563 2;
+BA_ "VFrameFormat" BO_ 563 14;
+BA_ "GenMsgCycleTime" BO_ 562 50;
+BA_ "GenMsgSendType" BO_ 562 0;
+BA_ "MsgType" BO_ 562 2;
+BA_ "VFrameFormat" BO_ 562 14;
+BA_ "MsgType" BO_ 417 2;
+BA_ "GenMsgSendType" BO_ 417 0;
+BA_ "GenMsgCycleTime" BO_ 417 50;
+BA_ "VFrameFormat" BO_ 417 14;
+BA_ "MsgType" BO_ 419 2;
+BA_ "GenMsgSendType" BO_ 419 0;
+BA_ "GenMsgCycleTime" BO_ 419 50;
+BA_ "VFrameFormat" BO_ 419 14;
+BA_ "MsgType" BO_ 800 2;
+BA_ "GenMsgCycleTime" BO_ 800 50;
+BA_ "GenMsgSendType" BO_ 800 0;
+BA_ "VFrameFormat" BO_ 800 14;
+BA_ "MsgType" BO_ 801 2;
+BA_ "GenMsgCycleTime" BO_ 801 50;
+BA_ "GenMsgSendType" BO_ 801 0;
+BA_ "VFrameFormat" BO_ 801 14;
+BA_ "MsgType" BO_ 802 2;
+BA_ "GenMsgCycleTime" BO_ 802 50;
+BA_ "GenMsgSendType" BO_ 802 0;
+BA_ "VFrameFormat" BO_ 802 14;
+BA_ "MsgType" BO_ 803 2;
+BA_ "GenMsgCycleTime" BO_ 803 50;
+BA_ "GenMsgSendType" BO_ 803 0;
+BA_ "VFrameFormat" BO_ 803 14;
+BA_ "MsgType" BO_ 418 2;
+BA_ "GenMsgCycleTime" BO_ 418 50;
+BA_ "GenMsgSendType" BO_ 418 0;
+BA_ "VFrameFormat" BO_ 418 14;
+BA_ "MsgType" BO_ 420 2;
+BA_ "GenMsgCycleTime" BO_ 420 50;
+BA_ "GenMsgSendType" BO_ 420 0;
+BA_ "VFrameFormat" BO_ 420 14;
+BA_ "MsgType" BO_ 425 2;
+BA_ "GenMsgSendType" BO_ 425 0;
+BA_ "GenMsgCycleTime" BO_ 425 500;
+BA_ "VFrameFormat" BO_ 425 14;
+BA_ "MsgType" BO_ 426 2;
+BA_ "GenMsgSendType" BO_ 426 0;
+BA_ "GenMsgCycleTime" BO_ 426 500;
+BA_ "VFrameFormat" BO_ 426 14;
+BA_ "MsgType" BO_ 469 2;
+BA_ "GenMsgSendType" BO_ 469 0;
+BA_ "GenMsgCycleTime" BO_ 469 500;
+BA_ "VFrameFormat" BO_ 469 14;
+BA_ "MsgType" BO_ 470 2;
+BA_ "GenMsgSendType" BO_ 470 0;
+BA_ "GenMsgCycleTime" BO_ 470 500;
+BA_ "VFrameFormat" BO_ 470 14;
+BA_ "MsgType" BO_ 471 2;
+BA_ "GenMsgSendType" BO_ 471 0;
+BA_ "GenMsgCycleTime" BO_ 471 500;
+BA_ "VFrameFormat" BO_ 471 14;
+BA_ "MsgType" BO_ 472 2;
+BA_ "GenMsgSendType" BO_ 472 0;
+BA_ "GenMsgCycleTime" BO_ 472 500;
+BA_ "VFrameFormat" BO_ 472 14;
+BA_ "GenMsgCycleTime" BO_ 288 50;
+BA_ "GenMsgSendType" BO_ 288 0;
+BA_ "MsgType" BO_ 288 2;
+BA_ "VFrameFormat" BO_ 288 14;
+BA_ "GenMsgCycleTime" BO_ 289 50;
+BA_ "GenMsgSendType" BO_ 289 0;
+BA_ "MsgType" BO_ 289 2;
+BA_ "VFrameFormat" BO_ 289 14;
+BA_ "GenMsgCycleTime" BO_ 290 50;
+BA_ "GenMsgSendType" BO_ 290 0;
+BA_ "MsgType" BO_ 290 2;
+BA_ "VFrameFormat" BO_ 290 14;
+BA_ "GenMsgCycleTime" BO_ 291 50;
+BA_ "GenMsgSendType" BO_ 291 0;
+BA_ "MsgType" BO_ 291 2;
+BA_ "VFrameFormat" BO_ 291 14;
+BA_ "GenMsgCycleTime" BO_ 304 50;
+BA_ "GenMsgSendType" BO_ 304 0;
+BA_ "MsgType" BO_ 304 2;
+BA_ "VFrameFormat" BO_ 304 14;
+BA_ "GenMsgCycleTime" BO_ 305 50;
+BA_ "GenMsgSendType" BO_ 305 0;
+BA_ "MsgType" BO_ 305 2;
+BA_ "VFrameFormat" BO_ 305 14;
+BA_ "GenMsgCycleTime" BO_ 306 50;
+BA_ "GenMsgSendType" BO_ 306 0;
+BA_ "MsgType" BO_ 306 2;
+BA_ "VFrameFormat" BO_ 306 14;
+BA_ "GenMsgCycleTime" BO_ 307 50;
+BA_ "GenMsgSendType" BO_ 307 0;
+BA_ "MsgType" BO_ 307 2;
+BA_ "VFrameFormat" BO_ 307 14;
+BA_ "MsgType" BO_ 320 2;
+BA_ "GenMsgSendType" BO_ 320 0;
+BA_ "GenMsgCycleTime" BO_ 320 50;
+BA_ "VFrameFormat" BO_ 320 14;
+BA_ "MsgType" BO_ 321 2;
+BA_ "GenMsgSendType" BO_ 321 0;
+BA_ "GenMsgCycleTime" BO_ 321 50;
+BA_ "VFrameFormat" BO_ 321 14;
+BA_ "MsgType" BO_ 322 2;
+BA_ "GenMsgSendType" BO_ 322 0;
+BA_ "GenMsgCycleTime" BO_ 322 50;
+BA_ "VFrameFormat" BO_ 322 14;
+BA_ "MsgType" BO_ 323 2;
+BA_ "GenMsgSendType" BO_ 323 0;
+BA_ "GenMsgCycleTime" BO_ 323 50;
+BA_ "VFrameFormat" BO_ 323 14;
+BA_ "MsgType" BO_ 336 2;
+BA_ "GenMsgSendType" BO_ 336 0;
+BA_ "GenMsgCycleTime" BO_ 336 50;
+BA_ "VFrameFormat" BO_ 336 14;
+BA_ "MsgType" BO_ 337 2;
+BA_ "GenMsgSendType" BO_ 337 0;
+BA_ "GenMsgCycleTime" BO_ 337 50;
+BA_ "VFrameFormat" BO_ 337 14;
+BA_ "MsgType" BO_ 338 2;
+BA_ "GenMsgSendType" BO_ 338 0;
+BA_ "GenMsgCycleTime" BO_ 338 50;
+BA_ "VFrameFormat" BO_ 338 14;
+BA_ "MsgType" BO_ 339 2;
+BA_ "GenMsgSendType" BO_ 339 0;
+BA_ "GenMsgCycleTime" BO_ 339 50;
+BA_ "VFrameFormat" BO_ 339 14;
+BA_ "GenMsgCycleTime" BO_ 824 50;
+BA_ "GenMsgSendType" BO_ 824 0;
+BA_ "MsgType" BO_ 824 2;
+BA_ "VFrameFormat" BO_ 824 14;
+BA_ "GenMsgCycleTime" BO_ 825 50;
+BA_ "GenMsgSendType" BO_ 825 0;
+BA_ "MsgType" BO_ 825 2;
+BA_ "VFrameFormat" BO_ 825 14;
+BA_ "GenMsgCycleTime" BO_ 832 50;
+BA_ "GenMsgSendType" BO_ 832 0;
+BA_ "MsgType" BO_ 832 2;
+BA_ "VFrameFormat" BO_ 832 14;
+BA_ "GenMsgCycleTime" BO_ 833 50;
+BA_ "GenMsgSendType" BO_ 833 0;
+BA_ "MsgType" BO_ 833 2;
+BA_ "VFrameFormat" BO_ 833 14;
+BA_ "GenMsgCycleTime" BO_ 819 50;
+BA_ "GenMsgSendType" BO_ 819 0;
+BA_ "MsgType" BO_ 819 2;
+BA_ "VFrameFormat" BO_ 819 14;
+BA_ "GenMsgCycleTime" BO_ 818 50;
+BA_ "GenMsgSendType" BO_ 818 0;
+BA_ "MsgType" BO_ 818 2;
+BA_ "VFrameFormat" BO_ 818 14;
+BA_ "GenMsgSendType" BO_ 816 0;
+BA_ "GenMsgCycleTime" BO_ 816 50;
+BA_ "MsgType" BO_ 816 2;
+BA_ "VFrameFormat" BO_ 816 14;
+BA_ "GenMsgSendType" BO_ 817 0;
+BA_ "GenMsgCycleTime" BO_ 817 50;
+BA_ "MsgType" BO_ 817 2;
+BA_ "VFrameFormat" BO_ 817 14;
+BA_ "GenMsgSendType" BO_ 838 0;
+BA_ "GenMsgCycleTime" BO_ 838 50;
+BA_ "MsgType" BO_ 838 2;
+BA_ "VFrameFormat" BO_ 838 14;
+BA_ "GenMsgSendType" BO_ 839 0;
+BA_ "GenMsgCycleTime" BO_ 839 50;
+BA_ "MsgType" BO_ 839 2;
+BA_ "VFrameFormat" BO_ 839 14;
+BA_ "GenMsgSendType" BO_ 840 0;
+BA_ "GenMsgCycleTime" BO_ 840 50;
+BA_ "MsgType" BO_ 840 2;
+BA_ "VFrameFormat" BO_ 840 14;
+BA_ "GenMsgSendType" BO_ 841 0;
+BA_ "GenMsgCycleTime" BO_ 841 50;
+BA_ "MsgType" BO_ 841 2;
+BA_ "VFrameFormat" BO_ 841 14;
+BA_ "GenMsgCycleTime" BO_ 836 50;
+BA_ "GenMsgSendType" BO_ 836 0;
+BA_ "MsgType" BO_ 836 2;
+BA_ "VFrameFormat" BO_ 836 14;
+BA_ "GenMsgCycleTime" BO_ 835 50;
+BA_ "GenMsgSendType" BO_ 835 0;
+BA_ "MsgType" BO_ 835 2;
+BA_ "VFrameFormat" BO_ 835 14;
+BA_ "GenMsgSendType" BO_ 834 0;
+BA_ "GenMsgCycleTime" BO_ 834 50;
+BA_ "MsgType" BO_ 834 2;
+BA_ "VFrameFormat" BO_ 834 14;
+BA_ "GenMsgSendType" BO_ 837 0;
+BA_ "GenMsgCycleTime" BO_ 837 50;
+BA_ "MsgType" BO_ 837 2;
+BA_ "VFrameFormat" BO_ 837 14;
+BA_ "GenMsgSendType" BO_ 1792 4;
+BA_ "MsgType" BO_ 1792 2;
+BA_ "GenMsgILSupport" BO_ 1792 0;
+BA_ "VFrameFormat" BO_ 1792 14;
+BA_ "GenMsgSendType" BO_ 1536 4;
+BA_ "MsgType" BO_ 1536 2;
+BA_ "GenMsgILSupport" BO_ 1536 0;
+BA_ "VFrameFormat" BO_ 1536 14;
+BA_ "GenMsgSendType" BO_ 1793 4;
+BA_ "MsgType" BO_ 1793 2;
+BA_ "GenMsgILSupport" BO_ 1793 0;
+BA_ "VFrameFormat" BO_ 1793 14;
+BA_ "GenMsgSendType" BO_ 1537 4;
+BA_ "MsgType" BO_ 1537 2;
+BA_ "GenMsgILSupport" BO_ 1537 0;
+BA_ "VFrameFormat" BO_ 1537 14;
+BA_ "GenMsgSendType" BO_ 1794 4;
+BA_ "MsgType" BO_ 1794 2;
+BA_ "GenMsgILSupport" BO_ 1794 0;
+BA_ "VFrameFormat" BO_ 1794 14;
+BA_ "GenMsgSendType" BO_ 1538 4;
+BA_ "MsgType" BO_ 1538 2;
+BA_ "GenMsgILSupport" BO_ 1538 0;
+BA_ "VFrameFormat" BO_ 1538 14;
+BA_ "GenMsgSendType" BO_ 1795 4;
+BA_ "MsgType" BO_ 1795 2;
+BA_ "GenMsgILSupport" BO_ 1795 0;
+BA_ "VFrameFormat" BO_ 1795 14;
+BA_ "GenMsgSendType" BO_ 1539 4;
+BA_ "MsgType" BO_ 1539 2;
+BA_ "GenMsgILSupport" BO_ 1539 0;
+BA_ "VFrameFormat" BO_ 1539 14;
+BA_ "GenMsgSendType" BO_ 473 0;
+BA_ "GenMsgCycleTime" BO_ 473 50;
+BA_ "MsgType" BO_ 473 2;
+BA_ "VFrameFormat" BO_ 473 14;
+BA_ "GenMsgSendType" BO_ 474 0;
+BA_ "GenMsgCycleTime" BO_ 474 50;
+BA_ "MsgType" BO_ 474 2;
+BA_ "VFrameFormat" BO_ 474 14;
+BA_ "GenMsgSendType" BO_ 475 0;
+BA_ "GenMsgCycleTime" BO_ 475 50;
+BA_ "MsgType" BO_ 475 2;
+BA_ "VFrameFormat" BO_ 475 14;
+BA_ "GenMsgSendType" BO_ 476 0;
+BA_ "GenMsgCycleTime" BO_ 476 50;
+BA_ "MsgType" BO_ 476 2;
+BA_ "VFrameFormat" BO_ 476 14;
+
+BA_ "GenMsgILSupport" BO_ 1344 1;
+BA_ "GenMsgCycleTime" BO_ 1344 66;
+BA_ "VFrameFormat" BO_ 1344 14;
+BA_ "GenMsgILSupport" BO_ 1345 1;
+BA_ "GenMsgCycleTime" BO_ 1345 66;
+BA_ "VFrameFormat" BO_ 1345 14;
+BA_ "GenMsgILSupport" BO_ 1346 1;
+BA_ "GenMsgCycleTime" BO_ 1346 66;
+BA_ "VFrameFormat" BO_ 1346 14;
+BA_ "GenMsgILSupport" BO_ 1347 1;
+BA_ "GenMsgCycleTime" BO_ 1347 66;
+BA_ "VFrameFormat" BO_ 1347 14;
+BA_ "GenMsgILSupport" BO_ 1348 1;
+BA_ "GenMsgCycleTime" BO_ 1348 66;
+BA_ "VFrameFormat" BO_ 1348 14;
+BA_ "GenMsgILSupport" BO_ 1349 1;
+BA_ "GenMsgCycleTime" BO_ 1349 66;
+BA_ "VFrameFormat" BO_ 1349 14;
+BA_ "GenMsgILSupport" BO_ 1350 1;
+BA_ "GenMsgCycleTime" BO_ 1350 66;
+BA_ "VFrameFormat" BO_ 1350 14;
+BA_ "GenMsgILSupport" BO_ 1351 1;
+BA_ "GenMsgCycleTime" BO_ 1351 66;
+BA_ "VFrameFormat" BO_ 1351 14;
+BA_ "GenMsgILSupport" BO_ 1352 1;
+BA_ "GenMsgCycleTime" BO_ 1352 66;
+BA_ "VFrameFormat" BO_ 1352 14;
+BA_ "GenMsgILSupport" BO_ 1353 1;
+BA_ "GenMsgCycleTime" BO_ 1353 66;
+BA_ "VFrameFormat" BO_ 1353 14;
+BA_ "GenMsgILSupport" BO_ 1354 1;
+BA_ "GenMsgCycleTime" BO_ 1354 66;
+BA_ "VFrameFormat" BO_ 1354 14;
+BA_ "GenMsgILSupport" BO_ 1355 1;
+BA_ "GenMsgCycleTime" BO_ 1355 66;
+BA_ "VFrameFormat" BO_ 1355 14;
+BA_ "GenMsgILSupport" BO_ 1356 1;
+BA_ "GenMsgCycleTime" BO_ 1356 66;
+BA_ "VFrameFormat" BO_ 1356 14;
+BA_ "GenMsgILSupport" BO_ 1357 1;
+BA_ "GenMsgCycleTime" BO_ 1357 66;
+BA_ "VFrameFormat" BO_ 1357 14;
+BA_ "GenMsgILSupport" BO_ 1358 1;
+BA_ "GenMsgCycleTime" BO_ 1358 66;
+BA_ "VFrameFormat" BO_ 1358 14;
+BA_ "GenMsgILSupport" BO_ 1359 1;
+BA_ "GenMsgCycleTime" BO_ 1359 66;
+BA_ "VFrameFormat" BO_ 1359 14;
+BA_ "GenMsgILSupport" BO_ 1360 1;
+BA_ "GenMsgCycleTime" BO_ 1360 66;
+BA_ "VFrameFormat" BO_ 1360 14;
+BA_ "GenMsgILSupport" BO_ 1361 1;
+BA_ "GenMsgCycleTime" BO_ 1361 66;
+BA_ "VFrameFormat" BO_ 1361 14;
+BA_ "GenMsgILSupport" BO_ 1362 1;
+BA_ "GenMsgCycleTime" BO_ 1362 66;
+BA_ "VFrameFormat" BO_ 1362 14;
+BA_ "GenMsgILSupport" BO_ 1363 1;
+BA_ "GenMsgCycleTime" BO_ 1363 66;
+BA_ "VFrameFormat" BO_ 1363 14;
+BA_ "GenMsgILSupport" BO_ 1364 1;
+BA_ "GenMsgCycleTime" BO_ 1364 66;
+BA_ "VFrameFormat" BO_ 1364 14;
+BA_ "GenMsgILSupport" BO_ 1365 1;
+BA_ "GenMsgCycleTime" BO_ 1365 66;
+BA_ "VFrameFormat" BO_ 1365 14;
+BA_ "GenMsgILSupport" BO_ 1366 1;
+BA_ "GenMsgCycleTime" BO_ 1366 66;
+BA_ "VFrameFormat" BO_ 1366 14;
+BA_ "GenMsgILSupport" BO_ 1367 1;
+BA_ "GenMsgCycleTime" BO_ 1367 66;
+BA_ "VFrameFormat" BO_ 1367 14;
+BA_ "GenMsgILSupport" BO_ 1368 1;
+BA_ "GenMsgCycleTime" BO_ 1368 66;
+BA_ "VFrameFormat" BO_ 1368 14;
+BA_ "GenMsgILSupport" BO_ 1369 1;
+BA_ "GenMsgCycleTime" BO_ 1369 66;
+BA_ "VFrameFormat" BO_ 1369 14;
+BA_ "GenMsgILSupport" BO_ 1370 1;
+BA_ "GenMsgCycleTime" BO_ 1370 66;
+BA_ "VFrameFormat" BO_ 1370 14;
+BA_ "GenMsgILSupport" BO_ 1371 1;
+BA_ "GenMsgCycleTime" BO_ 1371 66;
+BA_ "VFrameFormat" BO_ 1371 14;
+BA_ "GenMsgILSupport" BO_ 1372 1;
+BA_ "GenMsgCycleTime" BO_ 1372 66;
+BA_ "VFrameFormat" BO_ 1372 14;
+BA_ "GenMsgILSupport" BO_ 1373 1;
+BA_ "GenMsgCycleTime" BO_ 1373 66;
+BA_ "VFrameFormat" BO_ 1373 14;
+BA_ "GenMsgILSupport" BO_ 1374 1;
+BA_ "GenMsgCycleTime" BO_ 1374 66;
+BA_ "VFrameFormat" BO_ 1374 14;
+BA_ "GenMsgILSupport" BO_ 1375 1;
+BA_ "GenMsgCycleTime" BO_ 1375 66;
+BA_ "VFrameFormat" BO_ 1375 14;
+BA_ "GenMsgILSupport" BO_ 1376 1;
+BA_ "GenMsgCycleTime" BO_ 1376 66;
+BA_ "VFrameFormat" BO_ 1376 14;
+BA_ "GenMsgILSupport" BO_ 1377 1;
+BA_ "GenMsgCycleTime" BO_ 1377 66;
+BA_ "VFrameFormat" BO_ 1377 14;
+BA_ "GenMsgILSupport" BO_ 1378 1;
+BA_ "GenMsgCycleTime" BO_ 1378 66;
+BA_ "VFrameFormat" BO_ 1378 14;
+BA_ "GenMsgILSupport" BO_ 1379 1;
+BA_ "GenMsgCycleTime" BO_ 1379 66;
+BA_ "VFrameFormat" BO_ 1379 14;
+BA_ "GenMsgILSupport" BO_ 1380 1;
+BA_ "GenMsgCycleTime" BO_ 1380 66;
+BA_ "VFrameFormat" BO_ 1380 14;
+BA_ "GenMsgILSupport" BO_ 1381 1;
+BA_ "GenMsgCycleTime" BO_ 1381 66;
+BA_ "VFrameFormat" BO_ 1381 14;
+BA_ "GenMsgILSupport" BO_ 1382 1;
+BA_ "GenMsgCycleTime" BO_ 1382 66;
+BA_ "VFrameFormat" BO_ 1382 14;
+BA_ "GenMsgILSupport" BO_ 1383 1;
+BA_ "GenMsgCycleTime" BO_ 1383 66;
+BA_ "VFrameFormat" BO_ 1383 14;
+BA_ "GenMsgILSupport" BO_ 1384 1;
+BA_ "GenMsgCycleTime" BO_ 1384 66;
+BA_ "VFrameFormat" BO_ 1384 14;
+BA_ "GenMsgILSupport" BO_ 1385 1;
+BA_ "GenMsgCycleTime" BO_ 1385 66;
+BA_ "VFrameFormat" BO_ 1385 14;
+BA_ "GenMsgILSupport" BO_ 1386 1;
+BA_ "GenMsgCycleTime" BO_ 1386 66;
+BA_ "VFrameFormat" BO_ 1386 14;
+BA_ "GenMsgILSupport" BO_ 823 1;
+BA_ "GenMsgCycleTime" BO_ 823 50;
+BA_ "VFrameFormat" BO_ 823 14;
+BA_ "MsgType" BO_ 1156 2;
+BA_ "GenMsgCycleTime" BO_ 1156 50;
+BA_ "GenMsgSendType" BO_ 1156 0;
+BA_ "VFrameFormat" BO_ 1156 14;
+BA_ "MsgType" BO_ 1155 2;
+BA_ "GenMsgCycleTime" BO_ 1155 50;
+BA_ "GenMsgSendType" BO_ 1155 0;
+BA_ "VFrameFormat" BO_ 1155 14;
+BA_ "MsgType" BO_ 1154 2;
+BA_ "GenMsgCycleTime" BO_ 1154 50;
+BA_ "GenMsgSendType" BO_ 1154 0;
+BA_ "VFrameFormat" BO_ 1154 14;
+BA_ "MsgType" BO_ 1153 2;
+BA_ "GenMsgSendType" BO_ 1153 0;
+BA_ "GenMsgCycleTime" BO_ 1153 50;
+BA_ "VFrameFormat" BO_ 1153 14;
+
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_Type 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_Type 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_CRC 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_SequenceCounter 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_SequenceCounter 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_TimeDomain 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_TimeDomain 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_UserByte0 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_UserByte0 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_SyncTimeSec 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_SyncTimeSec 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_OverflowOfSeconds 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_OverflowOfSeconds 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_SGW 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_SGW 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_Reserved0 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_Reserved0 0;
+BA_ "GenSigInactiveValue" SG_ 1301 TimeSync_SyncTimeNSec 0;
+BA_ "GenSigStartValue" SG_ 1301 TimeSync_SyncTimeNSec 0;
+BA_ "GenSigInactiveValue" SG_ 1440 S3_Header_dummy 0;
+BA_ "GenSigStartValue" SG_ 1440 S3_Header_dummy 0;
+BA_ "GenSigInactiveValue" SG_ 1441 S3_Dummy_01 0;
+BA_ "GenSigStartValue" SG_ 1441 S3_Dummy_01 0;
+BA_ "GenSigInactiveValue" SG_ 1442 S3_Dummy_02 0;
+BA_ "GenSigStartValue" SG_ 1442 S3_Dummy_02 0;
+BA_ "GenSigInactiveValue" SG_ 1443 S3_Dummy_03 0;
+BA_ "GenSigStartValue" SG_ 1443 S3_Dummy_03 0;
+BA_ "GenSigInactiveValue" SG_ 1444 S3_Dummy_04 0;
+BA_ "GenSigStartValue" SG_ 1444 S3_Dummy_04 0;
+BA_ "GenSigInactiveValue" SG_ 1445 S3_Dummy_05 0;
+BA_ "GenSigStartValue" SG_ 1445 S3_Dummy_05 0;
+BA_ "GenSigInactiveValue" SG_ 1446 S3_Dummy_06 0;
+BA_ "GenSigStartValue" SG_ 1446 S3_Dummy_06 0;
+BA_ "GenSigInactiveValue" SG_ 1447 S3_Dummy_07 0;
+BA_ "GenSigStartValue" SG_ 1447 S3_Dummy_07 0;
+BA_ "GenSigInactiveValue" SG_ 1448 S3_Dummy_08 0;
+BA_ "GenSigStartValue" SG_ 1448 S3_Dummy_08 0;
+BA_ "GenSigInactiveValue" SG_ 1449 S3_Dummy_09 0;
+BA_ "GenSigStartValue" SG_ 1449 S3_Dummy_09 0;
+BA_ "GenSigInactiveValue" SG_ 1450 S3_Dummy_10 0;
+BA_ "GenSigStartValue" SG_ 1450 S3_Dummy_10 0;
+BA_ "GenSigInactiveValue" SG_ 1451 S3_Dummy_11 0;
+BA_ "GenSigStartValue" SG_ 1451 S3_Dummy_11 0;
+BA_ "GenSigInactiveValue" SG_ 1452 S3_Dummy_12 0;
+BA_ "GenSigStartValue" SG_ 1452 S3_Dummy_12 0;
+BA_ "GenSigInactiveValue" SG_ 1453 S3_Dummy_13 0;
+BA_ "GenSigStartValue" SG_ 1453 S3_Dummy_13 0;
+BA_ "GenSigInactiveValue" SG_ 1454 S3_Dummy_14 0;
+BA_ "GenSigStartValue" SG_ 1454 S3_Dummy_14 0;
+BA_ "GenSigInactiveValue" SG_ 1455 S3_Dummy_15 0;
+BA_ "GenSigStartValue" SG_ 1455 S3_Dummy_15 0;
+BA_ "GenSigInactiveValue" SG_ 1456 S3_Dummy_16 0;
+BA_ "GenSigStartValue" SG_ 1456 S3_Dummy_16 0;
+BA_ "GenSigInactiveValue" SG_ 1457 S3_Dummy_17 0;
+BA_ "GenSigStartValue" SG_ 1457 S3_Dummy_17 0;
+BA_ "GenSigInactiveValue" SG_ 1458 S3_Dummy_18 0;
+BA_ "GenSigStartValue" SG_ 1458 S3_Dummy_18 0;
+BA_ "GenSigInactiveValue" SG_ 1459 S3_Dummy_19 0;
+BA_ "GenSigStartValue" SG_ 1459 S3_Dummy_19 0;
+BA_ "GenSigInactiveValue" SG_ 1460 S3_Dummy_20 0;
+BA_ "GenSigStartValue" SG_ 1460 S3_Dummy_20 0;
+BA_ "GenSigInactiveValue" SG_ 1461 S3_Dummy_21 0;
+BA_ "GenSigStartValue" SG_ 1461 S3_Dummy_21 0;
+BA_ "GenSigInactiveValue" SG_ 1462 S3_Dummy_22 0;
+BA_ "GenSigStartValue" SG_ 1462 S3_Dummy_22 0;
+BA_ "GenSigInactiveValue" SG_ 1463 S3_Dummy_23 0;
+BA_ "GenSigStartValue" SG_ 1463 S3_Dummy_23 0;
+BA_ "GenSigInactiveValue" SG_ 1464 S3_Dummy_24 0;
+BA_ "GenSigStartValue" SG_ 1464 S3_Dummy_24 0;
+BA_ "GenSigInactiveValue" SG_ 1465 S3_Dummy_25 0;
+BA_ "GenSigStartValue" SG_ 1465 S3_Dummy_25 0;
+BA_ "GenSigInactiveValue" SG_ 1466 S3_Dummy_26 0;
+BA_ "GenSigStartValue" SG_ 1466 S3_Dummy_26 0;
+BA_ "GenSigInactiveValue" SG_ 1467 S3_Dummy_27 0;
+BA_ "GenSigStartValue" SG_ 1467 S3_Dummy_27 0;
+BA_ "GenSigInactiveValue" SG_ 1468 S3_Dummy_28 0;
+BA_ "GenSigStartValue" SG_ 1468 S3_Dummy_28 0;
+BA_ "GenSigInactiveValue" SG_ 1469 S3_Dummy_29 0;
+BA_ "GenSigStartValue" SG_ 1469 S3_Dummy_29 0;
+BA_ "GenSigInactiveValue" SG_ 1470 S3_Dummy_30 0;
+BA_ "GenSigStartValue" SG_ 1470 S3_Dummy_30 0;
+BA_ "GenSigInactiveValue" SG_ 1471 S3_Dummy_31 0;
+BA_ "GenSigStartValue" SG_ 1471 S3_Dummy_31 0;
+BA_ "GenSigInactiveValue" SG_ 1472 S3_Dummy_32 0;
+BA_ "GenSigStartValue" SG_ 1472 S3_Dummy_32 0;
+BA_ "GenSigInactiveValue" SG_ 1473 S1_Header_dummy 0;
+BA_ "GenSigStartValue" SG_ 1473 S1_Header_dummy 0;
+BA_ "GenSigInactiveValue" SG_ 1474 S1_Dummy_01 0;
+BA_ "GenSigStartValue" SG_ 1474 S1_Dummy_01 0;
+BA_ "GenSigInactiveValue" SG_ 1475 S1_Dummy_02 0;
+BA_ "GenSigStartValue" SG_ 1475 S1_Dummy_02 0;
+BA_ "GenSigInactiveValue" SG_ 1476 S1_Dummy_03 0;
+BA_ "GenSigStartValue" SG_ 1476 S1_Dummy_03 0;
+BA_ "GenSigInactiveValue" SG_ 1477 S1_Dummy_04 0;
+BA_ "GenSigStartValue" SG_ 1477 S1_Dummy_04 0;
+BA_ "GenSigInactiveValue" SG_ 1478 S1_Dummy_05 0;
+BA_ "GenSigStartValue" SG_ 1478 S1_Dummy_05 0;
+BA_ "GenSigInactiveValue" SG_ 1479 S1_Dummy_06 0;
+BA_ "GenSigStartValue" SG_ 1479 S1_Dummy_06 0;
+BA_ "GenSigInactiveValue" SG_ 1480 S1_Dummy_07 0;
+BA_ "GenSigStartValue" SG_ 1480 S1_Dummy_07 0;
+BA_ "GenSigInactiveValue" SG_ 1481 S1_Dummy_08 0;
+BA_ "GenSigStartValue" SG_ 1481 S1_Dummy_08 0;
+BA_ "GenSigInactiveValue" SG_ 1482 S1_Dummy_09 0;
+BA_ "GenSigStartValue" SG_ 1482 S1_Dummy_09 0;
+BA_ "GenSigInactiveValue" SG_ 1483 S1_Dummy_10 0;
+BA_ "GenSigStartValue" SG_ 1483 S1_Dummy_10 0;
+BA_ "GenSigInactiveValue" SG_ 1484 S1_Dummy_11 0;
+BA_ "GenSigStartValue" SG_ 1484 S1_Dummy_11 0;
+BA_ "GenSigInactiveValue" SG_ 1485 S1_Dummy_12 0;
+BA_ "GenSigStartValue" SG_ 1485 S1_Dummy_12 0;
+BA_ "GenSigInactiveValue" SG_ 1486 S1_Dummy_13 0;
+BA_ "GenSigStartValue" SG_ 1486 S1_Dummy_13 0;
+BA_ "GenSigInactiveValue" SG_ 1487 S1_Dummy_14 0;
+BA_ "GenSigStartValue" SG_ 1487 S1_Dummy_14 0;
+BA_ "GenSigInactiveValue" SG_ 1488 S1_Dummy_15 0;
+BA_ "GenSigStartValue" SG_ 1488 S1_Dummy_15 0;
+BA_ "GenSigInactiveValue" SG_ 1489 S1_Dummy_16 0;
+BA_ "GenSigStartValue" SG_ 1489 S1_Dummy_16 0;
+BA_ "GenSigInactiveValue" SG_ 1490 S1_Dummy_17 0;
+BA_ "GenSigStartValue" SG_ 1490 S1_Dummy_17 0;
+BA_ "GenSigInactiveValue" SG_ 1491 S1_Dummy_18 0;
+BA_ "GenSigStartValue" SG_ 1491 S1_Dummy_18 0;
+BA_ "GenSigInactiveValue" SG_ 1492 S1_Dummy_19 0;
+BA_ "GenSigStartValue" SG_ 1492 S1_Dummy_19 0;
+BA_ "GenSigInactiveValue" SG_ 1493 S1_Dummy_20 0;
+BA_ "GenSigStartValue" SG_ 1493 S1_Dummy_20 0;
+BA_ "GenSigInactiveValue" SG_ 1494 S1_Dummy_21 0;
+BA_ "GenSigStartValue" SG_ 1494 S1_Dummy_21 0;
+BA_ "GenSigInactiveValue" SG_ 1495 S1_Dummy_22 0;
+BA_ "GenSigStartValue" SG_ 1495 S1_Dummy_22 0;
+BA_ "GenSigInactiveValue" SG_ 1496 S1_Dummy_23 0;
+BA_ "GenSigStartValue" SG_ 1496 S1_Dummy_23 0;
+BA_ "GenSigInactiveValue" SG_ 1497 S1_Dummy_24 0;
+BA_ "GenSigStartValue" SG_ 1497 S1_Dummy_24 0;
+BA_ "GenSigInactiveValue" SG_ 1498 S1_Dummy_25 0;
+BA_ "GenSigStartValue" SG_ 1498 S1_Dummy_25 0;
+BA_ "GenSigInactiveValue" SG_ 1499 S1_Dummy_26 0;
+BA_ "GenSigStartValue" SG_ 1499 S1_Dummy_26 0;
+BA_ "GenSigInactiveValue" SG_ 1500 S1_Dummy_27 0;
+BA_ "GenSigStartValue" SG_ 1500 S1_Dummy_27 0;
+BA_ "GenSigInactiveValue" SG_ 1501 S1_Dummy_28 0;
+BA_ "GenSigStartValue" SG_ 1501 S1_Dummy_28 0;
+BA_ "GenSigInactiveValue" SG_ 1502 S1_Dummy_29 0;
+BA_ "GenSigStartValue" SG_ 1502 S1_Dummy_29 0;
+BA_ "GenSigInactiveValue" SG_ 1503 S1_Dummy_30 0;
+BA_ "GenSigStartValue" SG_ 1503 S1_Dummy_30 0;
+BA_ "GenSigInactiveValue" SG_ 1504 S1_Dummy_31 0;
+BA_ "GenSigStartValue" SG_ 1504 S1_Dummy_31 0;
+BA_ "GenSigInactiveValue" SG_ 1505 S1_Dummy_32 0;
+BA_ "GenSigStartValue" SG_ 1505 S1_Dummy_32 0;
+BA_ "GenSigStartValue" SG_ 447 S0_Dummy_33 0;
+BA_ "GenSigInactiveValue" SG_ 447 S0_Dummy_33 0;
+BA_ "GenSigStartValue" SG_ 446 S2_Dummy_34 0;
+BA_ "GenSigInactiveValue" SG_ 446 S2_Dummy_34 0;
+BA_ "GenSigStartValue" SG_ 901 S2_Dummy_35 0;
+BA_ "GenSigInactiveValue" SG_ 901 S2_Dummy_35 0;
+BA_ "GenSigStartValue" SG_ 918 S0_Dummy_36 0;
+BA_ "GenSigInactiveValue" SG_ 918 S0_Dummy_36 0;
+BA_ "GenSigStartValue" SG_ 900 S2_Dummy_37 0;
+BA_ "GenSigInactiveValue" SG_ 900 S2_Dummy_37 0;
+BA_ "GenSigStartValue" SG_ 916 S0_Dummy_38 0;
+BA_ "GenSigInactiveValue" SG_ 916 S0_Dummy_38 0;
+BA_ "GenSigStartValue" SG_ 789 S0_Dummy_39 0;
+BA_ "GenSigInactiveValue" SG_ 789 S0_Dummy_39 0;
+BA_ "GenSigStartValue" SG_ 773 S2_Dummy_40 0;
+BA_ "GenSigInactiveValue" SG_ 773 S2_Dummy_40 0;
+BA_ "GenSigStartValue" SG_ 772 S2_Dummy_41 0;
+BA_ "GenSigInactiveValue" SG_ 772 S2_Dummy_41 0;
+BA_ "GenSigStartValue" SG_ 788 S0_Dummy_42 0;
+BA_ "GenSigInactiveValue" SG_ 788 S0_Dummy_42 0;
+BA_ "GenSigStartValue" SG_ 787 S0_Dummy_43 0;
+BA_ "GenSigInactiveValue" SG_ 787 S0_Dummy_43 0;
+BA_ "GenSigStartValue" SG_ 771 S2_Dummy_44 0;
+BA_ "GenSigInactiveValue" SG_ 771 S2_Dummy_44 0;
+BA_ "GenSigStartValue" SG_ 915 S0_Dummy_45 0;
+BA_ "GenSigInactiveValue" SG_ 915 S0_Dummy_45 0;
+BA_ "GenSigStartValue" SG_ 899 S2_Dummy_46 0;
+BA_ "GenSigInactiveValue" SG_ 899 S2_Dummy_46 0;
+BA_ "GenSigStartValue" SG_ 578 S2_Dummy_47 0;
+BA_ "GenSigInactiveValue" SG_ 578 S2_Dummy_47 0;
+BA_ "GenSigStartValue" SG_ 576 S0_Dummy_48 0;
+BA_ "GenSigInactiveValue" SG_ 576 S0_Dummy_48 0;
+BA_ "GenSigStartValue" SG_ 519 S2_Dummy_49 0;
+BA_ "GenSigInactiveValue" SG_ 519 S2_Dummy_49 0;
+BA_ "GenSigStartValue" SG_ 259 S0_Dummy_50 0;
+BA_ "GenSigInactiveValue" SG_ 259 S0_Dummy_50 0;
+BA_ "GenSigStartValue" SG_ 258 S2_Dummy_51 0;
+BA_ "GenSigInactiveValue" SG_ 258 S2_Dummy_51 0;
+BA_ "GenSigStartValue" SG_ 1109 S0_Dummy_52 0;
+BA_ "GenSigInactiveValue" SG_ 1109 S0_Dummy_52 0;
+BA_ "GenSigStartValue" SG_ 1094 S2_Dummy_53 0;
+BA_ "GenSigInactiveValue" SG_ 1094 S2_Dummy_53 0;
+BA_ "GenSigStartValue" SG_ 1108 S0_Dummy_54 0;
+BA_ "GenSigInactiveValue" SG_ 1108 S0_Dummy_54 0;
+BA_ "GenSigStartValue" SG_ 1092 S2_Dummy_55 0;
+BA_ "GenSigInactiveValue" SG_ 1092 S2_Dummy_55 0;
+BA_ "GenSigStartValue" SG_ 1107 S0_Dummy_56 0;
+BA_ "GenSigInactiveValue" SG_ 1107 S0_Dummy_56 0;
+BA_ "GenSigStartValue" SG_ 1091 S2_Dummy_57 0;
+BA_ "GenSigInactiveValue" SG_ 1091 S2_Dummy_57 0;
+BA_ "GenSigStartValue" SG_ 544 S0_Dummy_58 0;
+BA_ "GenSigInactiveValue" SG_ 544 S0_Dummy_58 0;
+BA_ "GenSigStartValue" SG_ 546 S2_Dummy_59 0;
+BA_ "GenSigInactiveValue" SG_ 546 S2_Dummy_59 0;
+BA_ "GenSigStartValue" SG_ 428 S0_Dummy_60 0;
+BA_ "GenSigInactiveValue" SG_ 428 S0_Dummy_60 0;
+BA_ "GenSigStartValue" SG_ 427 S2_Dummy_61 0;
+BA_ "GenSigInactiveValue" SG_ 427 S2_Dummy_61 0;
+BA_ "GenSigStartValue" SG_ 1088 S3_Dummy_62 0;
+BA_ "GenSigInactiveValue" SG_ 1088 S3_Dummy_62 0;
+BA_ "GenSigStartValue" SG_ 1089 S3_Dummy_63 0;
+BA_ "GenSigInactiveValue" SG_ 1089 S3_Dummy_63 0;
+BA_ "GenSigStartValue" SG_ 1090 S3_Dummy_64 0;
+BA_ "GenSigInactiveValue" SG_ 1090 S3_Dummy_64 0;
+BA_ "GenSigStartValue" SG_ 1104 S1_Dummy_65 0;
+BA_ "GenSigInactiveValue" SG_ 1104 S1_Dummy_65 0;
+BA_ "GenSigStartValue" SG_ 1105 S1_Dummy_66 0;
+BA_ "GenSigInactiveValue" SG_ 1105 S1_Dummy_66 0;
+BA_ "GenSigStartValue" SG_ 1106 S1_Dummy_67 0;
+BA_ "GenSigInactiveValue" SG_ 1106 S1_Dummy_67 0;
+BA_ "GenSigStartValue" SG_ 768 S3_Dummy_68 0;
+BA_ "GenSigInactiveValue" SG_ 768 S3_Dummy_68 0;
+BA_ "GenSigStartValue" SG_ 769 S3_Dummy_69 0;
+BA_ "GenSigInactiveValue" SG_ 769 S3_Dummy_69 0;
+BA_ "GenSigStartValue" SG_ 770 S3_Dummy_70 0;
+BA_ "GenSigInactiveValue" SG_ 770 S3_Dummy_70 0;
+BA_ "GenSigStartValue" SG_ 784 S1_Dummy_71 0;
+BA_ "GenSigInactiveValue" SG_ 784 S1_Dummy_71 0;
+BA_ "GenSigStartValue" SG_ 785 S1_Dummy_72 0;
+BA_ "GenSigInactiveValue" SG_ 785 S1_Dummy_72 0;
+BA_ "GenSigStartValue" SG_ 786 S1_Dummy_73 0;
+BA_ "GenSigInactiveValue" SG_ 786 S1_Dummy_73 0;
+BA_ "GenSigStartValue" SG_ 896 S3_Dummy_74 0;
+BA_ "GenSigInactiveValue" SG_ 896 S3_Dummy_74 0;
+BA_ "GenSigStartValue" SG_ 897 S3_Dummy_75 0;
+BA_ "GenSigInactiveValue" SG_ 897 S3_Dummy_75 0;
+BA_ "GenSigStartValue" SG_ 898 S3_Dummy_76 0;
+BA_ "GenSigInactiveValue" SG_ 898 S3_Dummy_76 0;
+BA_ "GenSigStartValue" SG_ 912 S1_Dummy_77 0;
+BA_ "GenSigInactiveValue" SG_ 912 S1_Dummy_77 0;
+BA_ "GenSigStartValue" SG_ 913 S1_Dummy_78 0;
+BA_ "GenSigInactiveValue" SG_ 913 S1_Dummy_78 0;
+BA_ "GenSigStartValue" SG_ 914 S1_Dummy_79 0;
+BA_ "GenSigInactiveValue" SG_ 914 S1_Dummy_79 0;
+BA_ "GenSigStartValue" SG_ 512 S3_Dummy_80 0;
+BA_ "GenSigInactiveValue" SG_ 512 S3_Dummy_80 0;
+BA_ "GenSigStartValue" SG_ 518 S2_Dummy_81 0;
+BA_ "GenSigInactiveValue" SG_ 518 S2_Dummy_81 0;
+BA_ "GenSigStartValue" SG_ 513 S3_Dummy_82 0;
+BA_ "GenSigInactiveValue" SG_ 513 S3_Dummy_82 0;
+BA_ "GenSigStartValue" SG_ 514 S1_Dummy_83 0;
+BA_ "GenSigInactiveValue" SG_ 514 S1_Dummy_83 0;
+BA_ "GenSigStartValue" SG_ 515 S1_Dummy_84 0;
+BA_ "GenSigInactiveValue" SG_ 515 S1_Dummy_84 0;
+BA_ "GenSigStartValue" SG_ 516 S0_Dummy_85 0;
+BA_ "GenSigInactiveValue" SG_ 516 S0_Dummy_85 0;
+BA_ "GenSigStartValue" SG_ 517 S0_Dummy_86 0;
+BA_ "GenSigInactiveValue" SG_ 517 S0_Dummy_86 0;
+BA_ "GenSigStartValue" SG_ 257 S1_Dummy_87 0;
+BA_ "GenSigInactiveValue" SG_ 257 S1_Dummy_87 0;
+BA_ "GenSigStartValue" SG_ 445 S1_Dummy_88 0;
+BA_ "GenSigInactiveValue" SG_ 445 S1_Dummy_88 0;
+BA_ "GenSigStartValue" SG_ 444 S3_Dummy_89 0;
+BA_ "GenSigInactiveValue" SG_ 444 S3_Dummy_89 0;
+BA_ "GenSigStartValue" SG_ 256 S3_Dummy_90 0;
+BA_ "GenSigInactiveValue" SG_ 256 S3_Dummy_90 0;
+BA_ "GenSigStartValue" SG_ 545 S1_Dummy_91 0;
+BA_ "GenSigInactiveValue" SG_ 545 S1_Dummy_91 0;
+BA_ "GenSigStartValue" SG_ 547 S3_Dummy_92 0;
+BA_ "GenSigInactiveValue" SG_ 547 S3_Dummy_92 0;
+BA_ "GenSigStartValue" SG_ 577 S1_Dummy_93 0;
+BA_ "GenSigInactiveValue" SG_ 577 S1_Dummy_93 0;
+BA_ "GenSigStartValue" SG_ 579 S3_Dummy_94 0;
+BA_ "GenSigInactiveValue" SG_ 579 S3_Dummy_94 0;
+BA_ "GenSigStartValue" SG_ 561 S1_Dummy_95 0;
+BA_ "GenSigInactiveValue" SG_ 561 S1_Dummy_95 0;
+BA_ "GenSigStartValue" SG_ 560 S3_Dummy_96 0;
+BA_ "GenSigInactiveValue" SG_ 560 S3_Dummy_96 0;
+BA_ "GenSigStartValue" SG_ 563 S0_Dummy_97 0;
+BA_ "GenSigInactiveValue" SG_ 563 S0_Dummy_97 0;
+BA_ "GenSigStartValue" SG_ 562 S2_Dummy_98 0;
+BA_ "GenSigInactiveValue" SG_ 562 S2_Dummy_98 0;
+BA_ "GenSigStartValue" SG_ 417 S3_Dummy_99 0;
+BA_ "GenSigInactiveValue" SG_ 417 S3_Dummy_99 0;
+BA_ "GenSigStartValue" SG_ 419 S2_Dummy_100 0;
+BA_ "GenSigInactiveValue" SG_ 419 S2_Dummy_100 0;
+BA_ "GenSigStartValue" SG_ 800 S3_Dummy_101 0;
+BA_ "GenSigInactiveValue" SG_ 800 S3_Dummy_101 0;
+BA_ "GenSigStartValue" SG_ 801 S1_Dummy_102 0;
+BA_ "GenSigInactiveValue" SG_ 801 S1_Dummy_102 0;
+BA_ "GenSigStartValue" SG_ 802 S2_Dummy_103 0;
+BA_ "GenSigInactiveValue" SG_ 802 S2_Dummy_103 0;
+BA_ "GenSigStartValue" SG_ 803 S0_Dummy_104 0;
+BA_ "GenSigInactiveValue" SG_ 803 S0_Dummy_104 0;
+BA_ "GenSigStartValue" SG_ 418 S1_Dummy_105 0;
+BA_ "GenSigInactiveValue" SG_ 418 S1_Dummy_105 0;
+BA_ "GenSigStartValue" SG_ 420 S0_Dummy_106 0;
+BA_ "GenSigInactiveValue" SG_ 420 S0_Dummy_106 0;
+BA_ "GenSigStartValue" SG_ 425 S3_Dummy_107 0;
+BA_ "GenSigInactiveValue" SG_ 425 S3_Dummy_107 0;
+BA_ "GenSigStartValue" SG_ 426 S1_Dummy_108 0;
+BA_ "GenSigInactiveValue" SG_ 426 S1_Dummy_108 0;
+BA_ "GenSigStartValue" SG_ 469 S3_Dummy_109 0;
+BA_ "GenSigInactiveValue" SG_ 469 S3_Dummy_109 0;
+BA_ "GenSigStartValue" SG_ 470 S1_Dummy_110 0;
+BA_ "GenSigInactiveValue" SG_ 470 S1_Dummy_110 0;
+BA_ "GenSigStartValue" SG_ 471 S2_Dummy_111 0;
+BA_ "GenSigInactiveValue" SG_ 471 S2_Dummy_111 0;
+BA_ "GenSigStartValue" SG_ 472 S0_Dummy_112 0;
+BA_ "GenSigInactiveValue" SG_ 472 S0_Dummy_112 0;
+BA_ "GenSigStartValue" SG_ 288 S0_Dummy_113 0;
+BA_ "GenSigInactiveValue" SG_ 288 S0_Dummy_113 0;
+BA_ "GenSigStartValue" SG_ 289 S1_Dummy_114 0;
+BA_ "GenSigInactiveValue" SG_ 289 S1_Dummy_114 0;
+BA_ "GenSigStartValue" SG_ 290 S2_Dummy_115 0;
+BA_ "GenSigInactiveValue" SG_ 290 S2_Dummy_115 0;
+BA_ "GenSigStartValue" SG_ 291 S3_Dummy_116 0;
+BA_ "GenSigInactiveValue" SG_ 291 S3_Dummy_116 0;
+BA_ "GenSigStartValue" SG_ 304 S0_Dummy_117 0;
+BA_ "GenSigInactiveValue" SG_ 304 S0_Dummy_117 0;
+BA_ "GenSigStartValue" SG_ 305 S1_Dummy_118 0;
+BA_ "GenSigInactiveValue" SG_ 305 S1_Dummy_118 0;
+BA_ "GenSigStartValue" SG_ 306 S2_Dummy_119 0;
+BA_ "GenSigInactiveValue" SG_ 306 S2_Dummy_119 0;
+BA_ "GenSigStartValue" SG_ 307 S3_Dummy_120 0;
+BA_ "GenSigInactiveValue" SG_ 307 S3_Dummy_120 0;
+BA_ "GenSigStartValue" SG_ 320 S0_Dummy_121 0;
+BA_ "GenSigInactiveValue" SG_ 320 S0_Dummy_121 0;
+BA_ "GenSigStartValue" SG_ 321 S1_Dummy_122 0;
+BA_ "GenSigInactiveValue" SG_ 321 S1_Dummy_122 0;
+BA_ "GenSigStartValue" SG_ 322 S2_Dummy_123 0;
+BA_ "GenSigInactiveValue" SG_ 322 S2_Dummy_123 0;
+BA_ "GenSigStartValue" SG_ 323 S3_Dummy_124 0;
+BA_ "GenSigInactiveValue" SG_ 323 S3_Dummy_124 0;
+BA_ "GenSigStartValue" SG_ 336 S0_Dummy_125 0;
+BA_ "GenSigInactiveValue" SG_ 336 S0_Dummy_125 0;
+BA_ "GenSigStartValue" SG_ 337 S1_Dummy_126 0;
+BA_ "GenSigInactiveValue" SG_ 337 S1_Dummy_126 0;
+BA_ "GenSigStartValue" SG_ 338 S2_Dummy_127 0;
+BA_ "GenSigInactiveValue" SG_ 338 S2_Dummy_127 0;
+BA_ "GenSigStartValue" SG_ 339 S3_Dummy_128 0;
+BA_ "GenSigInactiveValue" SG_ 339 S3_Dummy_128 0;
+BA_ "GenSigStartValue" SG_ 824 S0_Dummy_129 0;
+BA_ "GenSigInactiveValue" SG_ 824 S0_Dummy_129 0;
+BA_ "GenSigStartValue" SG_ 825 S1_Dummy_130 0;
+BA_ "GenSigInactiveValue" SG_ 825 S1_Dummy_130 0;
+BA_ "GenSigStartValue" SG_ 832 S2_Dummy_131 0;
+BA_ "GenSigInactiveValue" SG_ 832 S2_Dummy_131 0;
+BA_ "GenSigStartValue" SG_ 833 S3_Dummy_132 0;
+BA_ "GenSigInactiveValue" SG_ 833 S3_Dummy_132 0;
+BA_ "GenSigStartValue" SG_ 819 S3_Dummy_133 0;
+BA_ "GenSigInactiveValue" SG_ 819 S3_Dummy_133 0;
+BA_ "GenSigStartValue" SG_ 818 S2_Dummy_134 0;
+BA_ "GenSigInactiveValue" SG_ 818 S2_Dummy_134 0;
+BA_ "GenSigStartValue" SG_ 816 S0_Dummy_135 0;
+BA_ "GenSigInactiveValue" SG_ 816 S0_Dummy_135 0;
+BA_ "GenSigStartValue" SG_ 817 S1_Dummy_136 0;
+BA_ "GenSigInactiveValue" SG_ 817 S1_Dummy_136 0;
+BA_ "GenSigStartValue" SG_ 838 S0_Dummy_137 0;
+BA_ "GenSigInactiveValue" SG_ 838 S0_Dummy_137 0;
+BA_ "GenSigStartValue" SG_ 839 S1_Dummy_138 0;
+BA_ "GenSigInactiveValue" SG_ 839 S1_Dummy_138 0;
+BA_ "GenSigStartValue" SG_ 840 S2_Dummy_139 0;
+BA_ "GenSigInactiveValue" SG_ 840 S2_Dummy_139 0;
+BA_ "GenSigStartValue" SG_ 841 S3_Dummy_140 0;
+BA_ "GenSigInactiveValue" SG_ 841 S3_Dummy_140 0;
+BA_ "GenSigStartValue" SG_ 836 S2_Dummy_141 0;
+BA_ "GenSigInactiveValue" SG_ 836 S2_Dummy_141 0;
+BA_ "GenSigStartValue" SG_ 835 S1_Dummy_142 0;
+BA_ "GenSigInactiveValue" SG_ 835 S1_Dummy_142 0;
+BA_ "GenSigStartValue" SG_ 834 S0_Dummy_143 0;
+BA_ "GenSigInactiveValue" SG_ 834 S0_Dummy_143 0;
+BA_ "GenSigStartValue" SG_ 837 S3_Dummy_144 0;
+BA_ "GenSigInactiveValue" SG_ 837 S3_Dummy_144 0;
+
+BA_ "GenSigStartValue" SG_ 1153 Em_MotionData_S0_Dummy 0;
+BA_ "GenSigInactiveValue" SG_ 1153 Em_MotionData_S0_Dummy 0;
+BA_ "GenSigStartValue" SG_ 1154 Em_MotionData_S1_Dummy 0;
+BA_ "GenSigInactiveValue" SG_ 1154 Em_MotionData_S1_Dummy 0;
+BA_ "GenSigStartValue" SG_ 1155 Em_MotionData_S2_Dummy 0;
+BA_ "GenSigInactiveValue" SG_ 1155 Em_MotionData_S2_Dummy 0;
+BA_ "GenSigStartValue" SG_ 1156 Em_MotionData_S3_Dummy 0;
+BA_ "GenSigInactiveValue" SG_ 1156 Em_MotionData_S3_Dummy 0;
+
