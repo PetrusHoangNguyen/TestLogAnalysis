@@ -1,0 +1,2605 @@
+VERSION "created by canmatrix"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Gateway Sensor3 Sensor1 Sensor2 Sensor0 FLCR_51C_DA FLCR_51C_L4_DA
+
+
+BO_ 49 ACU_2: 8 Gateway
+ SG_ ACU_2_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_LateralAcceleration : 23|16@0+ (0.001,-2) [-2|2] "g"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_YawRate : 39|16@0+ (0.01,-180) [-180|180] "deg/sec"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_YASCalibrationSts : 48|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_YawrateSigValidData : 50|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_LateralAccelerationSigVD : 52|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_Reserved2 : 55|3@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_2_Reserved3 : 63|8@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 33 ACU_3: 8 Gateway
+ SG_ ACU_3_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_3_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_3_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_3_LongitudinalAcceleration : 23|16@0+ (0.001,-2) [-2|2] "g"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_3_LongitudinalAccelerationVD : 39|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ACU_3_Reserved : 37|30@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 143 CIC_RWS_6: 8 Gateway
+ SG_ CIC_ESPFctOffLamp : 45|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CIC_TCSFlt : 43|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CIC_VDCFlt : 41|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CIC_TCSActv : 55|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CIC_VDCActv : 53|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1172 TMS_1: 8 Gateway
+ SG_ TMS_1_Reserved : 7|16@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ExternalTemperature_F : 23|8@0+ (1,-67) [-67|158] "°F"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ExternalTemperatureRaw_C : 31|8@0+ (0.5,-40) [-40|85] "°C"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ExternalTemperature_C : 39|8@0+ (0.5,-40) [-40|85] "°C"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ExternalTemperatureFailSts : 40|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ TMS_1_Reserved1 : 47|7@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ TMS_1_Reserved2 : 55|16@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 306 SAS_1: 8 Gateway
+ SG_ SAM_1_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_Resd : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_SteeringAngle : 23|16@0+ (0.0625,-2048) [-2048|2047.875] "deg"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_SteeringAngleSpeed : 39|8@0+ (4,0) [0|1016] "deg/Sec"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_SteeringAngleVD : 41|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_SteeringAngleSpeedVD : 40|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_Reserved1 : 47|6@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ SAM_1_Reserved2 : 55|16@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 571 FLZCU_1: 8 Gateway
+ SG_ FLZCU_1_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_Resd : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_Reserved1 : 18|3@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHTurnlightSts : 19|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHTurnlightSts : 20|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_Reserved2 : 21|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_Reserved3 : 28|3@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ HoodSts : 30|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ DrvDoorLockSts : 25|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ DrvDoorSts : 23|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ DrvSeatBeltSW : 31|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_Reserved4 : 39|11@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ DirectionIndLeft : 43|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_1_Reserved5 : 42|19@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ DirectionIndRight : 44|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1120 FLZCU_3: 8 Gateway
+ SG_ FLZCU_3_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_3_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_3_Reserved1 : 15|4@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RLHS_2_AmbBrightness : 19|12@0+ (20,0) [0|81880] "Lux"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_3_Reserved2 : 23|4@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RLHS_2_IRBrightness : 63|8@0+ (400,0) [0|101600] "Lux"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RLHS_Rainfall : 44|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_3_Reserved3 : 39|11@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_3_Reserved4 : 42|9@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RLHS_LiSwithReason : 49|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1043 FLZCU_8: 8 Gateway
+ SG_ EBS_U_BATT : 7|14@0+ (0.0009765625,3) [3|18] "V"  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1181 FLZCU_9: 8 Gateway
+ SG_ FLZCU_9_PowerMode : 17|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_9_ArmingSts : 25|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FuelVehPowerMode : 46|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1030 FLZCU_12: 16 Gateway
+ SG_ FLZCU_12_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_Reserved1 : 15|4@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_Reserved2 : 23|8@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_FrontWiperParkStatus : 24|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_Reserved3 : 29|5@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_FrontWiperWipingStatus : 31|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_Reserved4 : 39|29@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_Reserved5 : 56|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FLZCU_12_Reserved6 : 71|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RearViewFoldSts : 58|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1257 FLZCU_28: 32 Gateway
+ SG_ SSMStatus : 87|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ AcceleratorPosRawIVD : 84|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ AcceleratorPosRaw : 81|10@0+ (0.1,0) [0|100] "%"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ GasPedalPosition : 103|10@0+ (0.1,0) [0|100] "%"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ GasPedalPositionInvalidData : 109|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ EMS_Timeout_Flag : 107|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ActualGear : 119|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ TargetGearValidData : 105|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ActualGearValidData : 115|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ShiftInProgress : 113|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ShiftInProgressValidData : 127|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ TargetGear : 125|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ TCU_Timeout_Flag : 121|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 683 FRZCU_1: 8 Gateway
+ SG_ FRZCU_1_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FRZCU_1_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FRZCU_1_Resd : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ PassDoorSts : 22|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FRZCU_1_Reserved1 : 23|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ PassRearDoorSts : 49|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FRZCU_1_Reserved2 : 20|35@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ FRZCU_1_Reserved3 : 63|8@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 699 RZCU_2: 8 Gateway
+ SG_ RZCU_2_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RZCU_2_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RZCU_2_Resd : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ DrvRearDoorSts : 21|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RZCU_2_Reserved2 : 23|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RZCU_2_Reserved3 : 19|44@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1050 FLCR_1: 8 Sensor3
+ SG_ FLCR_1_CRC1 : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ FLCR_1_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Gateway
+ SG_ FLCR_1_Resd1 : 15|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ FLCR_1_SysSt : 23|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ FLCR_1_BlkSts : 21|1@0+ (1,0) [0|1] ""  Gateway
+
+BO_ 1062 FLCR_2: 8 Sensor3
+ SG_ FLCR_2_CRC1 : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ FLCR_2_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Gateway
+ SG_ FLCR_2_Resd1 : 15|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ FLCR_2_FCTAWarn : 21|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_2_FCTBWarn : 22|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_2_FCTBReq : 23|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_2_FCTBCtrlA : 17|10@0+ (0.01,-10.22) [-10.22|0] "m/s2"  Gateway
+ SG_ FLCR_2_FCTAFCTBONOFFSts : 39|2@0+ (1,0) [0|3] ""  Gateway
+
+BO_ 1067 FRCR_1: 8 Sensor1
+ SG_ FRCR_1_CRC1 : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ FRCR_1_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Gateway
+ SG_ FRCR_1_Resd1 : 15|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ FRCR_1_SysSt : 23|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ FRCR_1_BlkSts : 21|1@0+ (1,0) [0|1] ""  Gateway
+
+BO_ 1077 FRCR_2: 8 Sensor1
+ SG_ FRCR_2_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor3,Gateway
+ SG_ FRCR_2_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor3,Gateway
+ SG_ FRCR_2_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor3,Gateway
+ SG_ FRCR_2_FCTAWarn : 21|1@0+ (1,0) [0|1] ""  Sensor3,Gateway
+ SG_ FRCR_2_FCTBWarn : 22|1@0+ (1,0) [0|1] ""  Sensor3,Gateway
+ SG_ FRCR_2_FCTBReq : 23|1@0+ (1,0) [0|1] ""  Sensor3,Gateway
+ SG_ FRCR_2_FCTBCtrlA : 17|10@0+ (0.01,-10.22) [-10.22|0] "m/s2"  Sensor3,Gateway
+ SG_ FRCR_2_FCTAFCTBONOFFSts : 39|2@0+ (1,0) [0|3] ""  Sensor3,Gateway
+
+BO_ 1095 RLCR_1: 8 Sensor2
+ SG_ RLCR_1_CRC1 : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_1_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Gateway
+ SG_ RLCR_1_Resd1 : 15|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ RLCR_1_SysSt : 17|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_1_BlkSts : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_1_BSDWarn : 21|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_1_DOWWarn : 23|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_1_DowLock : 25|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_1_ELK_Collision_flag : 27|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_1_ELK_CollisionFlagValid : 29|2@0+ (1,0) [0|3] ""  Gateway
+
+BO_ 1104 RLCR_2: 8 Sensor2
+ SG_ RLCR_2_CRC1 : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_2_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Gateway
+ SG_ RLCR_2_Resd1 : 15|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ RLCR_2_RCWWarn : 17|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_2_RCTAWarn : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_2_RCTBWarn : 19|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_2_RCTBReq : 20|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_2_RCTBCtrlA : 31|10@0+ (0.01,-10.22) [-10.22|0] "m/s2"  Gateway
+ SG_ RLCR_2_BSDLCWONOFFSts : 33|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_2_DOWONOFFSts : 35|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_2_RCWONOFFSts : 37|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_2_RCTARCTBONOFFSts : 47|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_2_BSDLCWONOFFSts_AFS : 55|3@0+ (1,0) [0|7] ""  Gateway
+
+BO_ 935 RLCR_3: 24 Sensor2
+ SG_ RLCR_3_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RLCR_3_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_3_Le1ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_3_Le1ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_3_Le1HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RLCR_3_Le1ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_3_Le1ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_3_Le1ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_3_Le1ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RLCR_3_Le1ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_3_Le1ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_3_Le1ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_3_Le1ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_3_Le1ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_3_Le1ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RLCR_3_Le1ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_3_Le1ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_3_Le1ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_3_Le1ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RLCR_3_Le1ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 937 RLCR_4: 24 Sensor2
+ SG_ RLCR_4_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RLCR_4_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_4_Le2ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_4_Le2ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_4_Le2HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RLCR_4_Le2ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_4_Le2ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_4_Le2ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_4_Le2ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RLCR_4_Le2ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_4_Le2ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_4_Le2ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_4_Le2ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_4_Le2ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_4_Le2ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RLCR_4_Le2ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_4_Le2ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_4_Le2ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_4_Le2ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RLCR_4_Le2ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 941 RLCR_5: 24 Sensor2
+ SG_ RLCR_5_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RLCR_5_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_5_Le3ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_5_Le3ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_5_Le3HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RLCR_5_Le3ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_5_Le3ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_5_Le3ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_5_Le3ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RLCR_5_Le3ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_5_Le3ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_5_Le3ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_5_Le3ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_5_Le3ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_5_Le3ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RLCR_5_Le3ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_5_Le3ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_5_Le3ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_5_Le3ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RLCR_5_Le3ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 946 RLCR_6: 24 Sensor2
+ SG_ RLCR_6_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RLCR_6_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_6_Le4ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_6_Le4ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_6_Le4HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RLCR_6_Le4ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_6_Le4ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_6_Le4ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_6_Le4ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RLCR_6_Le4ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_6_Le4ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_6_Le4ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_6_Le4ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_6_Le4ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_6_Le4ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RLCR_6_Le4ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_6_Le4ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_6_Le4ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_6_Le4ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RLCR_6_Le4ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 948 RLCR_7: 24 Sensor2
+ SG_ RLCR_7_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RLCR_7_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_7_Le5ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_7_Le5ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RLCR_7_Le5HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RLCR_7_Le5ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_7_Le5ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_7_Le5ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RLCR_7_Le5ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RLCR_7_Le5ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_7_Le5ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RLCR_7_Le5ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_7_Le5ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_7_Le5ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_7_Le5ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RLCR_7_Le5ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RLCR_7_Le5ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_7_Le5ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RLCR_7_Le5ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RLCR_7_Le5ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 953 RLCR_8: 16 Sensor2
+ SG_ TimeSync_Type M : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ TimeSync_CRC : 15|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ TimeSync_SequenceCounter : 19|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ TimeSync_TimeDomain : 23|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ TimeSync_UserByte0 m32 : 31|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ TimeSync_SyncTimeSec m32 : 39|32@0+ (1,0) [0|4294967295] ""  Gateway
+ SG_ TimeSync_OverflowOfSeconds m40 : 25|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ TimeSync_SGW m40 : 26|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ TimeSync_Reserved0 m40 : 31|5@0+ (1,0) [0|1] ""  Gateway
+ SG_ TimeSync_SyncTimeNSec m40 : 39|32@0+ (1,0) [0|4294967295] ""  Gateway
+
+BO_ 1267 RRCR_1: 8 Sensor0
+ SG_ RRCR_1_CRC1 : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_1_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Gateway
+ SG_ RRCR_1_Resd1 : 15|4@0+ (1,0) [0|15] ""  Gateway
+ SG_ RRCR_1_SysSt : 17|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_1_BlkSts : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_1_BSDWarn : 21|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_1_DOWWarn : 23|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_1_DowLock : 25|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_1_ELK_Collision_flag : 27|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_1_ELK_CollisionFlagValid : 29|2@0+ (1,0) [0|3] ""  Gateway
+
+BO_ 1271 RRCR_2: 8 Sensor0
+ SG_ RRCR_2_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor2,Gateway
+ SG_ RRCR_2_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor2,Gateway
+ SG_ RRCR_2_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCWWarn : 17|2@0+ (1,0) [0|3] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCTAWarn : 18|1@0+ (1,0) [0|1] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCTBWarn : 19|1@0+ (1,0) [0|1] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCTBReq : 20|1@0+ (1,0) [0|1] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCTBCtrlA : 31|10@0+ (0.01,-10.22) [-10.22|0] "m/s2"  Sensor2,Gateway
+ SG_ RRCR_2_BSDLCWONOFFSts : 33|2@0+ (1,0) [0|3] ""  Sensor2,Gateway
+ SG_ RRCR_2_DOWONOFFSts : 35|2@0+ (1,0) [0|3] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCWONOFFSts : 37|2@0+ (1,0) [0|3] ""  Sensor2,Gateway
+ SG_ RRCR_2_RCTARCTBONOFFSts : 47|2@0+ (1,0) [0|3] ""  Sensor2,Gateway
+ SG_ RRCR_2_BSDLCWONOFFSts_AFS : 55|3@0+ (1,0) [0|7] ""  Sensor2,Gateway
+
+BO_ 959 RRCR_3: 24 Sensor0
+ SG_ RRCR_3_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RRCR_3_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_3_Ri1ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_3_Ri1ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_3_Ri1HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RRCR_3_Ri1ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_3_Ri1ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_3_Ri1ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_3_Ri1ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RRCR_3_Ri1ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_3_Ri1ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_3_Ri1ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_3_Ri1ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_3_Ri1ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_3_Ri1ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RRCR_3_Ri1ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_3_Ri1ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_3_Ri1ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_3_Ri1ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RRCR_3_Ri1ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 969 RRCR_4: 24 Sensor0
+ SG_ RRCR_4_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RRCR_4_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_4_Ri2ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_4_Ri2ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_4_Ri2HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RRCR_4_Ri2ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_4_Ri2ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_4_Ri2ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_4_Ri2ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RRCR_4_Ri2ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_4_Ri2ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_4_Ri2ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_4_Ri2ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_4_Ri2ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_4_Ri2ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RRCR_4_Ri2ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_4_Ri2ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_4_Ri2ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_4_Ri2ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RRCR_4_Ri2ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 976 RRCR_5: 24 Sensor0
+ SG_ RRCR_5_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RRCR_5_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_5_Ri3ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_5_Ri3ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_5_Ri3HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RRCR_5_Ri3ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_5_Ri3ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_5_Ri3ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_5_Ri3ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RRCR_5_Ri3ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_5_Ri3ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_5_Ri3ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_5_Ri3ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_5_Ri3ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_5_Ri3ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RRCR_5_Ri3ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_5_Ri3ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_5_Ri3ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_5_Ri3ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RRCR_5_Ri3ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 984 RRCR_6: 24 Sensor0
+ SG_ RRCR_6_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RRCR_6_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_6_Ri4ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_6_Ri4ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_6_Ri4HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RRCR_6_Ri4ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_6_Ri4ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_6_Ri4ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_6_Ri4ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RRCR_6_Ri4ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_6_Ri4ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_6_Ri4ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_6_Ri4ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_6_Ri4ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_6_Ri4ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RRCR_6_Ri4ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_6_Ri4ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_6_Ri4ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_6_Ri4ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RRCR_6_Ri4ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 986 RRCR_7: 24 Sensor0
+ SG_ RRCR_7_CRC : 7|16@0+ (1,0) [0|65535] ""  Gateway
+ SG_ RRCR_7_RollgCntr : 23|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_7_Ri5ObjBoxLen : 31|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_7_Ri5ObjBoxWidth : 38|9@0+ (0.1,0) [0|50] "m"  Gateway
+ SG_ RRCR_7_Ri5HdTo : 45|12@0+ (0.1,-180) [-180|180] "deg"  Gateway
+ SG_ RRCR_7_Ri5ObjID : 63|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_7_Ri5ObjCoordY : 71|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_7_Ri5ObjCoordX : 74|13@0+ (0.05,-200) [-200|200] "m"  Gateway
+ SG_ RRCR_7_Ri5ObjXDirAV : 111|8@0+ (0.1,-12.8) [-12.8|12.7] "m/s2"  Gateway
+ SG_ RRCR_7_Ri5ObjYDirV : 93|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_7_Ri5ObjXDirV : 119|14@0+ (0.02,-128) [-128|128] "m/s"  Gateway
+ SG_ RRCR_7_Ri5ObjMtnChartc : 49|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_7_Ri5ObjTyp : 121|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_7_Ri5ObjConf : 135|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_7_Ri5ObjNrOffocst : 134|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RRCR_7_Ri5ObjTrackSt : 129|2@0+ (1,0) [0|3] ""  Gateway
+ SG_ RRCR_7_Ri5ObjCoordXDstStdDe : 143|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_7_Ri5ObjCoordYDstStdDe : 151|8@0+ (0.05,0) [0|12.7] ""  Gateway
+ SG_ RRCR_7_Ri5ObjXDirVStdDe : 159|6@0+ (0.05,0) [0|2] ""  Gateway
+ SG_ RRCR_7_Ri5ObjYDirVStdDe : 167|6@0+ (0.05,0) [0|2] ""  Gateway
+
+BO_ 990 RRCR_8: 16 Sensor0
+ SG_ TimeSync_Type M : 7|8@0+ (1,0) [0|255] ""  Sensor2
+ SG_ TimeSync_CRC : 15|8@0+ (1,0) [0|255] ""  Sensor2
+ SG_ TimeSync_SequenceCounter : 19|4@0+ (1,0) [0|15] ""  Sensor2
+ SG_ TimeSync_TimeDomain : 23|4@0+ (1,0) [0|15] ""  Sensor2
+ SG_ TimeSync_UserByte0 m32 : 31|8@0+ (1,0) [0|255] ""  Sensor2
+ SG_ TimeSync_SyncTimeSec m32 : 39|32@0+ (1,0) [0|4294967295] ""  Sensor2
+ SG_ TimeSync_OverflowOfSeconds m40 : 25|2@0+ (1,0) [0|3] ""  Sensor2
+ SG_ TimeSync_SGW m40 : 26|1@0+ (1,0) [0|1] ""  Sensor2
+ SG_ TimeSync_Reserved0 m40 : 31|5@0+ (1,0) [0|1] ""  Sensor2
+ SG_ TimeSync_SyncTimeNSec m40 : 39|32@0+ (1,0) [0|4294967295] ""  Sensor2
+
+BO_ 1049 RLBMS_2: 8 Gateway
+ SG_ RLBMS_2_PackExternalVoltage : 39|16@0+ (0.001,0) [0|65.535] "V"  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1252 ICC_COM_1: 8 Gateway
+ SG_ TotalOdometer_km_OBD : 23|24@0+ (0.1,0) [0|999999.9] "km"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ TotalOdometer_km_OBDValidData : 60|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1296 ICC_COM_8: 8 Gateway
+ SG_ CurrentTimeYear : 7|8@0+ (1,2000) [2000|2255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_COM_8_Reserved1 : 11|4@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CurrentTimeMonth : 15|4@0+ (1,0) [1|12] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_COM_8_Reserved2 : 18|3@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CurrentTimeDay : 23|5@0+ (1,0) [1|31] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_COM_8_Reserved3 : 26|3@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CurrentTimeHour : 31|5@0+ (1,0) [0|23] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_COM_8_Reserved4 : 33|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CurrentTimeMinute : 39|6@0+ (1,0) [0|59] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ CurrentTimeSecond : 47|6@0+ (1,0) [0|59] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_COM_8_Reserved5 : 41|18@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1157 ICC_DA_15: 8 Gateway
+ SG_ ICC_DA_15_Reserved1 : 7|16@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_BSDLCWSettingSt : 17|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_DOWSettingSt : 19|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_RCWSettingSt : 21|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_RCTARCTBWarnType : 23|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_FCTAFCTBWarnType : 25|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_Reserved2 : 31|6@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_Reserved3 : 39|19@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_BSDLCWSettingSt_AFS : 52|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ICC_DA_15_Reserved4 : 49|10@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 152 ONEBOX_1: 24 Gateway
+ SG_ ONEBOX_1_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_VehicleSpeedVSOSig : 23|13@0+ (0.0625,0) [0|511.875] "km/h"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved1 : 25|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ESP1_VehicleSpeedVSOSigValidData : 26|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_ABSFailSts : 24|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved2 : 39|10@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved3 : 40|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_ABSActive : 41|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_VDCFailSts : 42|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_VDCActive : 43|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_TCSFailSts : 44|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_TCSActive : 45|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved4 : 54|15@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ABS_ESP_1_ESPSwitchStatus : 55|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_CRC2 : 71|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_RollgCntr2 : 75|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Resd2 : 79|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved5 : 87|20@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ AEBdecActive : 98|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ AEBdecAvailable : 99|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved6 : 97|26@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_1_Reserved7 : 135|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 555 ONEBOX_3: 48 Gateway
+ SG_ ONEBOX_3_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VehicleStandstill : 19|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ NoBrakeForce : 22|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved1 : 23|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved2 : 21|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved3 : 17|42@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_CRC2 : 71|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_RollgCntr2 : 75|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Resd2 : 79|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ WheelBrakeForce : 87|16@0+ (8,-250000) [-250000|250000] "N"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved4 : 103|32@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_CRC4 : 199|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_RollgCntr4 : 203|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Resd4 : 207|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ IPB_PlungerPressureValidData : 220|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ IPB_PlungerPressure : 231|10@0+ (1,0) [0|1022] "Bar"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved5 : 135|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved6 : 215|11@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved7 : 219|4@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved8 : 237|22@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved9 : 263|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_3_Reserved10 : 327|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 587 ONEBOX_4: 48 Gateway
+ SG_ ONEBOX_4_CRC1 : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_RollgCntr1 : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Resd1 : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHFWheelSpeedRPM : 23|16@0+ (0.0625,0) [0|4095.875] " rpm"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHFWheelSpeedRPM : 39|16@0+ (0.0625,0) [0|4095.875] " rpm"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHRWheelSpeedRPM : 55|16@0+ (0.0625,0) [0|4095.875] " rpm"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_CRC2 : 71|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_RollgCntr2 : 75|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Resd2 : 79|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHRWheelSpeedRPM : 87|16@0+ (0.0625,0) [0|4095.875] " rpm"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Reserved1 : 105|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHRPulseCounterFailSts : 106|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHRPulseCounter : 103|13@0+ (1,0) [0|8191] "pulse"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Reserved2 : 121|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHRPulseCounterFailSts : 122|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHRPulseCounter : 119|13@0+ (1,0) [0|8191] "pulse"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_CRC3 : 135|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_RollgCntr3 : 139|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Resd3 : 143|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHFPulseCounterFailSts : 154|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHFPulseCounter : 151|13@0+ (1,0) [0|8191] "pulse"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Reserved3 : 153|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHFPulseCounterFailSts : 170|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHFPulseCounter : 167|13@0+ (1,0) [0|8191] "pulse"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Reserved4 : 169|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHFWheelSpeedRaw : 183|12@0+ (0.05,-30) [-30|80] "m/s"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHFWheelDriveDirection : 187|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHFWheelSpeedRawValidData : 184|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_CRC4 : 199|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_RollgCntr4 : 203|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Resd4 : 207|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHFWheelSpeedRaw : 215|12@0+ (0.05,-30) [-30|80] "m/s"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHFWheelDriveDirection : 219|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHFWheelSpeedRawValidData : 216|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHRWheelSpeedRaw : 231|12@0+ (0.05,-30) [-30|80] "m/s"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHRWheelDriveDirection : 235|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ LHRWheelSpeedRawValidData : 232|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHRWheelSpeedRaw : 247|12@0+ (0.05,-30) [-30|80] "m/s"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHRWheelDriveDirection : 251|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RHRWheelSpeedRawValidData : 248|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Reserved5 : 263|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ ONEBOX_4_Reserved6 : 327|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1199 TCM_1: 8 Gateway
+ SG_ TCM_1_TrailerSts : 16|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1035 VCC_1: 8 Gateway
+ SG_ VCC_1_CarMode : 31|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1209 VCU_2_G: 8 Gateway
+ SG_ VCU_2_G_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_2_G_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_2_G_Resd : 13|2@0+ (1,0) [0|3] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_2_Reserved1 : 15|2@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_2_Reserved2 : 23|17@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_2_Reserved3 : 37|30@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_HVReady : 38|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 56 VCU_COM_10: 16 Gateway
+ SG_ VCU_10_CRC : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_10_RollgCntr : 11|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_10_Resd : 15|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_10_Reserved1 : 17|4@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_TargetGear : 20|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ActualGear : 23|3@0+ (1,0) [0|7] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_10_Reserved2 : 27|36@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_TargetGearValidData : 28|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ActualGearValidData : 29|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_10_Reserved3 : 71|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 59 VCU_ONEBOX_11: 64 Gateway
+ SG_ VCU_ONEBOX_11_Reserved1 : 7|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved2 : 71|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved3 : 135|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_11_CRC4 : 199|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_11_RollgCntr4 : 203|4@0+ (1,0) [0|14] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_11_Resd4 : 207|4@0+ (1,0) [0|15] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved4 : 215|17@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved5 : 229|6@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_GasPedalPositionInvalidData : 230|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_GasPedalPosition : 239|10@0+ (0.1,0) [0|100] "%"  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved6 : 245|14@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved7 : 263|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved8 : 327|64@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ VCU_ONEBOX_11_Reserved9 : 391|16@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1421 FLCR_RemoteDiag: 32 Sensor3
+ SG_ FLCR_TotalFaultNum : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ FLCR_FrameIndex : 12|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ FLCR_SupplierNum : 15|3@0+ (1,0) [0|7] ""  Gateway
+ SG_ FLCR_FaultNum1 : 23|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum2 : 27|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum3 : 47|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum4 : 51|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum5 : 71|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum6 : 75|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum7 : 95|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum8 : 99|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum9 : 119|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum10 : 123|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum11 : 143|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum12 : 147|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum13 : 167|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum14 : 171|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum15 : 191|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum16 : 195|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum17 : 215|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum18 : 219|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum19 : 239|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FLCR_FaultNum20 : 243|12@0+ (1,0) [0|4095] ""  Gateway
+
+BO_ 1618 NMm_FLCR: 8 Sensor3
+ SG_ srcNodeID_FLCR : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RMR_FLCR : 8|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ NMm_FLCR_Reserved1 : 15|7@0+ (1,0) [0|127] ""  Gateway
+ SG_ FLCR_Wakeup_Poweron : 16|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_Wakeup_NM : 17|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_Wakeup_Diag : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_Awake_Poweron : 40|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_Awake_NM : 41|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FLCR_Awake_Diag : 42|1@0+ (1,0) [0|1] ""  Gateway
+
+BO_ 1996 Diag_FLCR_RES: 64 Sensor3
+ SG_ Diag_FLCR_RES : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Gateway
+
+BO_ 1868 Diag_FLCR_REQ: 64 Gateway
+ SG_ Diag_FLCR_REQ : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Sensor3
+
+BO_ 2015 DIAG_OBD_REQ_Broadcast: 64 Gateway
+ SG_ Diag_Functional_REQ : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+BO_ 1422 FRCR_RemoteDiag: 32 Sensor1
+ SG_ FRCR_TotalFaultNum : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ FRCR_FrameIndex : 12|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ FRCR_SupplierNum : 15|3@0+ (1,0) [0|7] ""  Gateway
+ SG_ FRCR_FaultNum1 : 23|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum2 : 27|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum3 : 47|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum4 : 51|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum5 : 71|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum6 : 75|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum7 : 95|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum8 : 99|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum9 : 119|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum10 : 123|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum11 : 143|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum12 : 147|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum13 : 167|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum14 : 171|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum15 : 191|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum16 : 195|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum17 : 215|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum18 : 219|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum19 : 239|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ FRCR_FaultNum20 : 243|12@0+ (1,0) [0|4095] ""  Gateway
+
+BO_ 1619 NMm_FRCR: 8 Sensor1
+ SG_ srcNodeID_FRCR : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RMR_FRCR : 8|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ NMm_FRCR_Reserved1 : 15|7@0+ (1,0) [0|127] ""  Gateway
+ SG_ FRCR_Wakeup_Poweron : 16|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FRCR_Wakeup_NM : 17|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FRCR_Wakeup_Diag : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FRCR_Awake_Poweron : 40|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FRCR_Awake_NM : 41|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ FRCR_Awake_Diag : 42|1@0+ (1,0) [0|1] ""  Gateway
+
+BO_ 1997 Diag_FRCR_RES: 64 Sensor1
+ SG_ Diag_FRCR_RES : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Gateway
+
+BO_ 1869 Diag_FRCR_REQ: 64 Gateway
+ SG_ Diag_FRCR_REQ : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Sensor1
+
+BO_ 1423 RLCR_RemoteDiag: 32 Sensor2
+ SG_ RLCR_TotalFaultNum : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RLCR_FrameIndex : 12|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RLCR_SupplierNum : 15|3@0+ (1,0) [0|7] ""  Gateway
+ SG_ RLCR_FaultNum1 : 23|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum2 : 27|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum3 : 47|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum4 : 51|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum5 : 71|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum6 : 75|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum7 : 95|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum8 : 99|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum9 : 119|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum10 : 123|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum11 : 143|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum12 : 147|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum13 : 167|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum14 : 171|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum15 : 191|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum16 : 195|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum17 : 215|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum18 : 219|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum19 : 239|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RLCR_FaultNum20 : 243|12@0+ (1,0) [0|4095] ""  Gateway
+
+BO_ 1599 NMm_RLCR: 8 Sensor2
+ SG_ srcNodeID_RLCR : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RMR_RLCR : 8|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ NMm_RLCR_Reserved1 : 15|7@0+ (1,0) [0|127] ""  Gateway
+ SG_ RLCR_Wakeup_Poweron : 16|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Wakeup_NM : 17|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Wakeup_Diag : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Wakeup_DOW : 19|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Awake_Poweron : 40|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Awake_NM : 41|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Awake_Diag : 42|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RLCR_Awake_DOW : 43|1@0+ (1,0) [0|1] ""  Gateway
+
+BO_ 1987 Diag_RLCR_RES: 64 Sensor2
+ SG_ Diag_RLCR_RES : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Gateway
+
+BO_ 1859 Diag_RLCR_REQ: 64 Gateway
+ SG_ Diag_RLCR_REQ : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Sensor2
+
+BO_ 1428 RRCR_RemoteDiag: 32 Sensor0
+ SG_ RRCR_TotalFaultNum : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RRCR_FrameIndex : 12|5@0+ (1,0) [0|31] ""  Gateway
+ SG_ RRCR_SupplierNum : 15|3@0+ (1,0) [0|7] ""  Gateway
+ SG_ RRCR_FaultNum1 : 23|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum2 : 27|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum3 : 47|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum4 : 51|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum5 : 71|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum6 : 75|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum7 : 95|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum8 : 99|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum9 : 119|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum10 : 123|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum11 : 143|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum12 : 147|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum13 : 167|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum14 : 171|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum15 : 191|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum16 : 195|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum17 : 215|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum18 : 219|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum19 : 239|12@0+ (1,0) [0|4095] ""  Gateway
+ SG_ RRCR_FaultNum20 : 243|12@0+ (1,0) [0|4095] ""  Gateway
+
+BO_ 1600 NMm_RRCR: 8 Sensor0
+ SG_ srcNodeID_RRCR : 7|8@0+ (1,0) [0|255] ""  Gateway
+ SG_ RMR_RRCR : 8|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ NMm_RRCR_Reserved1 : 15|7@0+ (1,0) [0|127] ""  Gateway
+ SG_ RRCR_Wakeup_Poweron : 16|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Wakeup_NM : 17|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Wakeup_Diag : 18|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Wakeup_DOW : 19|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Awake_Poweron : 40|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Awake_NM : 41|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Awake_Diag : 42|1@0+ (1,0) [0|1] ""  Gateway
+ SG_ RRCR_Awake_DOW : 43|1@0+ (1,0) [0|1] ""  Gateway
+
+BO_ 1988 Diag_RRCR_RES: 64 Sensor0
+ SG_ Diag_RRCR_RES : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Gateway
+
+BO_ 1860 Diag_RRCR_REQ: 64 Gateway
+ SG_ Diag_RRCR_REQ : 7|64@0+ (1,0) [0|1.84467440737096E+019] ""  Sensor0
+
+BO_ 1536 NMm_Gateway: 8 Gateway
+ SG_ srcNodeID_Gateway : 7|8@0+ (1,0) [0|255] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ RMR_Gateway : 8|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ NMm_Gateway_Reserved1 : 15|7@0+ (1,0) [0|127] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Wakeup_Poweron : 16|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Wakeup_NM : 17|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Wakeup_Diag : 18|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Wakeup_DOW : 19|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Awake_Poweron : 40|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Awake_NM : 41|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Awake_Diag : 42|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+ SG_ Gateway_Awake_DOW : 43|1@0+ (1,0) [0|1] ""  Sensor3,Sensor1,Sensor2,Sensor0
+
+
+
+BA_DEF_ BO_  "CANFD_BRS" ENUM  "0","1";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 65535;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","IfActive","CE","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_ BO_  "MsgType" ENUM  "CDD","COM","PduExt","COM_LONG","COM_LONG_FC","CANNM","XCP_REQ","XCP_RESP","UDS_PHY_REQ","UDS_PHY_RESP","UDS_FUN_REQ","CANTSYN";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "Receivers" STRING ;
+BA_DEF_ BO_  "Transmitters" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ SG_  "GenSigASIL" ENUM  "QM","A","B","C","D","vector_leerstring";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 65535;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnChange","OnWrite","IfActive","OnChangeWithRepetition","OnWriteWithRepetition","IfActiveWithRepetition","NoSigSendType","OnChangeAndIfActive","OnChangeAndIfActiveWithRepetition","CA","CE","Event";
+BA_DEF_ SG_  "GenSigStartValue" INT 0 65535;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmStationAddress" INT 0 63;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "NmBaseAddress" HEX 1536 1663;
+BA_DEF_  "NmMessageCount" INT 0 255;
+BA_DEF_DEF_  "CANFD_BRS" "1";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "MsgType" "COM";
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "Receivers" "Default";
+BA_DEF_DEF_  "Transmitters" "Default";
+BA_DEF_DEF_  "VFrameFormat" "";
+BA_DEF_DEF_  "GenSigASIL" "QM";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "BusType" "CAN FD";
+BA_DEF_DEF_  "DBName" "CAN";
+BA_DEF_DEF_  "NmBaseAddress" 1536;
+BA_DEF_DEF_  "NmMessageCount" 128;
+BA_ "BusType" "CAN FD";
+BA_ "DBName" "CHERY_03_VCOM";
+BA_ "GenMsgILSupport" BO_ 49 1;
+BA_ "GenMsgCycleTime" BO_ 49 10;
+BA_ "VFrameFormat" BO_ 49 14;
+BA_ "GenMsgStartDelayTime" BO_ 33 5;
+BA_ "GenMsgSendType" BO_ 33 3;
+BA_ "GenMsgNrOfRepetition" BO_ 33 6;
+BA_ "GenMsgILSupport" BO_ 33 1;
+BA_ "GenMsgCycleTimeFast" BO_ 33 10;
+BA_ "GenMsgCycleTime" BO_ 33 10;
+BA_ "VFrameFormat" BO_ 33 14;
+BA_ "GenMsgILSupport" BO_ 143 1;
+BA_ "GenMsgCycleTime" BO_ 143 10;
+BA_ "VFrameFormat" BO_ 143 14;
+BA_ "GenMsgILSupport" BO_ 1172 1;
+BA_ "GenMsgCycleTime" BO_ 1172 100;
+BA_ "VFrameFormat" BO_ 1172 14;
+BA_ "GenMsgILSupport" BO_ 306 1;
+BA_ "GenMsgCycleTime" BO_ 306 10;
+BA_ "VFrameFormat" BO_ 306 14;
+BA_ "GenMsgILSupport" BO_ 571 1;
+BA_ "GenMsgCycleTime" BO_ 571 20;
+BA_ "VFrameFormat" BO_ 571 14;
+BA_ "GenMsgILSupport" BO_ 1120 1;
+BA_ "GenMsgCycleTime" BO_ 1120 100;
+BA_ "VFrameFormat" BO_ 1120 14;
+BA_ "VFrameFormat" BO_ 1043 14;
+BA_ "GenMsgILSupport" BO_ 1181 1;
+BA_ "GenMsgCycleTime" BO_ 1181 100;
+BA_ "VFrameFormat" BO_ 1181 14;
+BA_ "GenMsgILSupport" BO_ 1030 1;
+BA_ "GenMsgCycleTime" BO_ 1030 100;
+BA_ "VFrameFormat" BO_ 1030 14;
+BA_ "GenMsgILSupport" BO_ 1257 1;
+BA_ "GenMsgCycleTime" BO_ 1257 100;
+BA_ "VFrameFormat" BO_ 1257 14;
+BA_ "GenMsgILSupport" BO_ 683 1;
+BA_ "GenMsgCycleTime" BO_ 683 20;
+BA_ "VFrameFormat" BO_ 683 14;
+BA_ "GenMsgILSupport" BO_ 699 1;
+BA_ "GenMsgCycleTime" BO_ 699 20;
+BA_ "VFrameFormat" BO_ 699 14;
+BA_ "GenMsgILSupport" BO_ 1050 1;
+BA_ "GenMsgCycleTime" BO_ 1050 100;
+BA_ "VFrameFormat" BO_ 1050 14;
+BA_ "GenMsgILSupport" BO_ 1062 1;
+BA_ "GenMsgCycleTime" BO_ 1062 100;
+BA_ "VFrameFormat" BO_ 1062 14;
+BA_ "GenMsgILSupport" BO_ 1067 1;
+BA_ "GenMsgCycleTime" BO_ 1067 100;
+BA_ "VFrameFormat" BO_ 1067 14;
+BA_ "GenMsgILSupport" BO_ 1077 1;
+BA_ "GenMsgCycleTime" BO_ 1077 100;
+BA_ "VFrameFormat" BO_ 1077 14;
+BA_ "GenMsgILSupport" BO_ 1095 1;
+BA_ "GenMsgCycleTime" BO_ 1095 100;
+BA_ "VFrameFormat" BO_ 1095 14;
+BA_ "GenMsgILSupport" BO_ 1104 1;
+BA_ "GenMsgCycleTime" BO_ 1104 100;
+BA_ "VFrameFormat" BO_ 1104 14;
+BA_ "GenMsgILSupport" BO_ 935 1;
+BA_ "GenMsgCycleTime" BO_ 935 50;
+BA_ "VFrameFormat" BO_ 935 14;
+BA_ "GenMsgILSupport" BO_ 937 1;
+BA_ "GenMsgCycleTime" BO_ 937 50;
+BA_ "VFrameFormat" BO_ 937 14;
+BA_ "GenMsgILSupport" BO_ 941 1;
+BA_ "GenMsgCycleTime" BO_ 941 50;
+BA_ "VFrameFormat" BO_ 941 14;
+BA_ "GenMsgILSupport" BO_ 946 1;
+BA_ "GenMsgCycleTime" BO_ 946 50;
+BA_ "VFrameFormat" BO_ 946 14;
+BA_ "GenMsgILSupport" BO_ 948 1;
+BA_ "GenMsgCycleTime" BO_ 948 50;
+BA_ "VFrameFormat" BO_ 948 14;
+BA_ "GenMsgILSupport" BO_ 953 1;
+BA_ "GenMsgCycleTime" BO_ 953 50;
+BA_ "MsgType" BO_ 953 1;
+BA_ "VFrameFormat" BO_ 953 14;
+BA_ "GenMsgILSupport" BO_ 1267 1;
+BA_ "GenMsgCycleTime" BO_ 1267 100;
+BA_ "VFrameFormat" BO_ 1267 14;
+BA_ "GenMsgILSupport" BO_ 1271 1;
+BA_ "GenMsgCycleTime" BO_ 1271 100;
+BA_ "VFrameFormat" BO_ 1271 14;
+BA_ "GenMsgILSupport" BO_ 959 1;
+BA_ "GenMsgCycleTime" BO_ 959 50;
+BA_ "VFrameFormat" BO_ 959 14;
+BA_ "GenMsgILSupport" BO_ 969 1;
+BA_ "GenMsgCycleTime" BO_ 969 50;
+BA_ "VFrameFormat" BO_ 969 14;
+BA_ "GenMsgILSupport" BO_ 976 1;
+BA_ "GenMsgCycleTime" BO_ 976 50;
+BA_ "VFrameFormat" BO_ 976 14;
+BA_ "GenMsgILSupport" BO_ 984 1;
+BA_ "GenMsgCycleTime" BO_ 984 50;
+BA_ "VFrameFormat" BO_ 984 14;
+BA_ "GenMsgILSupport" BO_ 986 1;
+BA_ "GenMsgCycleTime" BO_ 986 50;
+BA_ "VFrameFormat" BO_ 986 14;
+BA_ "GenMsgILSupport" BO_ 990 1;
+BA_ "GenMsgCycleTime" BO_ 990 50;
+BA_ "MsgType" BO_ 990 11;
+BA_ "VFrameFormat" BO_ 990 14;
+BA_ "GenMsgILSupport" BO_ 1049 1;
+BA_ "GenMsgCycleTime" BO_ 1049 100;
+BA_ "GenMsgILSupport" BO_ 1252 1;
+BA_ "GenMsgCycleTime" BO_ 1252 100;
+BA_ "GenMsgILSupport" BO_ 1296 1;
+BA_ "GenMsgCycleTime" BO_ 1296 500;
+BA_ "VFrameFormat" BO_ 1296 14;
+BA_ "GenMsgStartDelayTime" BO_ 1157 5;
+BA_ "GenMsgSendType" BO_ 1157 3;
+BA_ "GenMsgNrOfRepetition" BO_ 1157 3;
+BA_ "GenMsgILSupport" BO_ 1157 1;
+BA_ "GenMsgCycleTimeFast" BO_ 1157 50;
+BA_ "GenMsgCycleTime" BO_ 1157 100;
+BA_ "VFrameFormat" BO_ 1157 14;
+BA_ "GenMsgILSupport" BO_ 152 1;
+BA_ "GenMsgCycleTime" BO_ 152 10;
+BA_ "VFrameFormat" BO_ 152 14;
+BA_ "GenMsgILSupport" BO_ 555 1;
+BA_ "GenMsgCycleTime" BO_ 555 20;
+BA_ "VFrameFormat" BO_ 555 14;
+BA_ "GenMsgILSupport" BO_ 587 1;
+BA_ "GenMsgCycleTime" BO_ 587 20;
+BA_ "VFrameFormat" BO_ 587 14;
+BA_ "GenMsgILSupport" BO_ 1199 1;
+BA_ "GenMsgCycleTime" BO_ 1199 100;
+BA_ "VFrameFormat" BO_ 1199 14;
+BA_ "GenMsgILSupport" BO_ 1035 1;
+BA_ "GenMsgCycleTime" BO_ 1035 100;
+BA_ "VFrameFormat" BO_ 1035 14;
+BA_ "GenMsgILSupport" BO_ 1209 1;
+BA_ "GenMsgCycleTime" BO_ 1209 100;
+BA_ "VFrameFormat" BO_ 1209 14;
+BA_ "GenMsgILSupport" BO_ 56 1;
+BA_ "GenMsgCycleTime" BO_ 56 10;
+BA_ "VFrameFormat" BO_ 56 14;
+BA_ "GenMsgILSupport" BO_ 59 1;
+BA_ "GenMsgCycleTime" BO_ 59 10;
+BA_ "VFrameFormat" BO_ 59 14;
+BA_ "GenMsgILSupport" BO_ 1421 1;
+BA_ "GenMsgCycleTime" BO_ 1421 500;
+BA_ "VFrameFormat" BO_ 1421 14;
+BA_ "VFrameFormat" BO_ 1618 0;
+BA_ "NmMessage" BO_ 1618 1;
+BA_ "MsgType" BO_ 1618 5;
+BA_ "GenMsgILSupport" BO_ 1618 0;
+BA_ "GenMsgCycleTime" BO_ 1618 1000;
+BA_ "CANFD_BRS" BO_ 1618 0;
+BA_ "MsgType" BO_ 1996 9;
+BA_ "GenMsgILSupport" BO_ 1996 0;
+BA_ "DiagResponse" BO_ 1996 1;
+BA_ "VFrameFormat" BO_ 1996 14;
+BA_ "MsgType" BO_ 1868 8;
+BA_ "GenMsgILSupport" BO_ 1868 0;
+BA_ "DiagRequest" BO_ 1868 1;
+BA_ "VFrameFormat" BO_ 1868 14;
+BA_ "MsgType" BO_ 2015 10;
+BA_ "GenMsgILSupport" BO_ 2015 0;
+BA_ "DiagState" BO_ 2015 1;
+BA_ "VFrameFormat" BO_ 2015 14;
+BA_ "GenMsgILSupport" BO_ 1422 1;
+BA_ "GenMsgCycleTime" BO_ 1422 500;
+BA_ "VFrameFormat" BO_ 1422 14;
+BA_ "VFrameFormat" BO_ 1619 0;
+BA_ "NmMessage" BO_ 1619 1;
+BA_ "MsgType" BO_ 1619 5;
+BA_ "GenMsgILSupport" BO_ 1619 0;
+BA_ "GenMsgCycleTime" BO_ 1619 1000;
+BA_ "CANFD_BRS" BO_ 1619 0;
+BA_ "MsgType" BO_ 1997 9;
+BA_ "GenMsgILSupport" BO_ 1997 0;
+BA_ "DiagResponse" BO_ 1997 1;
+BA_ "VFrameFormat" BO_ 1997 14;
+BA_ "MsgType" BO_ 1869 8;
+BA_ "GenMsgILSupport" BO_ 1869 0;
+BA_ "DiagRequest" BO_ 1869 1;
+BA_ "VFrameFormat" BO_ 1869 14;
+BA_ "GenMsgILSupport" BO_ 1423 1;
+BA_ "GenMsgCycleTime" BO_ 1423 500;
+BA_ "VFrameFormat" BO_ 1423 14;
+BA_ "VFrameFormat" BO_ 1599 0;
+BA_ "NmMessage" BO_ 1599 1;
+BA_ "MsgType" BO_ 1599 5;
+BA_ "GenMsgILSupport" BO_ 1599 0;
+BA_ "GenMsgCycleTime" BO_ 1599 1000;
+BA_ "CANFD_BRS" BO_ 1599 0;
+BA_ "MsgType" BO_ 1987 9;
+BA_ "GenMsgILSupport" BO_ 1987 0;
+BA_ "DiagResponse" BO_ 1987 1;
+BA_ "VFrameFormat" BO_ 1987 14;
+BA_ "MsgType" BO_ 1859 8;
+BA_ "GenMsgILSupport" BO_ 1859 0;
+BA_ "DiagRequest" BO_ 1859 1;
+BA_ "VFrameFormat" BO_ 1859 14;
+BA_ "GenMsgILSupport" BO_ 1428 1;
+BA_ "GenMsgCycleTime" BO_ 1428 500;
+BA_ "VFrameFormat" BO_ 1428 14;
+BA_ "VFrameFormat" BO_ 1600 0;
+BA_ "NmMessage" BO_ 1600 1;
+BA_ "MsgType" BO_ 1600 5;
+BA_ "GenMsgILSupport" BO_ 1600 0;
+BA_ "GenMsgCycleTime" BO_ 1600 1000;
+BA_ "CANFD_BRS" BO_ 1600 0;
+BA_ "MsgType" BO_ 1988 9;
+BA_ "GenMsgILSupport" BO_ 1988 0;
+BA_ "DiagResponse" BO_ 1988 1;
+BA_ "VFrameFormat" BO_ 1988 14;
+BA_ "MsgType" BO_ 1860 8;
+BA_ "GenMsgILSupport" BO_ 1860 0;
+BA_ "DiagRequest" BO_ 1860 1;
+BA_ "VFrameFormat" BO_ 1860 14;
+BA_ "VFrameFormat" BO_ 1536 0;
+BA_ "NmMessage" BO_ 1536 1;
+BA_ "MsgType" BO_ 1536 5;
+BA_ "GenMsgILSupport" BO_ 1536 0;
+BA_ "GenMsgCycleTime" BO_ 1536 1000;
+BA_ "CANFD_BRS" BO_ 1536 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_CRC1 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_Resd1 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_LateralAcceleration 0;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_LateralAcceleration 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_YawRate 0;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_YawRate 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_YASCalibrationSts 1;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_YASCalibrationSts 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_YawrateSigValidData 3;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_YawrateSigValidData 0;
+BA_ "GenSigStartValue" SG_ 49 ACU_2_LateralAccelerationSigVD 3;
+BA_ "GenSigInactiveValue" SG_ 49 ACU_2_LateralAccelerationSigVD 0;
+BA_ "GenSigStartValue" SG_ 33 ACU_3_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 33 ACU_3_CRC1 0;
+BA_ "GenSigStartValue" SG_ 33 ACU_3_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 33 ACU_3_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 33 ACU_3_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 33 ACU_3_Resd1 0;
+BA_ "GenSigStartValue" SG_ 33 ACU_3_LongitudinalAcceleration 0;
+BA_ "GenSigInactiveValue" SG_ 33 ACU_3_LongitudinalAcceleration 0;
+BA_ "GenSigStartValue" SG_ 33 ACU_3_LongitudinalAccelerationVD 3;
+BA_ "GenSigInactiveValue" SG_ 33 ACU_3_LongitudinalAccelerationVD 0;
+BA_ "GenSigStartValue" SG_ 143 CIC_ESPFctOffLamp 0;
+BA_ "GenSigInactiveValue" SG_ 143 CIC_ESPFctOffLamp 0;
+BA_ "GenSigStartValue" SG_ 143 CIC_TCSFlt 0;
+BA_ "GenSigInactiveValue" SG_ 143 CIC_TCSFlt 0;
+BA_ "GenSigStartValue" SG_ 143 CIC_VDCFlt 0;
+BA_ "GenSigInactiveValue" SG_ 143 CIC_VDCFlt 0;
+BA_ "GenSigStartValue" SG_ 143 CIC_TCSActv 0;
+BA_ "GenSigInactiveValue" SG_ 143 CIC_TCSActv 0;
+BA_ "GenSigStartValue" SG_ 143 CIC_VDCActv 0;
+BA_ "GenSigInactiveValue" SG_ 143 CIC_VDCActv 0;
+BA_ "GenSigStartValue" SG_ 1172 ExternalTemperature_F 225;
+BA_ "GenSigInactiveValue" SG_ 1172 ExternalTemperature_F 0;
+BA_ "GenSigStartValue" SG_ 1172 ExternalTemperatureRaw_C 254;
+BA_ "GenSigInactiveValue" SG_ 1172 ExternalTemperatureRaw_C 0;
+BA_ "GenSigStartValue" SG_ 1172 ExternalTemperature_C 254;
+BA_ "GenSigInactiveValue" SG_ 1172 ExternalTemperature_C 0;
+BA_ "GenSigStartValue" SG_ 1172 ExternalTemperatureFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 1172 ExternalTemperatureFailSts 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_CRC 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_Resd 0;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_Resd 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_SteeringAngle 65535;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_SteeringAngle 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_SteeringAngleSpeed 255;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_SteeringAngleSpeed 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_SteeringAngleVD 1;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_SteeringAngleVD 0;
+BA_ "GenSigStartValue" SG_ 306 SAM_1_SteeringAngleSpeedVD 1;
+BA_ "GenSigInactiveValue" SG_ 306 SAM_1_SteeringAngleSpeedVD 0;
+BA_ "GenSigStartValue" SG_ 571 FLZCU_1_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 571 FLZCU_1_CRC 0;
+BA_ "GenSigStartValue" SG_ 571 FLZCU_1_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 571 FLZCU_1_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 571 FLZCU_1_Resd 0;
+BA_ "GenSigInactiveValue" SG_ 571 FLZCU_1_Resd 0;
+BA_ "GenSigStartValue" SG_ 571 LHTurnlightSts 0;
+BA_ "GenSigInactiveValue" SG_ 571 LHTurnlightSts 0;
+BA_ "GenSigStartValue" SG_ 571 RHTurnlightSts 0;
+BA_ "GenSigInactiveValue" SG_ 571 RHTurnlightSts 0;
+BA_ "GenSigStartValue" SG_ 571 HoodSts 0;
+BA_ "GenSigInactiveValue" SG_ 571 HoodSts 0;
+BA_ "GenSigStartValue" SG_ 571 DrvDoorLockSts 3;
+BA_ "GenSigInactiveValue" SG_ 571 DrvDoorLockSts 0;
+BA_ "GenSigStartValue" SG_ 571 DrvDoorSts 0;
+BA_ "GenSigInactiveValue" SG_ 571 DrvDoorSts 0;
+BA_ "GenSigStartValue" SG_ 571 DrvSeatBeltSW 0;
+BA_ "GenSigInactiveValue" SG_ 571 DrvSeatBeltSW 0;
+BA_ "GenSigStartValue" SG_ 1120 FLZCU_3_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 1120 FLZCU_3_CRC 0;
+BA_ "GenSigStartValue" SG_ 1120 FLZCU_3_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 1120 FLZCU_3_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 1120 RLHS_2_AmbBrightness 0;
+BA_ "GenSigInactiveValue" SG_ 1120 RLHS_2_AmbBrightness 0;
+BA_ "GenSigStartValue" SG_ 1120 RLHS_2_IRBrightness 0;
+BA_ "GenSigInactiveValue" SG_ 1120 RLHS_2_IRBrightness 0;
+BA_ "GenSigStartValue" SG_ 1120 RLHS_Rainfall 0;
+BA_ "GenSigInactiveValue" SG_ 1120 RLHS_Rainfall 0;
+BA_ "GenSigStartValue" SG_ 1120 RLHS_LiSwithReason 0;
+BA_ "GenSigInactiveValue" SG_ 1120 RLHS_LiSwithReason 0;
+BA_ "GenSigStartValue" SG_ 1181 FLZCU_9_PowerMode 0;
+BA_ "GenSigInactiveValue" SG_ 1181 FLZCU_9_PowerMode 0;
+BA_ "GenSigStartValue" SG_ 1181 FLZCU_9_ArmingSts 0;
+BA_ "GenSigInactiveValue" SG_ 1181 FLZCU_9_ArmingSts 0;
+BA_ "GenSigStartValue" SG_ 1181 FuelVehPowerMode 0;
+BA_ "GenSigInactiveValue" SG_ 1181 FuelVehPowerMode 0;
+BA_ "GenSigStartValue" SG_ 1030 FLZCU_12_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 1030 FLZCU_12_CRC 0;
+BA_ "GenSigStartValue" SG_ 1030 FLZCU_12_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 1030 FLZCU_12_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 1030 FLZCU_FrontWiperParkStatus 0;
+BA_ "GenSigInactiveValue" SG_ 1030 FLZCU_FrontWiperParkStatus 0;
+BA_ "GenSigStartValue" SG_ 1030 FLZCU_FrontWiperWipingStatus 0;
+BA_ "GenSigInactiveValue" SG_ 1030 FLZCU_FrontWiperWipingStatus 0;
+BA_ "GenSigStartValue" SG_ 1030 RearViewFoldSts 0;
+BA_ "GenSigInactiveValue" SG_ 1030 RearViewFoldSts 0;
+BA_ "GenSigStartValue" SG_ 1257 SSMStatus 0;
+BA_ "GenSigInactiveValue" SG_ 1257 SSMStatus 0;
+BA_ "GenSigStartValue" SG_ 1257 AcceleratorPosRawIVD 0;
+BA_ "GenSigInactiveValue" SG_ 1257 AcceleratorPosRawIVD 0;
+BA_ "GenSigStartValue" SG_ 1257 AcceleratorPosRaw 0;
+BA_ "GenSigInactiveValue" SG_ 1257 AcceleratorPosRaw 0;
+BA_ "GenSigStartValue" SG_ 1257 GasPedalPosition 0;
+BA_ "GenSigInactiveValue" SG_ 1257 GasPedalPosition 0;
+BA_ "GenSigStartValue" SG_ 1257 GasPedalPositionInvalidData 0;
+BA_ "GenSigInactiveValue" SG_ 1257 GasPedalPositionInvalidData 0;
+BA_ "GenSigStartValue" SG_ 1257 EMS_Timeout_Flag 0;
+BA_ "GenSigInactiveValue" SG_ 1257 EMS_Timeout_Flag 0;
+BA_ "GenSigStartValue" SG_ 1257 ActualGear 0;
+BA_ "GenSigInactiveValue" SG_ 1257 ActualGear 0;
+BA_ "GenSigStartValue" SG_ 1257 TargetGearValidData 0;
+BA_ "GenSigInactiveValue" SG_ 1257 TargetGearValidData 0;
+BA_ "GenSigStartValue" SG_ 1257 ActualGearValidData 0;
+BA_ "GenSigInactiveValue" SG_ 1257 ActualGearValidData 0;
+BA_ "GenSigStartValue" SG_ 1257 ShiftInProgress 0;
+BA_ "GenSigInactiveValue" SG_ 1257 ShiftInProgress 0;
+BA_ "GenSigStartValue" SG_ 1257 ShiftInProgressValidData 0;
+BA_ "GenSigInactiveValue" SG_ 1257 ShiftInProgressValidData 0;
+BA_ "GenSigStartValue" SG_ 1257 TargetGear 15;
+BA_ "GenSigInactiveValue" SG_ 1257 TargetGear 0;
+BA_ "GenSigStartValue" SG_ 1257 TCU_Timeout_Flag 0;
+BA_ "GenSigInactiveValue" SG_ 1257 TCU_Timeout_Flag 0;
+BA_ "GenSigStartValue" SG_ 683 FRZCU_1_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 683 FRZCU_1_CRC 0;
+BA_ "GenSigStartValue" SG_ 683 FRZCU_1_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 683 FRZCU_1_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 683 FRZCU_1_Resd 0;
+BA_ "GenSigInactiveValue" SG_ 683 FRZCU_1_Resd 0;
+BA_ "GenSigStartValue" SG_ 683 PassDoorSts 0;
+BA_ "GenSigInactiveValue" SG_ 683 PassDoorSts 0;
+BA_ "GenSigStartValue" SG_ 683 PassRearDoorSts 0;
+BA_ "GenSigInactiveValue" SG_ 683 PassRearDoorSts 0;
+BA_ "GenSigStartValue" SG_ 699 RZCU_2_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 699 RZCU_2_CRC 0;
+BA_ "GenSigStartValue" SG_ 699 RZCU_2_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 699 RZCU_2_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 699 RZCU_2_Resd 0;
+BA_ "GenSigInactiveValue" SG_ 699 RZCU_2_Resd 0;
+BA_ "GenSigStartValue" SG_ 699 DrvRearDoorSts 0;
+BA_ "GenSigInactiveValue" SG_ 699 DrvRearDoorSts 0;
+BA_ "GenSigStartValue" SG_ 1050 FLCR_1_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1050 FLCR_1_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1050 FLCR_1_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1050 FLCR_1_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1050 FLCR_1_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1050 FLCR_1_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1050 FLCR_1_SysSt 0;
+BA_ "GenSigInactiveValue" SG_ 1050 FLCR_1_SysSt 0;
+BA_ "GenSigStartValue" SG_ 1050 FLCR_1_BlkSts 0;
+BA_ "GenSigInactiveValue" SG_ 1050 FLCR_1_BlkSts 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_FCTAWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_FCTAWarn 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_FCTBWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_FCTBWarn 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_FCTBReq 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_FCTBReq 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_FCTBCtrlA 1022;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_FCTBCtrlA 0;
+BA_ "GenSigStartValue" SG_ 1062 FLCR_2_FCTAFCTBONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1062 FLCR_2_FCTAFCTBONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1067 FRCR_1_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1067 FRCR_1_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1067 FRCR_1_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1067 FRCR_1_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1067 FRCR_1_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1067 FRCR_1_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1067 FRCR_1_SysSt 0;
+BA_ "GenSigInactiveValue" SG_ 1067 FRCR_1_SysSt 0;
+BA_ "GenSigStartValue" SG_ 1067 FRCR_1_BlkSts 0;
+BA_ "GenSigInactiveValue" SG_ 1067 FRCR_1_BlkSts 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_FCTAWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_FCTAWarn 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_FCTBWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_FCTBWarn 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_FCTBReq 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_FCTBReq 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_FCTBCtrlA 1022;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_FCTBCtrlA 0;
+BA_ "GenSigStartValue" SG_ 1077 FRCR_2_FCTAFCTBONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1077 FRCR_2_FCTAFCTBONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_SysSt 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_SysSt 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_BlkSts 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_BlkSts 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_BSDWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_BSDWarn 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_DOWWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_DOWWarn 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_DowLock 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_DowLock 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_ELK_Collision_flag 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_ELK_Collision_flag 0;
+BA_ "GenSigStartValue" SG_ 1095 RLCR_1_ELK_CollisionFlagValid 0;
+BA_ "GenSigInactiveValue" SG_ 1095 RLCR_1_ELK_CollisionFlagValid 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCWWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCWWarn 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCTAWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCTAWarn 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCTBWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCTBWarn 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCTBReq 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCTBReq 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCTBCtrlA 1022;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCTBCtrlA 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_BSDLCWONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_BSDLCWONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_DOWONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_DOWONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCWONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCWONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_RCTARCTBONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_RCTARCTBONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1104 RLCR_2_BSDLCWONOFFSts_AFS 0;
+BA_ "GenSigInactiveValue" SG_ 1104 RLCR_2_BSDLCWONOFFSts_AFS 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_CRC 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1HdTo 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjID 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjConf 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 935 RLCR_3_Le1ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 935 RLCR_3_Le1ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_CRC 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2HdTo 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjID 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjConf 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 937 RLCR_4_Le2ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 937 RLCR_4_Le2ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_CRC 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3HdTo 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjID 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjConf 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 941 RLCR_5_Le3ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 941 RLCR_5_Le3ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_CRC 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4HdTo 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjID 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjConf 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 946 RLCR_6_Le4ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 946 RLCR_6_Le4ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_CRC 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5HdTo 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjID 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjConf 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 948 RLCR_7_Le5ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 948 RLCR_7_Le5ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 953 TimeSync_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 953 TimeSync_CRC 0;
+BA_ "GenSigStartValue" SG_ 953 TimeSync_SequenceCounter 0;
+BA_ "GenSigInactiveValue" SG_ 953 TimeSync_SequenceCounter 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_SysSt 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_SysSt 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_BlkSts 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_BlkSts 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_BSDWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_BSDWarn 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_DOWWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_DOWWarn 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_DowLock 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_DowLock 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_ELK_Collision_flag 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_ELK_Collision_flag 0;
+BA_ "GenSigStartValue" SG_ 1267 RRCR_1_ELK_CollisionFlagValid 0;
+BA_ "GenSigInactiveValue" SG_ 1267 RRCR_1_ELK_CollisionFlagValid 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_CRC1 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_Resd1 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCWWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCWWarn 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCTAWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCTAWarn 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCTBWarn 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCTBWarn 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCTBReq 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCTBReq 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCTBCtrlA 1022;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCTBCtrlA 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_BSDLCWONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_BSDLCWONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_DOWONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_DOWONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCWONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCWONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_RCTARCTBONOFFSts 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_RCTARCTBONOFFSts 0;
+BA_ "GenSigStartValue" SG_ 1271 RRCR_2_BSDLCWONOFFSts_AFS 0;
+BA_ "GenSigInactiveValue" SG_ 1271 RRCR_2_BSDLCWONOFFSts_AFS 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_CRC 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1HdTo 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjID 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjConf 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 959 RRCR_3_Ri1ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 959 RRCR_3_Ri1ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_CRC 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2HdTo 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjID 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjConf 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 969 RRCR_4_Ri2ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 969 RRCR_4_Ri2ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_CRC 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3HdTo 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjID 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjConf 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 976 RRCR_5_Ri3ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 976 RRCR_5_Ri3ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_CRC 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4HdTo 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjID 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjConf 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 984 RRCR_6_Ri4ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 984 RRCR_6_Ri4ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_CRC 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjBoxLen 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjBoxLen 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjBoxWidth 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjBoxWidth 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5HdTo 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5HdTo 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjID 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjID 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjCoordY 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjCoordY 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjCoordX 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjCoordX 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjXDirAV 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjXDirAV 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjYDirV 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjYDirV 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjXDirV 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjXDirV 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjMtnChartc 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjMtnChartc 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjTyp 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjTyp 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjConf 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjConf 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjNrOffocst 31;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjNrOffocst 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjTrackSt 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjTrackSt 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjCoordXDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjCoordXDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjCoordYDstStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjCoordYDstStdDe 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjXDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjXDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 986 RRCR_7_Ri5ObjYDirVStdDe 0;
+BA_ "GenSigInactiveValue" SG_ 986 RRCR_7_Ri5ObjYDirVStdDe 0;
+BA_ "GenSigStartValue" SG_ 990 TimeSync_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 990 TimeSync_CRC 0;
+BA_ "GenSigStartValue" SG_ 990 TimeSync_SequenceCounter 0;
+BA_ "GenSigInactiveValue" SG_ 990 TimeSync_SequenceCounter 0;
+BA_ "GenSigASIL" SG_ 1049 RLBMS_2_PackExternalVoltage 2;
+BA_ "GenSigASIL" SG_ 1252 TotalOdometer_km_OBD 5;
+BA_ "GenSigASIL" SG_ 1252 TotalOdometer_km_OBDValidData 5;
+BA_ "GenSigStartValue" SG_ 1296 CurrentTimeYear 0;
+BA_ "GenSigInactiveValue" SG_ 1296 CurrentTimeYear 0;
+BA_ "GenSigStartValue" SG_ 1296 CurrentTimeMonth 1;
+BA_ "GenSigInactiveValue" SG_ 1296 CurrentTimeMonth 0;
+BA_ "GenSigStartValue" SG_ 1296 CurrentTimeDay 1;
+BA_ "GenSigInactiveValue" SG_ 1296 CurrentTimeDay 0;
+BA_ "GenSigStartValue" SG_ 1296 CurrentTimeHour 0;
+BA_ "GenSigInactiveValue" SG_ 1296 CurrentTimeHour 0;
+BA_ "GenSigStartValue" SG_ 1296 CurrentTimeMinute 0;
+BA_ "GenSigInactiveValue" SG_ 1296 CurrentTimeMinute 0;
+BA_ "GenSigStartValue" SG_ 1296 CurrentTimeSecond 0;
+BA_ "GenSigInactiveValue" SG_ 1296 CurrentTimeSecond 0;
+BA_ "GenSigStartValue" SG_ 1157 ICC_DA_15_BSDLCWSettingSt 0;
+BA_ "GenSigInactiveValue" SG_ 1157 ICC_DA_15_BSDLCWSettingSt 0;
+BA_ "GenSigStartValue" SG_ 1157 ICC_DA_15_DOWSettingSt 0;
+BA_ "GenSigInactiveValue" SG_ 1157 ICC_DA_15_DOWSettingSt 0;
+BA_ "GenSigStartValue" SG_ 1157 ICC_DA_15_RCWSettingSt 0;
+BA_ "GenSigInactiveValue" SG_ 1157 ICC_DA_15_RCWSettingSt 0;
+BA_ "GenSigStartValue" SG_ 1157 ICC_DA_15_RCTARCTBWarnType 3;
+BA_ "GenSigInactiveValue" SG_ 1157 ICC_DA_15_RCTARCTBWarnType 0;
+BA_ "GenSigStartValue" SG_ 1157 ICC_DA_15_FCTAFCTBWarnType 3;
+BA_ "GenSigInactiveValue" SG_ 1157 ICC_DA_15_FCTAFCTBWarnType 0;
+BA_ "GenSigStartValue" SG_ 152 ONEBOX_1_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 152 ONEBOX_1_CRC1 0;
+BA_ "GenSigStartValue" SG_ 152 ONEBOX_1_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 152 ONEBOX_1_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 152 ONEBOX_1_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 152 ONEBOX_1_Resd1 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_VehicleSpeedVSOSig 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_VehicleSpeedVSOSig 0;
+BA_ "GenSigStartValue" SG_ 152 ESP1_VehicleSpeedVSOSigValidData 1;
+BA_ "GenSigInactiveValue" SG_ 152 ESP1_VehicleSpeedVSOSigValidData 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_ABSFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_ABSFailSts 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_ABSActive 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_ABSActive 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_VDCFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_VDCFailSts 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_VDCActive 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_VDCActive 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_TCSFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_TCSFailSts 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_TCSActive 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_TCSActive 0;
+BA_ "GenSigStartValue" SG_ 152 ABS_ESP_1_ESPSwitchStatus 0;
+BA_ "GenSigInactiveValue" SG_ 152 ABS_ESP_1_ESPSwitchStatus 0;
+BA_ "GenSigStartValue" SG_ 152 ONEBOX_1_CRC2 0;
+BA_ "GenSigInactiveValue" SG_ 152 ONEBOX_1_CRC2 0;
+BA_ "GenSigStartValue" SG_ 152 ONEBOX_1_RollgCntr2 0;
+BA_ "GenSigInactiveValue" SG_ 152 ONEBOX_1_RollgCntr2 0;
+BA_ "GenSigStartValue" SG_ 152 ONEBOX_1_Resd2 0;
+BA_ "GenSigInactiveValue" SG_ 152 ONEBOX_1_Resd2 0;
+BA_ "GenSigStartValue" SG_ 152 AEBdecActive 0;
+BA_ "GenSigInactiveValue" SG_ 152 AEBdecActive 0;
+BA_ "GenSigStartValue" SG_ 152 AEBdecAvailable 0;
+BA_ "GenSigInactiveValue" SG_ 152 AEBdecAvailable 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_CRC1 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_Resd1 0;
+BA_ "GenSigStartValue" SG_ 555 VehicleStandstill 0;
+BA_ "GenSigInactiveValue" SG_ 555 VehicleStandstill 0;
+BA_ "GenSigStartValue" SG_ 555 NoBrakeForce 1;
+BA_ "GenSigInactiveValue" SG_ 555 NoBrakeForce 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_CRC2 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_CRC2 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_RollgCntr2 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_RollgCntr2 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_Resd2 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_Resd2 0;
+BA_ "GenSigStartValue" SG_ 555 WheelBrakeForce 31250;
+BA_ "GenSigInactiveValue" SG_ 555 WheelBrakeForce 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_CRC4 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_CRC4 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_RollgCntr4 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_RollgCntr4 0;
+BA_ "GenSigStartValue" SG_ 555 ONEBOX_3_Resd4 0;
+BA_ "GenSigInactiveValue" SG_ 555 ONEBOX_3_Resd4 0;
+BA_ "GenSigStartValue" SG_ 555 IPB_PlungerPressureValidData 0;
+BA_ "GenSigInactiveValue" SG_ 555 IPB_PlungerPressureValidData 0;
+BA_ "GenSigStartValue" SG_ 555 IPB_PlungerPressure 0;
+BA_ "GenSigInactiveValue" SG_ 555 IPB_PlungerPressure 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_CRC1 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_CRC1 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_RollgCntr1 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_RollgCntr1 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_Resd1 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_Resd1 0;
+BA_ "GenSigStartValue" SG_ 587 LHFWheelSpeedRPM 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHFWheelSpeedRPM 0;
+BA_ "GenSigStartValue" SG_ 587 RHFWheelSpeedRPM 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHFWheelSpeedRPM 0;
+BA_ "GenSigStartValue" SG_ 587 LHRWheelSpeedRPM 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHRWheelSpeedRPM 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_CRC2 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_CRC2 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_RollgCntr2 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_RollgCntr2 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_Resd2 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_Resd2 0;
+BA_ "GenSigStartValue" SG_ 587 RHRWheelSpeedRPM 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHRWheelSpeedRPM 0;
+BA_ "GenSigStartValue" SG_ 587 LHRPulseCounterFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHRPulseCounterFailSts 0;
+BA_ "GenSigStartValue" SG_ 587 LHRPulseCounter 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHRPulseCounter 0;
+BA_ "GenSigStartValue" SG_ 587 RHRPulseCounterFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHRPulseCounterFailSts 0;
+BA_ "GenSigStartValue" SG_ 587 RHRPulseCounter 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHRPulseCounter 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_CRC3 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_CRC3 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_RollgCntr3 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_RollgCntr3 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_Resd3 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_Resd3 0;
+BA_ "GenSigStartValue" SG_ 587 RHFPulseCounterFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHFPulseCounterFailSts 0;
+BA_ "GenSigStartValue" SG_ 587 RHFPulseCounter 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHFPulseCounter 0;
+BA_ "GenSigStartValue" SG_ 587 LHFPulseCounterFailSts 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHFPulseCounterFailSts 0;
+BA_ "GenSigStartValue" SG_ 587 LHFPulseCounter 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHFPulseCounter 0;
+BA_ "GenSigStartValue" SG_ 587 LHFWheelSpeedRaw 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHFWheelSpeedRaw 0;
+BA_ "GenSigStartValue" SG_ 587 LHFWheelDriveDirection 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHFWheelDriveDirection 0;
+BA_ "GenSigStartValue" SG_ 587 LHFWheelSpeedRawValidData 1;
+BA_ "GenSigInactiveValue" SG_ 587 LHFWheelSpeedRawValidData 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_CRC4 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_CRC4 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_RollgCntr4 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_RollgCntr4 0;
+BA_ "GenSigStartValue" SG_ 587 ONEBOX_4_Resd4 0;
+BA_ "GenSigInactiveValue" SG_ 587 ONEBOX_4_Resd4 0;
+BA_ "GenSigStartValue" SG_ 587 RHFWheelSpeedRaw 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHFWheelSpeedRaw 0;
+BA_ "GenSigStartValue" SG_ 587 RHFWheelDriveDirection 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHFWheelDriveDirection 0;
+BA_ "GenSigStartValue" SG_ 587 RHFWheelSpeedRawValidData 1;
+BA_ "GenSigInactiveValue" SG_ 587 RHFWheelSpeedRawValidData 0;
+BA_ "GenSigStartValue" SG_ 587 LHRWheelSpeedRaw 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHRWheelSpeedRaw 0;
+BA_ "GenSigStartValue" SG_ 587 LHRWheelDriveDirection 0;
+BA_ "GenSigInactiveValue" SG_ 587 LHRWheelDriveDirection 0;
+BA_ "GenSigStartValue" SG_ 587 LHRWheelSpeedRawValidData 1;
+BA_ "GenSigInactiveValue" SG_ 587 LHRWheelSpeedRawValidData 0;
+BA_ "GenSigStartValue" SG_ 587 RHRWheelSpeedRaw 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHRWheelSpeedRaw 0;
+BA_ "GenSigStartValue" SG_ 587 RHRWheelDriveDirection 0;
+BA_ "GenSigInactiveValue" SG_ 587 RHRWheelDriveDirection 0;
+BA_ "GenSigStartValue" SG_ 587 RHRWheelSpeedRawValidData 1;
+BA_ "GenSigInactiveValue" SG_ 587 RHRWheelSpeedRawValidData 0;
+BA_ "GenSigStartValue" SG_ 1199 TCM_1_TrailerSts 0;
+BA_ "GenSigInactiveValue" SG_ 1199 TCM_1_TrailerSts 0;
+BA_ "GenSigStartValue" SG_ 1035 VCC_1_CarMode 0;
+BA_ "GenSigInactiveValue" SG_ 1035 VCC_1_CarMode 0;
+BA_ "GenSigStartValue" SG_ 1209 VCU_2_G_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 1209 VCU_2_G_CRC 0;
+BA_ "GenSigStartValue" SG_ 1209 VCU_2_G_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 1209 VCU_2_G_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 1209 VCU_2_G_Resd 0;
+BA_ "GenSigInactiveValue" SG_ 1209 VCU_2_G_Resd 0;
+BA_ "GenSigStartValue" SG_ 1209 VCU_HVReady 0;
+BA_ "GenSigInactiveValue" SG_ 1209 VCU_HVReady 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_10_CRC 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_10_CRC 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_10_RollgCntr 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_10_RollgCntr 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_10_Resd 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_10_Resd 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_TargetGear 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_TargetGear 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_ActualGear 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_ActualGear 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_TargetGearValidData 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_TargetGearValidData 0;
+BA_ "GenSigStartValue" SG_ 56 VCU_ActualGearValidData 0;
+BA_ "GenSigInactiveValue" SG_ 56 VCU_ActualGearValidData 0;
+BA_ "GenSigStartValue" SG_ 59 VCU_11_CRC4 0;
+BA_ "GenSigInactiveValue" SG_ 59 VCU_11_CRC4 0;
+BA_ "GenSigStartValue" SG_ 59 VCU_11_RollgCntr4 0;
+BA_ "GenSigInactiveValue" SG_ 59 VCU_11_RollgCntr4 0;
+BA_ "GenSigStartValue" SG_ 59 VCU_11_Resd4 0;
+BA_ "GenSigInactiveValue" SG_ 59 VCU_11_Resd4 0;
+BA_ "GenSigStartValue" SG_ 59 VCU_GasPedalPositionInvalidData 0;
+BA_ "GenSigInactiveValue" SG_ 59 VCU_GasPedalPositionInvalidData 0;
+BA_ "GenSigStartValue" SG_ 59 VCU_GasPedalPosition 0;
+BA_ "GenSigInactiveValue" SG_ 59 VCU_GasPedalPosition 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_TotalFaultNum 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_TotalFaultNum 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FrameIndex 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FrameIndex 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_SupplierNum 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_SupplierNum 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum1 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum1 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum2 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum2 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum3 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum3 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum4 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum4 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum5 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum5 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum6 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum6 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum7 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum7 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum8 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum8 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum9 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum9 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum10 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum10 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum11 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum11 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum12 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum12 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum13 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum13 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum14 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum14 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum15 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum15 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum16 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum16 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum17 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum17 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum18 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum18 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum19 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum19 0;
+BA_ "GenSigStartValue" SG_ 1421 FLCR_FaultNum20 0;
+BA_ "GenSigInactiveValue" SG_ 1421 FLCR_FaultNum20 0;
+BA_ "GenSigStartValue" SG_ 1618 srcNodeID_FLCR 82;
+BA_ "GenSigInactiveValue" SG_ 1618 srcNodeID_FLCR 0;
+BA_ "GenSigStartValue" SG_ 1618 RMR_FLCR 0;
+BA_ "GenSigInactiveValue" SG_ 1618 RMR_FLCR 0;
+BA_ "GenSigStartValue" SG_ 1618 NMm_FLCR_Reserved1 0;
+BA_ "GenSigInactiveValue" SG_ 1618 NMm_FLCR_Reserved1 0;
+BA_ "GenSigStartValue" SG_ 1618 FLCR_Wakeup_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1618 FLCR_Wakeup_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1618 FLCR_Wakeup_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1618 FLCR_Wakeup_NM 0;
+BA_ "GenSigStartValue" SG_ 1618 FLCR_Wakeup_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1618 FLCR_Wakeup_Diag 0;
+BA_ "GenSigStartValue" SG_ 1618 FLCR_Awake_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1618 FLCR_Awake_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1618 FLCR_Awake_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1618 FLCR_Awake_NM 0;
+BA_ "GenSigStartValue" SG_ 1618 FLCR_Awake_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1618 FLCR_Awake_Diag 0;
+BA_ "GenSigStartValue" SG_ 1996 Diag_FLCR_RES 0;
+BA_ "GenSigInactiveValue" SG_ 1996 Diag_FLCR_RES 0;
+BA_ "GenSigStartValue" SG_ 1868 Diag_FLCR_REQ 0;
+BA_ "GenSigInactiveValue" SG_ 1868 Diag_FLCR_REQ 0;
+BA_ "GenSigStartValue" SG_ 2015 Diag_Functional_REQ 0;
+BA_ "GenSigInactiveValue" SG_ 2015 Diag_Functional_REQ 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_TotalFaultNum 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_TotalFaultNum 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FrameIndex 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FrameIndex 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_SupplierNum 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_SupplierNum 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum1 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum1 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum2 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum2 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum3 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum3 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum4 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum4 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum5 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum5 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum6 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum6 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum7 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum7 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum8 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum8 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum9 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum9 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum10 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum10 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum11 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum11 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum12 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum12 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum13 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum13 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum14 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum14 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum15 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum15 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum16 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum16 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum17 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum17 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum18 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum18 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum19 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum19 0;
+BA_ "GenSigStartValue" SG_ 1422 FRCR_FaultNum20 0;
+BA_ "GenSigInactiveValue" SG_ 1422 FRCR_FaultNum20 0;
+BA_ "GenSigStartValue" SG_ 1619 srcNodeID_FRCR 83;
+BA_ "GenSigInactiveValue" SG_ 1619 srcNodeID_FRCR 0;
+BA_ "GenSigStartValue" SG_ 1619 RMR_FRCR 0;
+BA_ "GenSigInactiveValue" SG_ 1619 RMR_FRCR 0;
+BA_ "GenSigStartValue" SG_ 1619 NMm_FRCR_Reserved1 0;
+BA_ "GenSigInactiveValue" SG_ 1619 NMm_FRCR_Reserved1 0;
+BA_ "GenSigStartValue" SG_ 1619 FRCR_Wakeup_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1619 FRCR_Wakeup_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1619 FRCR_Wakeup_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1619 FRCR_Wakeup_NM 0;
+BA_ "GenSigStartValue" SG_ 1619 FRCR_Wakeup_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1619 FRCR_Wakeup_Diag 0;
+BA_ "GenSigStartValue" SG_ 1619 FRCR_Awake_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1619 FRCR_Awake_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1619 FRCR_Awake_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1619 FRCR_Awake_NM 0;
+BA_ "GenSigStartValue" SG_ 1619 FRCR_Awake_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1619 FRCR_Awake_Diag 0;
+BA_ "GenSigStartValue" SG_ 1997 Diag_FRCR_RES 0;
+BA_ "GenSigInactiveValue" SG_ 1997 Diag_FRCR_RES 0;
+BA_ "GenSigStartValue" SG_ 1869 Diag_FRCR_REQ 0;
+BA_ "GenSigInactiveValue" SG_ 1869 Diag_FRCR_REQ 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_TotalFaultNum 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_TotalFaultNum 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FrameIndex 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FrameIndex 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_SupplierNum 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_SupplierNum 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum1 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum1 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum2 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum2 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum3 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum3 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum4 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum4 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum5 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum5 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum6 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum6 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum7 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum7 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum8 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum8 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum9 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum9 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum10 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum10 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum11 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum11 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum12 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum12 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum13 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum13 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum14 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum14 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum15 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum15 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum16 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum16 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum17 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum17 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum18 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum18 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum19 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum19 0;
+BA_ "GenSigStartValue" SG_ 1423 RLCR_FaultNum20 0;
+BA_ "GenSigInactiveValue" SG_ 1423 RLCR_FaultNum20 0;
+BA_ "GenSigStartValue" SG_ 1599 srcNodeID_RLCR 63;
+BA_ "GenSigInactiveValue" SG_ 1599 srcNodeID_RLCR 0;
+BA_ "GenSigStartValue" SG_ 1599 RMR_RLCR 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RMR_RLCR 0;
+BA_ "GenSigStartValue" SG_ 1599 NMm_RLCR_Reserved1 0;
+BA_ "GenSigInactiveValue" SG_ 1599 NMm_RLCR_Reserved1 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Wakeup_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Wakeup_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Wakeup_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Wakeup_NM 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Wakeup_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Wakeup_Diag 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Wakeup_DOW 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Wakeup_DOW 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Awake_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Awake_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Awake_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Awake_NM 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Awake_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Awake_Diag 0;
+BA_ "GenSigStartValue" SG_ 1599 RLCR_Awake_DOW 0;
+BA_ "GenSigInactiveValue" SG_ 1599 RLCR_Awake_DOW 0;
+BA_ "GenSigStartValue" SG_ 1987 Diag_RLCR_RES 0;
+BA_ "GenSigInactiveValue" SG_ 1987 Diag_RLCR_RES 0;
+BA_ "GenSigStartValue" SG_ 1859 Diag_RLCR_REQ 0;
+BA_ "GenSigInactiveValue" SG_ 1859 Diag_RLCR_REQ 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_TotalFaultNum 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_TotalFaultNum 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FrameIndex 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FrameIndex 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_SupplierNum 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_SupplierNum 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum1 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum1 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum2 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum2 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum3 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum3 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum4 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum4 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum5 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum5 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum6 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum6 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum7 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum7 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum8 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum8 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum9 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum9 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum10 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum10 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum11 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum11 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum12 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum12 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum13 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum13 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum14 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum14 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum15 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum15 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum16 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum16 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum17 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum17 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum18 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum18 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum19 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum19 0;
+BA_ "GenSigStartValue" SG_ 1428 RRCR_FaultNum20 0;
+BA_ "GenSigInactiveValue" SG_ 1428 RRCR_FaultNum20 0;
+BA_ "GenSigStartValue" SG_ 1600 srcNodeID_RRCR 64;
+BA_ "GenSigInactiveValue" SG_ 1600 srcNodeID_RRCR 0;
+BA_ "GenSigStartValue" SG_ 1600 RMR_RRCR 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RMR_RRCR 0;
+BA_ "GenSigStartValue" SG_ 1600 NMm_RRCR_Reserved1 0;
+BA_ "GenSigInactiveValue" SG_ 1600 NMm_RRCR_Reserved1 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Wakeup_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Wakeup_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Wakeup_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Wakeup_NM 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Wakeup_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Wakeup_Diag 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Wakeup_DOW 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Wakeup_DOW 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Awake_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Awake_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Awake_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Awake_NM 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Awake_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Awake_Diag 0;
+BA_ "GenSigStartValue" SG_ 1600 RRCR_Awake_DOW 0;
+BA_ "GenSigInactiveValue" SG_ 1600 RRCR_Awake_DOW 0;
+BA_ "GenSigStartValue" SG_ 1988 Diag_RRCR_RES 0;
+BA_ "GenSigInactiveValue" SG_ 1988 Diag_RRCR_RES 0;
+BA_ "GenSigStartValue" SG_ 1860 Diag_RRCR_REQ 0;
+BA_ "GenSigInactiveValue" SG_ 1860 Diag_RRCR_REQ 0;
+BA_ "GenSigStartValue" SG_ 1536 srcNodeID_Gateway 64;
+BA_ "GenSigInactiveValue" SG_ 1536 srcNodeID_Gateway 0;
+BA_ "GenSigStartValue" SG_ 1536 RMR_Gateway 0;
+BA_ "GenSigInactiveValue" SG_ 1536 RMR_Gateway 0;
+BA_ "GenSigStartValue" SG_ 1536 NMm_Gateway_Reserved1 0;
+BA_ "GenSigInactiveValue" SG_ 1536 NMm_Gateway_Reserved1 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Wakeup_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Wakeup_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Wakeup_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Wakeup_NM 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Wakeup_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Wakeup_Diag 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Wakeup_DOW 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Wakeup_DOW 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Awake_Poweron 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Awake_Poweron 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Awake_NM 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Awake_NM 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Awake_Diag 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Awake_Diag 0;
+BA_ "GenSigStartValue" SG_ 1536 Gateway_Awake_DOW 0;
+BA_ "GenSigInactiveValue" SG_ 1536 Gateway_Awake_DOW 0;
+VAL_ 49 ACU_2_YASCalibrationSts 0 "Sensor  Not Calibrated" 1 "Sensor  Calibrated" ;
+VAL_ 49 ACU_2_YawrateSigValidData 0 "Valid" 1 "Reserved" 2 "Invalid" 3 "Initialize" ;
+VAL_ 49 ACU_2_LateralAccelerationSigVD 0 "Valid" 1 "Reserved" 2 "Invalid" 3 "Initialize" ;
+VAL_ 33 ACU_3_LongitudinalAccelerationVD 0 "Valid" 1 "Reserved" 2 "Invalid" 3 "Initialize" ;
+VAL_ 143 CIC_ESPFctOffLamp 0 "Lamp Off" 1 "Lamp On" 2 "Lamp On2All OFF" ;
+VAL_ 143 CIC_TCSFlt 0 "Fail Not Present" 1 "Fail Present(Lamp On)" ;
+VAL_ 143 CIC_VDCFlt 0 "Fail Not Present" 1 "Fail Present (Lamp On)" ;
+VAL_ 143 CIC_TCSActv 0 "Not active" 1 "Active(Blinking Lamp)" ;
+VAL_ 143 CIC_VDCActv 0 "Not Active" 1 "Active(Blinking Lamp)" ;
+VAL_ 1172 ExternalTemperatureRaw_C 254 "invalid" ;
+VAL_ 1172 ExternalTemperature_C 255 "invalid" ;
+VAL_ 1172 ExternalTemperatureFailSts 0 "Fail Not Present" 1 "Fail Present" ;
+VAL_ 306 SAM_1_SteeringAngleVD 0 "Valid" 1 "Not Valid" ;
+VAL_ 306 SAM_1_SteeringAngleSpeedVD 0 "Valid" 1 "Not Valid" ;
+VAL_ 571 LHTurnlightSts 0 "Not Active" 1 "Active" ;
+VAL_ 571 RHTurnlightSts 0 "Not Active" 1 "Active" ;
+VAL_ 571 HoodSts 0 "Close" 1 "Ajar" 2 "full_open" 3 "Reserved" ;
+VAL_ 571 DrvDoorLockSts 0 "Locked" 1 "Unlocked" 2 "Superlocked" 3 "Unknown" ;
+VAL_ 571 DrvDoorSts 0 "Close" 1 "Ajar" 2 "full_open" 3 "Reserved" ;
+VAL_ 571 DrvSeatBeltSW 0 "Not Active" 1 "Active" ;
+VAL_ 1120 RLHS_Rainfall 0 "No Rain" 1 "Light Rain" 2 "Moderate Rain" 3 "Heavy Rain" ;
+VAL_ 1120 RLHS_LiSwithReason 0 "Darkstart" 1 "Day" 2 "Night" 3 "Tunnul" ;
+VAL_ 1181 FLZCU_9_PowerMode 0 "Off" 1 "Comfortable" 2 "ON" 3 "Reserved" ;
+VAL_ 1181 FLZCU_9_ArmingSts 0 "Not active" 1 "Arming successful" 2 "Disarming successful" 3 "Invalid" ;
+VAL_ 1181 FuelVehPowerMode 0 "Off" 1 "ACC" 2 "ON" 3 "Crank" 4 "Running" ;
+VAL_ 1030 FLZCU_FrontWiperParkStatus 0 "NotReturned" 1 "Returned" ;
+VAL_ 1030 FLZCU_FrontWiperWipingStatus 0 "OFF" 1 "low" 2 "high" 3 "auto" ;
+VAL_ 1030 RearViewFoldSts 0 "invalid" 1 "Fold" 2 "unFold" ;
+VAL_ 1257 SSMStatus 0 "Reset/Not Implemented" 1 "Standby" 2 "Stopped" 3 "Starter Restart" 4 "Engine Restart" 5 "Operation" 6 "Auto Stopping" ;
+VAL_ 1257 AcceleratorPosRawIVD 0 "Valid" 1 "Invalid" ;
+VAL_ 1257 GasPedalPositionInvalidData 0 "Valid" 1 "Invalid" ;
+VAL_ 1257 EMS_Timeout_Flag 0 "Valid" 1 "Invalid" 2 "reserved" 3 "reserved" ;
+VAL_ 1257 ActualGear 0 "Reserved" 1 "1st gear" 2 "2nd gear" 3 "3rd gear" 4 "4th gear" 5 "5th gear" 6 "6th gear" 7 "7th gear" 8 "8th gear" 9 "Reverse" 10 "Neutral" 11 "Park" 12 "9th gear" 15 "Invalid/limp home" ;
+VAL_ 1257 TargetGearValidData 0 "Not Valid" 1 "valid" ;
+VAL_ 1257 ActualGearValidData 0 "Not Valid" 1 "Valid" ;
+VAL_ 1257 ShiftInProgress 0 "Not in progress" 1 "In progress" ;
+VAL_ 1257 ShiftInProgressValidData 0 "Valid" 1 "Not valid" ;
+VAL_ 1257 TargetGear 0 "Reserved" 1 "1st gear" 2 "2nd gear" 3 "3rd gear" 4 "4th gear" 5 "5th gear" 6 "6th gear" 7 "7thgear" 8 "8th gear" 9 "Reverse" 10 "Neutral" 11 "Park" 12 "9th gear" 13 "Reserved" 14 "Reserved" 15 "Invalid / limp home" ;
+VAL_ 1257 TCU_Timeout_Flag 0 "Valid" 1 "Invalid" 2 "reserved" 3 "reserved" ;
+VAL_ 683 PassDoorSts 0 "Close" 1 "Ajar" 2 "full_open" 3 "Reserved" ;
+VAL_ 683 PassRearDoorSts 0 "Close" 1 "Ajar" 2 "full_open" 3 "Reserved" ;
+VAL_ 699 DrvRearDoorSts 0 "Close" 1 "Ajar" 2 "full_open" 3 "Reserved" ;
+VAL_ 1050 FLCR_1_SysSt 0 "Off" 1 "On" 2 "Temporary Error" 3 "System Error" ;
+VAL_ 1050 FLCR_1_BlkSts 0 "Not Blockage" 1 "Blockage" ;
+VAL_ 1062 FLCR_2_FCTAWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1062 FLCR_2_FCTBWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1062 FLCR_2_FCTBReq 0 "Not Request" 1 "Request" ;
+VAL_ 1062 FLCR_2_FCTAFCTBONOFFSts 0 "OFF" 1 "warning" 2 "warning and braking" 3 "Reserved" ;
+VAL_ 1067 FRCR_1_SysSt 0 "Off" 1 "On" 2 "Temporary Error" 3 "System Error" ;
+VAL_ 1067 FRCR_1_BlkSts 0 "Not Blockage" 1 "Blockage" ;
+VAL_ 1077 FRCR_2_FCTAWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1077 FRCR_2_FCTBWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1077 FRCR_2_FCTBReq 0 "Not Request" 1 "Request" ;
+VAL_ 1077 FRCR_2_FCTAFCTBONOFFSts 0 "OFF" 1 "warning" 2 "warning and braking" 3 "Reserved" ;
+VAL_ 1095 RLCR_1_SysSt 0 "Off" 1 "On" 2 "Temporary Error" 3 "System Error" ;
+VAL_ 1095 RLCR_1_BlkSts 0 "Not Blockage" 1 "Blockage" ;
+VAL_ 1095 RLCR_1_BSDWarn 0 "No Warning" 1 "Standard Warning" 2 "Critical Warning" 3 "Not Used" ;
+VAL_ 1095 RLCR_1_DOWWarn 0 "No Warning" 1 "Level1 Warning" 2 "Level2 Warning" 3 "Not Used" ;
+VAL_ 1095 RLCR_1_DowLock 0 "No Warning" 1 "Dow lock" 2 "Dow unlock" 3 "Not Used" ;
+VAL_ 1095 RLCR_1_ELK_Collision_flag 0 "No critical situation of collision" 1 "Critical situation of collision" ;
+VAL_ 1095 RLCR_1_ELK_CollisionFlagValid 0 "Not valid" 1 "Valid" ;
+VAL_ 1104 RLCR_2_RCWWarn 0 "No Warning" 1 "Level1 Warning" 2 "Level2 Warning" 3 "Not Used" ;
+VAL_ 1104 RLCR_2_RCTAWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1104 RLCR_2_RCTBWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1104 RLCR_2_RCTBReq 0 "Not Request" 1 "Request" ;
+VAL_ 1104 RLCR_2_BSDLCWONOFFSts 0 "Not active" 1 "OFF" 2 "ON" 3 "Reserved" ;
+VAL_ 1104 RLCR_2_DOWONOFFSts 0 "Not active" 1 "OFF" 2 "ON" 3 "Reserved" ;
+VAL_ 1104 RLCR_2_RCWONOFFSts 0 "Not active" 1 "OFF" 2 "ON" 3 "Reserved" ;
+VAL_ 1104 RLCR_2_RCTARCTBONOFFSts 0 "OFF" 1 "warning" 2 "warning and braking" 3 "Reserved" ;
+VAL_ 1104 RLCR_2_BSDLCWONOFFSts_AFS 0 "OFF" 1 "Display warning" 2 "Sound+display warning" 3 "Reserved" ;
+VAL_ 935 RLCR_3_Le1ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 935 RLCR_3_Le1ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 935 RLCR_3_Le1ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 935 RLCR_3_Le1ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 937 RLCR_4_Le2ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 937 RLCR_4_Le2ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 937 RLCR_4_Le2ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 937 RLCR_4_Le2ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 941 RLCR_5_Le3ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 941 RLCR_5_Le3ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 941 RLCR_5_Le3ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 941 RLCR_5_Le3ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 946 RLCR_6_Le4ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 946 RLCR_6_Le4ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 946 RLCR_6_Le4ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 946 RLCR_6_Le4ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 948 RLCR_7_Le5ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 948 RLCR_7_Le5ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 948 RLCR_7_Le5ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 948 RLCR_7_Le5ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 953 TimeSync_Type 32 " CanTSync SYNC CRC" 40 " CanTSync FUP CRC" ;
+VAL_ 953 TimeSync_SGW 0 " SyncToGTM" 1 " SyncToSubDomain" ;
+VAL_ 1267 RRCR_1_SysSt 0 "Off" 1 "On" 2 "Temporary Error" 3 "System Error" ;
+VAL_ 1267 RRCR_1_BlkSts 0 "Not Blockage" 1 "Blockage" ;
+VAL_ 1267 RRCR_1_BSDWarn 0 "No Warning" 1 "Standard Warning" 2 "Critical Warning" 3 "Not Used" ;
+VAL_ 1267 RRCR_1_DOWWarn 0 "No Warning" 1 "Level1 Warning" 2 "Level2 Warning" 3 "Not Used" ;
+VAL_ 1267 RRCR_1_DowLock 0 "No Warning" 1 "Dow lock" 2 "Dow unlock" 3 "Not Used" ;
+VAL_ 1267 RRCR_1_ELK_Collision_flag 0 "No critical situation of collision" 1 "Critical situation of collision" ;
+VAL_ 1267 RRCR_1_ELK_CollisionFlagValid 0 "Not valid" 1 "Valid" ;
+VAL_ 1271 RRCR_2_RCWWarn 0 "No Warning" 1 "Level1 Warning" 2 "Level2 Warning" 3 "Not Used" ;
+VAL_ 1271 RRCR_2_RCTAWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1271 RRCR_2_RCTBWarn 0 "No Warning" 1 "Warning" ;
+VAL_ 1271 RRCR_2_RCTBReq 0 "Not Request" 1 "Request" ;
+VAL_ 1271 RRCR_2_BSDLCWONOFFSts 0 "Not active" 1 "OFF" 2 "ON" 3 "Reserved" ;
+VAL_ 1271 RRCR_2_DOWONOFFSts 0 "Not active" 1 "OFF" 2 "ON" 3 "Reserved" ;
+VAL_ 1271 RRCR_2_RCWONOFFSts 0 "Not active" 1 "OFF" 2 "ON" 3 "Reserved" ;
+VAL_ 1271 RRCR_2_RCTARCTBONOFFSts 0 "OFF" 1 "warning" 2 "warning and braking" 3 "Reserved" ;
+VAL_ 1271 RRCR_2_BSDLCWONOFFSts_AFS 0 "OFF" 1 "Display warning" 2 "Sound+display warning" 3 "Reserved" ;
+VAL_ 959 RRCR_3_Ri1ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 959 RRCR_3_Ri1ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 959 RRCR_3_Ri1ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 959 RRCR_3_Ri1ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 969 RRCR_4_Ri2ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 969 RRCR_4_Ri2ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 969 RRCR_4_Ri2ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 969 RRCR_4_Ri2ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 976 RRCR_5_Ri3ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 976 RRCR_5_Ri3ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 976 RRCR_5_Ri3ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 976 RRCR_5_Ri3ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 984 RRCR_6_Ri4ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 984 RRCR_6_Ri4ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 984 RRCR_6_Ri4ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 984 RRCR_6_Ri4ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 986 RRCR_7_Ri5ObjMtnChartc 0 "Invalid" 1 "Staty" 2 "StatyFromMoving" 3 "Moving" ;
+VAL_ 986 RRCR_7_Ri5ObjTyp 0 "Invalid" 1 "Four wheels vehicle" 2 "Two wheels vehicle" 3 "Not Used" ;
+VAL_ 986 RRCR_7_Ri5ObjConf 0 "Un conf" 1 "Conf" ;
+VAL_ 986 RRCR_7_Ri5ObjTrackSt 0 "Invalid" 1 "Updated" 2 "New" 3 "Coasted" ;
+VAL_ 990 TimeSync_Type 32 " CanTSync SYNC CRC" 40 " CanTSync FUP CRC" ;
+VAL_ 990 TimeSync_SGW 0 " SyncToGTM" 1 " SyncToSubDomain" ;
+VAL_ 1252 TotalOdometer_km_OBD 16777215 "Invalid" ;
+VAL_ 1252 TotalOdometer_km_OBDValidData 1 "Not valid" 0 "Valid" ;
+VAL_ 1157 ICC_DA_15_BSDLCWSettingSt 0 "None" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1157 ICC_DA_15_DOWSettingSt 0 "None" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1157 ICC_DA_15_RCWSettingSt 0 "None" 1 "ON" 2 "OFF" 3 "Reserved" ;
+VAL_ 1157 ICC_DA_15_RCTARCTBWarnType 0 "OFF" 1 "Warning" 2 "Warning and braking" 3 "None" ;
+VAL_ 1157 ICC_DA_15_FCTAFCTBWarnType 0 "OFF" 1 "Warning" 2 "Warning and braking" 3 "None" ;
+VAL_ 1157 ICC_DA_15_BSDLCWSettingSt_AFS 0 "None" 1 "Display warning" 2 "Sound+display warning" 3 "Reserved" ;
+VAL_ 152 ESP1_VehicleSpeedVSOSigValidData 0 "Valid" 1 "Not Valid" ;
+VAL_ 152 ABS_ESP_1_ABSFailSts 0 "Not present" 1 "Fail present (lamp on)" ;
+VAL_ 152 ABS_ESP_1_ABSActive 0 "Not active" 1 "Active" ;
+VAL_ 152 ABS_ESP_1_VDCFailSts 0 "Not present" 1 "Fail present (lamp on)" ;
+VAL_ 152 ABS_ESP_1_VDCActive 0 "Not active" 1 "Active" ;
+VAL_ 152 ABS_ESP_1_TCSFailSts 0 "Not present" 1 "Fail present (lamp on)" ;
+VAL_ 152 ABS_ESP_1_TCSActive 0 "Not active" 1 "Active" ;
+VAL_ 152 ABS_ESP_1_ESPSwitchStatus 0 "On" 1 "Disable" ;
+VAL_ 152 AEBdecActive 0 "Not active" 1 "Active" ;
+VAL_ 152 AEBdecAvailable 0 "Not available" 1 "Available" ;
+VAL_ 555 VehicleStandstill 0 "Not standstill" 1 "Standstill" 2 "invalid" 3 "Reserved" ;
+VAL_ 555 NoBrakeForce 0 "Exist Brake Force" 1 "No Brake Force" ;
+VAL_ 555 IPB_PlungerPressureValidData 0 "Valid" 1 "Invalid" ;
+VAL_ 587 LHRPulseCounterFailSts 0 "Fail Not Present" 1 "Fail Present" ;
+VAL_ 587 RHRPulseCounterFailSts 0 "Fail Not Present" 1 "Fail Present" ;
+VAL_ 587 RHFPulseCounterFailSts 0 "Fail Not Present" 1 "Fail Present" ;
+VAL_ 587 LHFPulseCounterFailSts 0 "Fail Not Present" 1 "Fail Present" ;
+VAL_ 587 LHFWheelDriveDirection 0 "Init" 1 "Forward" 2 "Backward" 3 "Stop" 4 "Invalid" ;
+VAL_ 587 LHFWheelSpeedRawValidData 0 "Valid" 1 "Not Valid" ;
+VAL_ 587 RHFWheelDriveDirection 0 "Init" 1 "Forward" 2 "Backward" 3 "Stop" 4 "Invalid" ;
+VAL_ 587 RHFWheelSpeedRawValidData 0 "Valid" 1 "Not Valid" ;
+VAL_ 587 LHRWheelDriveDirection 0 "Init" 1 "Forward" 2 "Backward" 3 "Stop" 4 "Invalid" ;
+VAL_ 587 LHRWheelSpeedRawValidData 0 "Valid" 1 "Not Valid" ;
+VAL_ 587 RHRWheelDriveDirection 0 "Init" 1 "Forward" 2 "Backward" 3 "Stop" 4 "Invalid" ;
+VAL_ 587 RHRWheelSpeedRawValidData 0 "Valid" 1 "Not Valid" ;
+VAL_ 1199 TCM_1_TrailerSts 0 "Disconnect" 1 "Connect" ;
+VAL_ 1035 VCC_1_CarMode 0 "Normal Mode" 1 "Factory Mode" 2 "Transport Mode" 3 "Dyno Mode" 4 "Crash Mode" 5 "Factory Paused" 6 "Transport Paused" 7 "Reserved" ;
+VAL_ 1209 VCU_HVReady 0 "LmpOFF" 1 "LmpON" ;
+VAL_ 56 VCU_TargetGear 0 "No Request" 1 "Target gear P" 2 "Target gear R" 3 "Target gear N" 4 "Target gear D" 7 "Invalid" ;
+VAL_ 56 VCU_ActualGear 0 "No Request" 1 "gear P" 2 "gear R" 3 "gear N" 4 "gear D" 7 "Invalid" ;
+VAL_ 56 VCU_TargetGearValidData 0 "Not Valid" 1 "V alid" ;
+VAL_ 56 VCU_ActualGearValidData 0 "Not Valid" 1 "V alid" ;
+VAL_ 59 VCU_GasPedalPositionInvalidData 0 "Valid" 1 "Invalid" ;
+VAL_ 1618 RMR_FLCR 0 "Inactive" 1 "Active" ;
+VAL_ 1618 FLCR_Wakeup_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1618 FLCR_Wakeup_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1618 FLCR_Wakeup_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1618 FLCR_Awake_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1618 FLCR_Awake_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1618 FLCR_Awake_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1619 RMR_FRCR 0 "Inactive" 1 "Active" ;
+VAL_ 1619 FRCR_Wakeup_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1619 FRCR_Wakeup_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1619 FRCR_Wakeup_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1619 FRCR_Awake_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1619 FRCR_Awake_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1619 FRCR_Awake_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RMR_RLCR 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Wakeup_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Wakeup_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Wakeup_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Wakeup_DOW 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Awake_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Awake_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Awake_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1599 RLCR_Awake_DOW 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RMR_RRCR 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Wakeup_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Wakeup_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Wakeup_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Wakeup_DOW 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Awake_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Awake_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Awake_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1600 RRCR_Awake_DOW 0 "Inactive" 1 "Active" ;
+VAL_ 1536 RMR_Gateway 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Wakeup_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Wakeup_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Wakeup_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Wakeup_DOW 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Awake_Poweron 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Awake_NM 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Awake_Diag 0 "Inactive" 1 "Active" ;
+VAL_ 1536 Gateway_Awake_DOW 0 "Inactive" 1 "Active" ;
+SIG_GROUP_ 49 ACU_2_Signal_Group 1 : ACU_2_Reserved3 ACU_2_Reserved2 ACU_2_CRC1 ACU_2_RollgCntr1 ACU_2_LateralAcceleration ACU_2_YawRate ACU_2_YASCalibrationSts ACU_2_YawrateSigValidData ACU_2_LateralAccelerationSigVD ACU_2_Resd1;
+SIG_GROUP_ 33 ACU_3_Signal_Group 1 : ACU_3_Reserved ACU_3_CRC1 ACU_3_RollgCntr1 ACU_3_LongitudinalAcceleration ACU_3_LongitudinalAccelerationVD ACU_3_Resd1;
+SIG_GROUP_ 306 SAS_1_Signal_Group 1 : SAM_1_Reserved1 SAM_1_Reserved2 SAM_1_CRC SAM_1_RollgCntr SAM_1_SteeringAngle SAM_1_SteeringAngleSpeed SAM_1_SteeringAngleVD SAM_1_SteeringAngleSpeedVD SAM_1_Resd;
+SIG_GROUP_ 571 FLZCU_1_Signal_Group 1 : DirectionIndRight DirectionIndLeft FLZCU_1_Reserved5 FLZCU_1_Reserved3 FLZCU_1_Reserved2 FLZCU_1_Reserved4 FLZCU_1_Reserved1 FLZCU_1_CRC FLZCU_1_RollgCntr LHTurnlightSts RHTurnlightSts HoodSts DrvDoorLockSts DrvDoorSts DrvSeatBeltSW FLZCU_1_Resd;
+SIG_GROUP_ 1120 FLZCU_3_Signal_Group 1 : FLZCU_3_Reserved4 FLZCU_3_Reserved3 FLZCU_3_Reserved2 FLZCU_3_Reserved1 FLZCU_3_CRC FLZCU_3_RollgCntr RLHS_2_AmbBrightness RLHS_2_IRBrightness RLHS_Rainfall RLHS_LiSwithReason;
+SIG_GROUP_ 1030 FLZCU_12_Signal_Group_2 1 : FLZCU_12_Reserved6;
+SIG_GROUP_ 1030 FLZCU_12_Signal_Group 1 : FLZCU_12_Reserved5 FLZCU_12_Reserved4 FLZCU_12_Reserved3 FLZCU_12_Reserved2 FLZCU_12_Reserved1 FLZCU_12_CRC FLZCU_12_RollgCntr FLZCU_FrontWiperParkStatus FLZCU_FrontWiperWipingStatus RearViewFoldSts;
+SIG_GROUP_ 683 FRZCU_1_Signal_Group 1 : FRZCU_1_Reserved3 FRZCU_1_Reserved2 FRZCU_1_Reserved1 FRZCU_1_CRC FRZCU_1_RollgCntr PassDoorSts PassRearDoorSts FRZCU_1_Resd;
+SIG_GROUP_ 699 RZCU_2_Signal_Group 1 : RZCU_2_Reserved3 RZCU_2_Reserved2 RZCU_2_CRC RZCU_2_RollgCntr DrvRearDoorSts RZCU_2_Resd;
+SIG_GROUP_ 1050 FLCR_1_Signal_Group 1 : FLCR_1_CRC1 FLCR_1_BlkSts FLCR_1_SysSt FLCR_1_Resd1 FLCR_1_RollgCntr1;
+SIG_GROUP_ 1062 FLCR_2_Signal_Group 1 : FLCR_2_CRC1 FLCR_2_FCTAFCTBONOFFSts FLCR_2_FCTBCtrlA FLCR_2_FCTBReq FLCR_2_FCTBWarn FLCR_2_FCTAWarn FLCR_2_Resd1 FLCR_2_RollgCntr1;
+SIG_GROUP_ 1067 FRCR_1_Signal_Group 1 : FRCR_1_CRC1 FRCR_1_BlkSts FRCR_1_SysSt FRCR_1_Resd1 FRCR_1_RollgCntr1;
+SIG_GROUP_ 1077 FRCR_2_Signal_Group 1 : FRCR_2_CRC1 FRCR_2_FCTAFCTBONOFFSts FRCR_2_FCTBCtrlA FRCR_2_FCTBReq FRCR_2_FCTBWarn FRCR_2_FCTAWarn FRCR_2_Resd1 FRCR_2_RollgCntr1;
+SIG_GROUP_ 1095 RLCR_1_Signal_Group 1 : RLCR_1_CRC1 RLCR_1_ELK_CollisionFlagValid RLCR_1_ELK_Collision_flag RLCR_1_DowLock RLCR_1_DOWWarn RLCR_1_BSDWarn RLCR_1_BlkSts RLCR_1_SysSt RLCR_1_Resd1 RLCR_1_RollgCntr1;
+SIG_GROUP_ 1104 RLCR_2_Signal_Group 1 : RLCR_2_CRC1 RLCR_2_RollgCntr1 RLCR_2_RCWWarn RLCR_2_RCTAWarn RLCR_2_RCTBWarn RLCR_2_RCTBReq RLCR_2_RCTBCtrlA RLCR_2_BSDLCWONOFFSts RLCR_2_DOWONOFFSts RLCR_2_RCWONOFFSts RLCR_2_RCTARCTBONOFFSts RLCR_2_BSDLCWONOFFSts_AFS RLCR_2_Resd1;
+SIG_GROUP_ 935 RLCR_3_Signal_Group 1 : RLCR_3_CRC RLCR_3_RollgCntr RLCR_3_Le1ObjBoxLen RLCR_3_Le1ObjBoxWidth RLCR_3_Le1HdTo RLCR_3_Le1ObjID RLCR_3_Le1ObjCoordX RLCR_3_Le1ObjCoordY RLCR_3_Le1ObjXDirV RLCR_3_Le1ObjYDirV RLCR_3_Le1ObjXDirAV RLCR_3_Le1ObjMtnChartc RLCR_3_Le1ObjTyp RLCR_3_Le1ObjConf RLCR_3_Le1ObjNrOffocst RLCR_3_Le1ObjTrackSt RLCR_3_Le1ObjCoordXDstStdDe RLCR_3_Le1ObjCoordYDstStdDe RLCR_3_Le1ObjXDirVStdDe RLCR_3_Le1ObjYDirVStdDe;
+SIG_GROUP_ 937 RLCR_4_Signal_Group 1 : RLCR_4_CRC RLCR_4_RollgCntr RLCR_4_Le2ObjBoxLen RLCR_4_Le2ObjBoxWidth RLCR_4_Le2HdTo RLCR_4_Le2ObjID RLCR_4_Le2ObjCoordX RLCR_4_Le2ObjCoordY RLCR_4_Le2ObjXDirV RLCR_4_Le2ObjYDirV RLCR_4_Le2ObjXDirAV RLCR_4_Le2ObjMtnChartc RLCR_4_Le2ObjTyp RLCR_4_Le2ObjConf RLCR_4_Le2ObjNrOffocst RLCR_4_Le2ObjTrackSt RLCR_4_Le2ObjCoordXDstStdDe RLCR_4_Le2ObjCoordYDstStdDe RLCR_4_Le2ObjXDirVStdDe RLCR_4_Le2ObjYDirVStdDe;
+SIG_GROUP_ 941 RLCR_5_Signal_Group 1 : RLCR_5_CRC RLCR_5_RollgCntr RLCR_5_Le3ObjBoxLen RLCR_5_Le3ObjBoxWidth RLCR_5_Le3HdTo RLCR_5_Le3ObjID RLCR_5_Le3ObjCoordX RLCR_5_Le3ObjCoordY RLCR_5_Le3ObjXDirV RLCR_5_Le3ObjYDirV RLCR_5_Le3ObjXDirAV RLCR_5_Le3ObjMtnChartc RLCR_5_Le3ObjTyp RLCR_5_Le3ObjConf RLCR_5_Le3ObjNrOffocst RLCR_5_Le3ObjTrackSt RLCR_5_Le3ObjCoordXDstStdDe RLCR_5_Le3ObjCoordYDstStdDe RLCR_5_Le3ObjXDirVStdDe RLCR_5_Le3ObjYDirVStdDe;
+SIG_GROUP_ 946 RLCR_6_Signal_Group 1 : RLCR_6_CRC RLCR_6_RollgCntr RLCR_6_Le4ObjBoxLen RLCR_6_Le4ObjBoxWidth RLCR_6_Le4HdTo RLCR_6_Le4ObjID RLCR_6_Le4ObjCoordX RLCR_6_Le4ObjCoordY RLCR_6_Le4ObjXDirV RLCR_6_Le4ObjYDirV RLCR_6_Le4ObjXDirAV RLCR_6_Le4ObjMtnChartc RLCR_6_Le4ObjTyp RLCR_6_Le4ObjConf RLCR_6_Le4ObjNrOffocst RLCR_6_Le4ObjTrackSt RLCR_6_Le4ObjCoordXDstStdDe RLCR_6_Le4ObjCoordYDstStdDe RLCR_6_Le4ObjXDirVStdDe RLCR_6_Le4ObjYDirVStdDe;
+SIG_GROUP_ 948 RLCR_7_Signal_Group 1 : RLCR_7_CRC RLCR_7_RollgCntr RLCR_7_Le5ObjBoxLen RLCR_7_Le5ObjBoxWidth RLCR_7_Le5HdTo RLCR_7_Le5ObjID RLCR_7_Le5ObjCoordX RLCR_7_Le5ObjCoordY RLCR_7_Le5ObjXDirV RLCR_7_Le5ObjYDirV RLCR_7_Le5ObjXDirAV RLCR_7_Le5ObjMtnChartc RLCR_7_Le5ObjTyp RLCR_7_Le5ObjConf RLCR_7_Le5ObjNrOffocst RLCR_7_Le5ObjTrackSt RLCR_7_Le5ObjCoordXDstStdDe RLCR_7_Le5ObjCoordYDstStdDe RLCR_7_Le5ObjXDirVStdDe RLCR_7_Le5ObjYDirVStdDe;
+SIG_GROUP_ 1267 RRCR_1_Signal_Group 1 : RRCR_1_CRC1 RRCR_1_RollgCntr1 RRCR_1_SysSt RRCR_1_BlkSts RRCR_1_BSDWarn RRCR_1_DOWWarn RRCR_1_DowLock RRCR_1_ELK_Collision_flag RRCR_1_ELK_CollisionFlagValid RRCR_1_Resd1;
+SIG_GROUP_ 1271 RRCR_2_Signal_Group 1 : RRCR_2_CRC1 RRCR_2_BSDLCWONOFFSts_AFS RRCR_2_RCTARCTBONOFFSts RRCR_2_RCWONOFFSts RRCR_2_DOWONOFFSts RRCR_2_BSDLCWONOFFSts RRCR_2_RCTBCtrlA RRCR_2_RCTBReq RRCR_2_RCTBWarn RRCR_2_RCTAWarn RRCR_2_RCWWarn RRCR_2_Resd1 RRCR_2_RollgCntr1;
+SIG_GROUP_ 959 RRCR_3_Signal_Group 1 : RRCR_3_CRC RRCR_3_RollgCntr RRCR_3_Ri1ObjBoxLen RRCR_3_Ri1ObjBoxWidth RRCR_3_Ri1HdTo RRCR_3_Ri1ObjID RRCR_3_Ri1ObjCoordX RRCR_3_Ri1ObjCoordY RRCR_3_Ri1ObjXDirV RRCR_3_Ri1ObjYDirV RRCR_3_Ri1ObjXDirAV RRCR_3_Ri1ObjMtnChartc RRCR_3_Ri1ObjTyp RRCR_3_Ri1ObjConf RRCR_3_Ri1ObjNrOffocst RRCR_3_Ri1ObjTrackSt RRCR_3_Ri1ObjCoordXDstStdDe RRCR_3_Ri1ObjCoordYDstStdDe RRCR_3_Ri1ObjXDirVStdDe RRCR_3_Ri1ObjYDirVStdDe;
+SIG_GROUP_ 969 RRCR_4_Signal_Group 1 : RRCR_4_CRC RRCR_4_RollgCntr RRCR_4_Ri2ObjBoxLen RRCR_4_Ri2ObjBoxWidth RRCR_4_Ri2HdTo RRCR_4_Ri2ObjID RRCR_4_Ri2ObjCoordX RRCR_4_Ri2ObjCoordY RRCR_4_Ri2ObjXDirV RRCR_4_Ri2ObjYDirV RRCR_4_Ri2ObjXDirAV RRCR_4_Ri2ObjMtnChartc RRCR_4_Ri2ObjTyp RRCR_4_Ri2ObjConf RRCR_4_Ri2ObjNrOffocst RRCR_4_Ri2ObjTrackSt RRCR_4_Ri2ObjCoordXDstStdDe RRCR_4_Ri2ObjCoordYDstStdDe RRCR_4_Ri2ObjXDirVStdDe RRCR_4_Ri2ObjYDirVStdDe;
+SIG_GROUP_ 976 RRCR_5_Signal_Group 1 : RRCR_5_CRC RRCR_5_RollgCntr RRCR_5_Ri3ObjBoxLen RRCR_5_Ri3ObjBoxWidth RRCR_5_Ri3HdTo RRCR_5_Ri3ObjID RRCR_5_Ri3ObjCoordX RRCR_5_Ri3ObjCoordY RRCR_5_Ri3ObjXDirV RRCR_5_Ri3ObjYDirV RRCR_5_Ri3ObjXDirAV RRCR_5_Ri3ObjMtnChartc RRCR_5_Ri3ObjTyp RRCR_5_Ri3ObjConf RRCR_5_Ri3ObjNrOffocst RRCR_5_Ri3ObjTrackSt RRCR_5_Ri3ObjCoordXDstStdDe RRCR_5_Ri3ObjCoordYDstStdDe RRCR_5_Ri3ObjXDirVStdDe RRCR_5_Ri3ObjYDirVStdDe;
+SIG_GROUP_ 984 RRCR_6_Signal_Group 1 : RRCR_6_CRC RRCR_6_RollgCntr RRCR_6_Ri4ObjBoxLen RRCR_6_Ri4ObjBoxWidth RRCR_6_Ri4HdTo RRCR_6_Ri4ObjID RRCR_6_Ri4ObjCoordX RRCR_6_Ri4ObjCoordY RRCR_6_Ri4ObjXDirV RRCR_6_Ri4ObjYDirV RRCR_6_Ri4ObjXDirAV RRCR_6_Ri4ObjMtnChartc RRCR_6_Ri4ObjTyp RRCR_6_Ri4ObjConf RRCR_6_Ri4ObjNrOffocst RRCR_6_Ri4ObjTrackSt RRCR_6_Ri4ObjCoordXDstStdDe RRCR_6_Ri4ObjCoordYDstStdDe RRCR_6_Ri4ObjXDirVStdDe RRCR_6_Ri4ObjYDirVStdDe;
+SIG_GROUP_ 986 RRCR_7_Signal_Group 1 : RRCR_7_CRC RRCR_7_RollgCntr RRCR_7_Ri5ObjBoxLen RRCR_7_Ri5ObjBoxWidth RRCR_7_Ri5HdTo RRCR_7_Ri5ObjID RRCR_7_Ri5ObjCoordX RRCR_7_Ri5ObjCoordY RRCR_7_Ri5ObjXDirV RRCR_7_Ri5ObjYDirV RRCR_7_Ri5ObjXDirAV RRCR_7_Ri5ObjMtnChartc RRCR_7_Ri5ObjTyp RRCR_7_Ri5ObjConf RRCR_7_Ri5ObjNrOffocst RRCR_7_Ri5ObjTrackSt RRCR_7_Ri5ObjCoordXDstStdDe RRCR_7_Ri5ObjCoordYDstStdDe RRCR_7_Ri5ObjXDirVStdDe RRCR_7_Ri5ObjYDirVStdDe;
+SIG_GROUP_ 152 ONEBOX_1_Signal_Group_7 1 : ONEBOX_1_Reserved7;
+SIG_GROUP_ 152 ONEBOX_1_Signal_Group_2 1 : ONEBOX_1_Reserved6 ONEBOX_1_Reserved5 ONEBOX_1_CRC2 AEBdecAvailable AEBdecActive ONEBOX_1_Resd2 ONEBOX_1_RollgCntr2;
+SIG_GROUP_ 152 ONEBOX_1_Signal_Group_1 1 : ONEBOX_1_Reserved4 ONEBOX_1_Reserved3 ONEBOX_1_Reserved2 ONEBOX_1_Reserved1 ONEBOX_1_CRC1 ABS_ESP_1_ESPSwitchStatus ABS_ESP_1_TCSActive ABS_ESP_1_TCSFailSts ABS_ESP_1_VDCActive ABS_ESP_1_VDCFailSts ABS_ESP_1_ABSActive ABS_ESP_1_ABSFailSts ESP1_VehicleSpeedVSOSigValidData ABS_ESP_1_VehicleSpeedVSOSig ONEBOX_1_Resd1 ONEBOX_1_RollgCntr1;
+SIG_GROUP_ 555 ONEBOX_3_Signal_Group_9 1 : ONEBOX_3_Reserved10 ONEBOX_3_Reserved9;
+SIG_GROUP_ 555 ONEBOX_3_Signal_Group_5 1 : ONEBOX_3_Reserved5;
+SIG_GROUP_ 555 ONEBOX_3_Signal_Group_4 1 : ONEBOX_3_Reserved8 ONEBOX_3_Reserved7 ONEBOX_3_Reserved6 ONEBOX_3_CRC4 IPB_PlungerPressure ONEBOX_3_RollgCntr4 IPB_PlungerPressureValidData ONEBOX_3_Resd4;
+SIG_GROUP_ 555 ONEBOX_3_Signal_Group_2 1 : ONEBOX_3_Reserved4 ONEBOX_3_CRC2 WheelBrakeForce ONEBOX_3_Resd2 ONEBOX_3_RollgCntr2;
+SIG_GROUP_ 555 ONEBOX_3_Signal_Group_1 1 : ONEBOX_3_Reserved3 ONEBOX_3_Reserved2 ONEBOX_3_Reserved1 ONEBOX_3_CRC1 NoBrakeForce VehicleStandstill ONEBOX_3_Resd1 ONEBOX_3_RollgCntr1;
+SIG_GROUP_ 587 ONEBOX_4_Signal_Group_5 1 : ONEBOX_4_Reserved6 ONEBOX_4_Reserved5;
+SIG_GROUP_ 587 ONEBOX_4_Signal_Group_4 1 : ONEBOX_4_CRC4 RHRWheelSpeedRawValidData RHRWheelDriveDirection RHRWheelSpeedRaw LHRWheelDriveDirection LHRWheelSpeedRaw RHFWheelDriveDirection LHRWheelSpeedRawValidData RHFWheelSpeedRawValidData RHFWheelSpeedRaw ONEBOX_4_Resd4 ONEBOX_4_RollgCntr4;
+SIG_GROUP_ 587 ONEBOX_4_Signal_Group_3 1 : ONEBOX_4_Reserved4 ONEBOX_4_Reserved3 ONEBOX_4_CRC3 LHFWheelSpeedRawValidData LHFWheelDriveDirection LHFWheelSpeedRaw RHFPulseCounter LHFPulseCounter LHFPulseCounterFailSts RHFPulseCounterFailSts ONEBOX_4_Resd3 ONEBOX_4_RollgCntr3;
+SIG_GROUP_ 587 ONEBOX_4_Signal_Group_2 1 : ONEBOX_4_Reserved2 ONEBOX_4_Reserved1 ONEBOX_4_CRC2 RHRPulseCounter RHRPulseCounterFailSts LHRPulseCounter LHRPulseCounterFailSts ONEBOX_4_Resd2 RHRWheelSpeedRPM ONEBOX_4_RollgCntr2;
+SIG_GROUP_ 587 ONEBOX_4_Signal_Group_1 1 : ONEBOX_4_CRC1 LHRWheelSpeedRPM RHFWheelSpeedRPM LHFWheelSpeedRPM ONEBOX_4_Resd1 ONEBOX_4_RollgCntr1;
+SIG_GROUP_ 1209 VCU_2_G_Signal_Group 1 : VCU_2_Reserved2 VCU_2_Reserved1 VCU_2_Reserved3 VCU_2_G_CRC VCU_2_G_RollgCntr VCU_HVReady VCU_2_G_Resd;
+SIG_GROUP_ 56 VCU_COM_10_Signal_Group_3 1 : VCU_10_Reserved3;
+SIG_GROUP_ 56 VCU_COM_10_Signal_Group 1 : VCU_10_Reserved2 VCU_10_Reserved1 VCU_10_CRC VCU_10_RollgCntr VCU_TargetGear VCU_ActualGear VCU_TargetGearValidData VCU_ActualGearValidData VCU_10_Resd;
+SIG_GROUP_ 59 VCU_ONEBOX_11_Signal_Group_1 1 : VCU_ONEBOX_11_Reserved3 VCU_ONEBOX_11_Reserved2 VCU_ONEBOX_11_Reserved1;
+SIG_GROUP_ 59 VCU_ONEBOX_11_Signal_Group_5 1 : VCU_ONEBOX_11_Reserved9 VCU_ONEBOX_11_Reserved8 VCU_ONEBOX_11_Reserved7;
+SIG_GROUP_ 59 VCU_ONEBOX_11_Signal_Group 1 : VCU_ONEBOX_11_Reserved5 VCU_ONEBOX_11_Reserved6 VCU_ONEBOX_11_Reserved4 VCU_11_CRC4 VCU_11_Resd4 VCU_11_RollgCntr4 VCU_GasPedalPosition VCU_GasPedalPositionInvalidData;
+
